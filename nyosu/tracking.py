@@ -1,1 +1,161 @@
-ZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IG1hdGgKCgoKZGVmIHRhcmdldF9wb2ludF9yYXRpbyhib3gsIHJhdGlvKToKICAgIHgxLCB5MSwgeDIsIHkyID0gYm94CiAgICByZXR1cm4geDEgKyAoeDIgLSB4MSkgLyAyLCB5MSArICh5MiAtIHkxKSAqIHJhdGlvCgoKZGVmIHRhcmdldF9wb2ludChib3gsIHRwKToKICAgIHgxLCB5MSwgeDIsIHkyID0gYm94CiAgICB3LCBoID0geDIgLSB4MSwgeTIgLSB5MQogICAgaWYgdHAgPT0gImhlYWQiOgogICAgICAgIGlmIGggPCA0MDoKICAgICAgICAgICAgcmF0aW8gPSAwLjIyCiAgICAgICAgZWxpZiBoIDwgOTA6CiAgICAgICAgICAgIHJhdGlvID0gMC4xNgogICAgICAgIGVsaWYgaCA8IDE2MDoKICAgICAgICAgICAgcmF0aW8gPSAwLjEyCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcmF0aW8gPSAwLjEwCiAgICAgICAgcmV0dXJuIHgxICsgdyAvIDIsIHkxICsgaCAqIHJhdGlvCiAgICByZXR1cm4geDEgKyB3IC8gMiwgeTEgKyBoICogMC40NQoKCmNsYXNzIEthbG1hbkNWOgogICAgUiA9IDkuMAogICAgUV9QT1MgPSAyLjAKICAgIFFfVkVMID0gMTQwMC4wCgogICAgZGVmIF9faW5pdF9fKHNlbGYpOgogICAgICAgIHNlbGYuX2F4ID0gTm9uZQogICAgICAgIHNlbGYuX2F5ID0gTm9uZQogICAgICAgIHNlbGYubGFzdF90aW1lID0gMC4wCgogICAgQHByb3BlcnR5CiAgICBkZWYgcmVhZHkoc2VsZik6CiAgICAgICAgcmV0dXJuIHNlbGYuX2F4IGlzIG5vdCBOb25lCgogICAgQHByb3BlcnR5CiAgICBkZWYgdngoc2VsZik6CiAgICAgICAgcmV0dXJuIHNlbGYuX2F4WzFdIGlmIHNlbGYuX2F4IGVsc2UgMC4wCgogICAgQHByb3BlcnR5CiAgICBkZWYgdnkoc2VsZik6CiAgICAgICAgcmV0dXJuIHNlbGYuX2F5WzFdIGlmIHNlbGYuX2F5IGVsc2UgMC4wCgogICAgZGVmIHJlc2V0KHNlbGYsIHBvcz1Ob25lLCBub3c9MC4wKToKICAgICAgICBpZiBwb3MgaXMgTm9uZToKICAgICAgICAgICAgc2VsZi5fYXggPSBzZWxmLl9heSA9IE5vbmUKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgc2VsZi5fYXggPSBbZmxvYXQocG9zWzBdKSwgMC4wLCAyNS4wLCAwLjAsIDQwMC4wXQogICAgICAgIHNlbGYuX2F5ID0gW2Zsb2F0KHBvc1sxXSksIDAuMCwgMjUuMCwgMC4wLCA0MDAuMF0KICAgICAgICBzZWxmLmxhc3RfdGltZSA9IG5vdwoKICAgIEBzdGF0aWNtZXRob2QKICAgIGRlZiBfcHJlZGljdChzdCwgZHQpOgogICAgICAgIHBvcywgdmVsLCBwMDAsIHAwMSwgcDExID0gc3QKICAgICAgICBzdFswXSA9IHBvcyArIHZlbCAqIGR0CiAgICAgICAgc3RbMl0gPSBwMDAgKyAyICogZHQgKiBwMDEgKyBkdCAqIGR0ICogcDExICsgS2FsbWFuQ1YuUV9QT1MKICAgICAgICBzdFszXSA9IHAwMSArIGR0ICogcDExCiAgICAgICAgc3RbNF0gPSBwMTEgKyBLYWxtYW5DVi5RX1ZFTCAqIGR0CgogICAgQHN0YXRpY21ldGhvZAogICAgZGVmIF9jb3JyZWN0KHN0LCB6KToKICAgICAgICBwb3MsIHZlbCwgcDAwLCBwMDEsIHAxMSA9IHN0CiAgICAgICAgeSA9IHogLSBwb3MKICAgICAgICBzXyA9IHAwMCArIEthbG1hbkNWLlIKICAgICAgICBrMCA9IHAwMCAvIHNfCiAgICAgICAgazEgPSBwMDEgLyBzXwogICAgICAgIHN0WzBdID0gcG9zICsgazAgKiB5CiAgICAgICAgc3RbMV0gPSB2ZWwgKyBrMSAqIHkKICAgICAgICBzdFsyXSA9ICgxIC0gazApICogcDAwCiAgICAgICAgc3RbM10gPSAoMSAtIGswKSAqIHAwMQogICAgICAgIHN0WzRdID0gcDExIC0gazEgKiBwMDEKCiAgICBkZWYgdXBkYXRlKHNlbGYsIHBvcywgbm93KToKICAgICAgICBpZiBub3Qgc2VsZi5yZWFkeToKICAgICAgICAgICAgc2VsZi5yZXNldChwb3MsIG5vdykKICAgICAgICAgICAgcmV0dXJuIChmbG9hdChwb3NbMF0pLCBmbG9hdChwb3NbMV0pKQogICAgICAgIGR0ID0gbm93IC0gc2VsZi5sYXN0X3RpbWUKICAgICAgICBpZiBkdCA8PSAwLjAwMSBvciBkdCA+IDAuMjUgb3IgXAogICAgICAgICAgICAgICAgbWF0aC5oeXBvdChwb3NbMF0gLSBzZWxmLl9heFswXSwgcG9zWzFdIC0gc2VsZi5fYXlbMF0pID4gMjUwOgogICAgICAgICAgICBzZWxmLnJlc2V0KHBvcywgbm93KQogICAgICAgICAgICByZXR1cm4gKGZsb2F0KHBvc1swXSksIGZsb2F0KHBvc1sxXSkpCiAgICAgICAgc2VsZi5fcHJlZGljdChzZWxmLl9heCwgZHQpCiAgICAgICAgc2VsZi5fcHJlZGljdChzZWxmLl9heSwgZHQpCiAgICAgICAgc2VsZi5fY29ycmVjdChzZWxmLl9heCwgZmxvYXQocG9zWzBdKSkKICAgICAgICBzZWxmLl9jb3JyZWN0KHNlbGYuX2F5LCBmbG9hdChwb3NbMV0pKQogICAgICAgIHNlbGYubGFzdF90aW1lID0gbm93CiAgICAgICAgcmV0dXJuIChzZWxmLl9heFswXSwgc2VsZi5fYXlbMF0pCgogICAgZGVmIGV4dHJhcG9sYXRlKHNlbGYsIG5vdywgZXh0cmFfbGVhZD0wLjApOgogICAgICAgIGlmIG5vdCBzZWxmLnJlYWR5OgogICAgICAgICAgICByZXR1cm4gTm9uZQogICAgICAgIGR0ID0gbm93IC0gc2VsZi5sYXN0X3RpbWUKICAgICAgICBpZiBkdCA8IDAgb3IgZHQgPiAwLjU6CiAgICAgICAgICAgIHJldHVybiBOb25lCiAgICAgICAgdCA9IGR0ICsgbWF4KDAuMCwgZXh0cmFfbGVhZCkKICAgICAgICByZXR1cm4gKHNlbGYuX2F4WzBdICsgc2VsZi5fYXhbMV0gKiB0LCBzZWxmLl9heVswXSArIHNlbGYuX2F5WzFdICogdCkKCgpjbGFzcyBEZXRUcmFja2VyOgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBhbHBoYT0wLjYsIGFzc29jX3B4PTkwLjAsIGtlZXBfcz0wLjE1KToKICAgICAgICBzZWxmLmFscGhhID0gYWxwaGEKICAgICAgICBzZWxmLmFzc29jX3B4ID0gYXNzb2NfcHgKICAgICAgICBzZWxmLmtlZXBfcyA9IGtlZXBfcwogICAgICAgIHNlbGYudHJhY2tzID0gW10KCiAgICBkZWYgcmVzZXQoc2VsZik6CiAgICAgICAgc2VsZi50cmFja3MgPSBbXQoKICAgIGRlZiB1cGRhdGUoc2VsZiwgZGV0cywgbm93KToKICAgICAgICB1c2VkID0gc2V0KCkKICAgICAgICBvdXQgPSBbXQogICAgICAgIGFscGhhID0gc2VsZi5hbHBoYQogICAgICAgIGtlZXBfYWxwaGEgPSAxLjAgLSBhbHBoYQogICAgICAgIGNlbnRlcnMgPSBbKCh0WyJib3giXVswXSArIHRbImJveCJdWzJdKSAqIDAuNSwgKHRbImJveCJdWzFdICsgdFsiYm94Il1bM10pICogMC41KQogICAgICAgICAgICAgICAgICAgZm9yIHQgaW4gc2VsZi50cmFja3NdCiAgICAgICAgcGFyc2VkID0gW10KICAgICAgICBmb3IgZCBpbiBkZXRzOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBieCA9IGRbImJveCJdCiAgICAgICAgICAgICAgICB2YWxzID0gKGZsb2F0KGJ4WzBdKSwgZmxvYXQoYnhbMV0pLCBmbG9hdChieFsyXSksIGZsb2F0KGJ4WzNdKSwgZmxvYXQoZFsiY29uZiJdKSkKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIGlmIG5vdCBhbGwobWF0aC5pc2Zpbml0ZSh2KSBmb3IgdiBpbiB2YWxzKToKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIHBhcnNlZC5hcHBlbmQodmFscykKICAgICAgICBwYXJzZWQuc29ydChrZXk9bGFtYmRhIHY6IC12WzRdKQogICAgICAgIGZvciB4MSwgeTEsIHgyLCB5MiwgZGNvbmYgaW4gcGFyc2VkOgogICAgICAgICAgICBjeCwgY3kgPSAoeDEgKyB4MikgKiAwLjUsICh5MSArIHkyKSAqIDAuNQogICAgICAgICAgICBiZXN0X2ksIGJlc3RfZCA9IC0xLCBzZWxmLmFzc29jX3B4CiAgICAgICAgICAgIGZvciBpIGluIHJhbmdlKGxlbihzZWxmLnRyYWNrcykpOgogICAgICAgICAgICAgICAgaWYgaSBpbiB1c2VkOgogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICB0Y3gsIHRjeSA9IGNlbnRlcnNbaV0KICAgICAgICAgICAgICAgIGRpc3QgPSBtYXRoLmh5cG90KHRjeCAtIGN4LCB0Y3kgLSBjeSkKICAgICAgICAgICAgICAgIGlmIGRpc3QgPCBiZXN0X2Q6CiAgICAgICAgICAgICAgICAgICAgYmVzdF9pLCBiZXN0X2QgPSBpLCBkaXN0CiAgICAgICAgICAgIGlmIGJlc3RfaSA+PSAwOgogICAgICAgICAgICAgICAgdCA9IHNlbGYudHJhY2tzW2Jlc3RfaV0KICAgICAgICAgICAgICAgIG9iID0gdFsiYm94Il0KICAgICAgICAgICAgICAgIHNiID0gKGFscGhhICogeDEgKyBrZWVwX2FscGhhICogb2JbMF0sIGFscGhhICogeTEgKyBrZWVwX2FscGhhICogb2JbMV0sCiAgICAgICAgICAgICAgICAgICAgICBhbHBoYSAqIHgyICsga2VlcF9hbHBoYSAqIG9iWzJdLCBhbHBoYSAqIHkyICsga2VlcF9hbHBoYSAqIG9iWzNdKQogICAgICAgICAgICAgICAgdFsiYm94Il0gPSBzYgogICAgICAgICAgICAgICAgdFsiY29uZiJdID0gZGNvbmYKICAgICAgICAgICAgICAgIHRbInNlZW4iXSA9IG5vdwogICAgICAgICAgICAgICAgdXNlZC5hZGQoYmVzdF9pKQogICAgICAgICAgICAgICAgY2VudGVyc1tiZXN0X2ldID0gKChzYlswXSArIHNiWzJdKSAqIDAuNSwgKHNiWzFdICsgc2JbM10pICogMC41KQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgc2IgPSAoeDEsIHkxLCB4MiwgeTIpCiAgICAgICAgICAgICAgICBzZWxmLnRyYWNrcy5hcHBlbmQoeyJib3giOiBzYiwgImNvbmYiOiBkY29uZiwgInNlZW4iOiBub3d9KQogICAgICAgICAgICAgICAgY2VudGVycy5hcHBlbmQoKGN4LCBjeSkpCiAgICAgICAgICAgICAgICB1c2VkLmFkZChsZW4oc2VsZi50cmFja3MpIC0gMSkKICAgICAgICAgICAgb3V0LmFwcGVuZCh7ImJveCI6IFtpbnQocm91bmQodikpIGZvciB2IGluIHNiXSwgImNvbmYiOiBkY29uZn0pCiAgICAgICAgc2VsZi50cmFja3MgPSBbdCBmb3IgdCBpbiBzZWxmLnRyYWNrcyBpZiBub3cgLSB0WyJzZWVuIl0gPD0gc2VsZi5rZWVwX3NdCiAgICAgICAgcmV0dXJuIG91dAo=
+from __future__ import annotations
+
+import math
+
+
+
+def target_point_ratio(box, ratio):
+    x1, y1, x2, y2 = box
+    return x1 + (x2 - x1) / 2, y1 + (y2 - y1) * ratio
+
+
+def target_point(box, tp):
+    x1, y1, x2, y2 = box
+    w, h = x2 - x1, y2 - y1
+    if tp == "head":
+        if h < 40:
+            ratio = 0.22
+        elif h < 90:
+            ratio = 0.16
+        elif h < 160:
+            ratio = 0.12
+        else:
+            ratio = 0.10
+        return x1 + w / 2, y1 + h * ratio
+    return x1 + w / 2, y1 + h * 0.45
+
+
+class KalmanCV:
+    R = 9.0
+    Q_POS = 2.0
+    Q_VEL = 1400.0
+
+    def __init__(self):
+        self._ax = None
+        self._ay = None
+        self.last_time = 0.0
+
+    @property
+    def ready(self):
+        return self._ax is not None
+
+    @property
+    def vx(self):
+        return self._ax[1] if self._ax else 0.0
+
+    @property
+    def vy(self):
+        return self._ay[1] if self._ay else 0.0
+
+    def reset(self, pos=None, now=0.0):
+        if pos is None:
+            self._ax = self._ay = None
+            return
+        self._ax = [float(pos[0]), 0.0, 25.0, 0.0, 400.0]
+        self._ay = [float(pos[1]), 0.0, 25.0, 0.0, 400.0]
+        self.last_time = now
+
+    @staticmethod
+    def _predict(st, dt):
+        pos, vel, p00, p01, p11 = st
+        st[0] = pos + vel * dt
+        st[2] = p00 + 2 * dt * p01 + dt * dt * p11 + KalmanCV.Q_POS
+        st[3] = p01 + dt * p11
+        st[4] = p11 + KalmanCV.Q_VEL * dt
+
+    @staticmethod
+    def _correct(st, z):
+        pos, vel, p00, p01, p11 = st
+        y = z - pos
+        s_ = p00 + KalmanCV.R
+        k0 = p00 / s_
+        k1 = p01 / s_
+        st[0] = pos + k0 * y
+        st[1] = vel + k1 * y
+        st[2] = (1 - k0) * p00
+        st[3] = (1 - k0) * p01
+        st[4] = p11 - k1 * p01
+
+    def update(self, pos, now):
+        if not self.ready:
+            self.reset(pos, now)
+            return (float(pos[0]), float(pos[1]))
+        dt = now - self.last_time
+        if dt <= 0.001 or dt > 0.25 or \
+                math.hypot(pos[0] - self._ax[0], pos[1] - self._ay[0]) > 250:
+            self.reset(pos, now)
+            return (float(pos[0]), float(pos[1]))
+        self._predict(self._ax, dt)
+        self._predict(self._ay, dt)
+        self._correct(self._ax, float(pos[0]))
+        self._correct(self._ay, float(pos[1]))
+        self.last_time = now
+        return (self._ax[0], self._ay[0])
+
+    def extrapolate(self, now, extra_lead=0.0):
+        if not self.ready:
+            return None
+        dt = now - self.last_time
+        if dt < 0 or dt > 0.5:
+            return None
+        t = dt + max(0.0, extra_lead)
+        return (self._ax[0] + self._ax[1] * t, self._ay[0] + self._ay[1] * t)
+
+
+class DetTracker:
+
+    def __init__(self, alpha=0.6, assoc_px=90.0, keep_s=0.15):
+        self.alpha = alpha
+        self.assoc_px = assoc_px
+        self.keep_s = keep_s
+        self.tracks = []
+
+    def reset(self):
+        self.tracks = []
+
+    def update(self, dets, now):
+        used = set()
+        out = []
+        alpha = self.alpha
+        keep_alpha = 1.0 - alpha
+        centers = [((t["box"][0] + t["box"][2]) * 0.5, (t["box"][1] + t["box"][3]) * 0.5)
+                   for t in self.tracks]
+        parsed = []
+        for d in dets:
+            try:
+                bx = d["box"]
+                vals = (float(bx[0]), float(bx[1]), float(bx[2]), float(bx[3]), float(d["conf"]))
+            except Exception:
+                continue
+            if not all(math.isfinite(v) for v in vals):
+                continue
+            parsed.append(vals)
+        parsed.sort(key=lambda v: -v[4])
+        for x1, y1, x2, y2, dconf in parsed:
+            cx, cy = (x1 + x2) * 0.5, (y1 + y2) * 0.5
+            best_i, best_d = -1, self.assoc_px
+            for i in range(len(self.tracks)):
+                if i in used:
+                    continue
+                tcx, tcy = centers[i]
+                dist = math.hypot(tcx - cx, tcy - cy)
+                if dist < best_d:
+                    best_i, best_d = i, dist
+            if best_i >= 0:
+                t = self.tracks[best_i]
+                ob = t["box"]
+                sb = (alpha * x1 + keep_alpha * ob[0], alpha * y1 + keep_alpha * ob[1],
+                      alpha * x2 + keep_alpha * ob[2], alpha * y2 + keep_alpha * ob[3])
+                t["box"] = sb
+                t["conf"] = dconf
+                t["seen"] = now
+                used.add(best_i)
+                centers[best_i] = ((sb[0] + sb[2]) * 0.5, (sb[1] + sb[3]) * 0.5)
+            else:
+                sb = (x1, y1, x2, y2)
+                self.tracks.append({"box": sb, "conf": dconf, "seen": now})
+                centers.append((cx, cy))
+                used.add(len(self.tracks) - 1)
+            out.append({"box": [int(round(v)) for v in sb], "conf": dconf})
+        self.tracks = [t for t in self.tracks if now - t["seen"] <= self.keep_s]
+        return out
