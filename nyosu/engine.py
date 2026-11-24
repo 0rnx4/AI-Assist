@@ -1,1 +1,542 @@
-ZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IG1hdGgKaW1wb3J0IHJhbmRvbQppbXBvcnQgdGhyZWFkaW5nCmltcG9ydCB0aW1lCmZyb20gdHlwaW5nIGltcG9ydCBPcHRpb25hbAoKaW1wb3J0IG1zcwppbXBvcnQgbnVtcHkgYXMgbnAKZnJvbSBQeVF0Ni5RdENvcmUgaW1wb3J0IFFUaHJlYWQsIHB5cXRTaWduYWwKCmZyb20gLmNvbmZpZyBpbXBvcnQgU2V0dGluZ3MsIGxvZwpmcm9tIC5pbnB1dF9pbyBpbXBvcnQgUGFkUmVhZGVyLCBQYWRXcml0ZXIsIGtleV9kb3duLCBtb3VzZV9tb3ZlCmZyb20gLnRyYWNraW5nIGltcG9ydCBEZXRUcmFja2VyLCBLYWxtYW5DViwgdGFyZ2V0X3BvaW50LCB0YXJnZXRfcG9pbnRfcmF0aW8KZnJvbSAudmlzaW9uIGltcG9ydCBEZXRlY3RvcgoKCmNsYXNzIEFpbUVuZ2luZShRVGhyZWFkKToKICAgIG92ZXJsYXlfc2lnID0gcHlxdFNpZ25hbChsaXN0LCBkaWN0KQogICAgc3RhdHVzX3NpZyA9IHB5cXRTaWduYWwoZGljdCkKICAgIGxvZ19zaWcgPSBweXF0U2lnbmFsKHN0cikKCiAgICBkZWYgX19pbml0X18oc2VsZiwgc2V0dGluZ3M6IFNldHRpbmdzLCBwYWRfcmVhZGVyOiBPcHRpb25hbFtQYWRSZWFkZXJdKToKICAgICAgICBzdXBlcigpLl9faW5pdF9fKCkKICAgICAgICBzZWxmLnNldHRpbmdzID0gc2V0dGluZ3MKICAgICAgICBzZWxmLnBhZF9yZWFkZXIgPSBwYWRfcmVhZGVyCiAgICAgICAgc2VsZi5fZXZ0ID0gdGhyZWFkaW5nLkV2ZW50KCkKICAgICAgICBzZWxmLmRldGVjdG9yID0gRGV0ZWN0b3IoKQogICAgICAgIHNlbGYucGFkX3dyaXRlciA9IFBhZFdyaXRlcihzZXR0aW5ncy5wYWRfb3V0cHV0KQogICAgICAgIHNlbGYuX3N0aWNreSA9IE5vbmUKICAgICAgICBzZWxmLl9zdGlja3lfdW50aWwgPSAwLjAKICAgICAgICBzZWxmLl9yYW5kX21vZGUgPSBOb25lCiAgICAgICAgc2VsZi5fbGFzdF9kZXRzID0gW10KICAgICAgICBzZWxmLl9sYXN0X2RldHNfdGltZSA9IDAuMAogICAgICAgIHNlbGYuX2NhcHR1cmVfbXMgPSAwLjAKICAgICAgICBzZWxmLl9pbmZlcl9tcyA9IDAuMAogICAgICAgIHNlbGYuX2xvb3BfbXMgPSAwLjAKCiAgICAgICAgc2VsZi5fYWNjX3ggPSAwLjAKICAgICAgICBzZWxmLl9hY2NfeSA9IDAuMAoKICAgICAgICBzZWxmLl90cmFja19wb3MgPSBOb25lCiAgICAgICAgc2VsZi5fdHJhY2tfdGltZSA9IDAuMAogICAgICAgIHNlbGYuX3ZlbF94ID0gMC4wCiAgICAgICAgc2VsZi5fdmVsX3kgPSAwLjAKICAgICAgICBzZWxmLl9rYWxtYW4gPSBLYWxtYW5DVigpCiAgICAgICAgc2VsZi5fZGV0X3RyYWNrZXIgPSBEZXRUcmFja2VyKCkKICAgICAgICBzZWxmLl9uZXh0X2luZmVyID0gMC4wCiAgICAgICAgc2VsZi5fcHJldl9haW1fb24gPSBGYWxzZQogICAgICAgIHNlbGYuX2FpbV9zaW5jZSA9IE5vbmUKICAgICAgICBzZWxmLl9yYW5kX21vZGUgPSBOb25lCiAgICAgICAgc2VsZi5fZ2FpbiA9IDEuMAogICAgICAgIHNlbGYuX3ByZXZfZXJyX3ggPSBOb25lCiAgICAgICAgc2VsZi5fZmxpcF9jb3VudCA9IDAKICAgICAgICBzZWxmLl9mbGlwX3dpbmRvdyA9IDAuMAogICAgICAgIHNlbGYuX3Nsb3dfY291bnQgPSAwCiAgICAgICAgc2VsZi5fZnJlc2ggPSBGYWxzZQogICAgICAgIHNlbGYuX2xhc3Rfb3ZlcmxheSA9IDAuMAogICAgICAgIHNlbGYuX2xhc3RfZGlzcGF0Y2ggPSB0aW1lLnBlcmZfY291bnRlcigpCiAgICAgICAgc2VsZi5fc2xvdF9sb2NrID0gdGhyZWFkaW5nLkxvY2soKQogICAgICAgIHNlbGYuX3Nsb3QgPSB7ImRldHMiOiBbXSwgIndhbGwiOiAwLjAsICJwZXJmIjogMC4wLCAidmVyIjogMCwgImluZmVyX21zIjogMC4wLCAiY2FwX21zIjogMC4wfQogICAgICAgIHNlbGYuX2FpbV9vbl9zaGFyZWQgPSBGYWxzZQogICAgICAgIHNlbGYuX3NjcmVlbiA9IE5vbmUKICAgICAgICBzZWxmLl93b3JrZXIgPSBOb25lCiAgICAgICAgc2VsZi5fd29ya2VyX2Vycm9yID0gTm9uZQoKICAgIGRlZiBzdG9wKHNlbGYpOgogICAgICAgIHNlbGYuX2V2dC5zZXQoKQoKICAgIGRlZiBydW4oc2VsZik6CiAgICAgICAgc2VsZi5fZXZ0LmNsZWFyKCkKICAgICAgICBzZWxmLl9nYWluID0gbWF4KDAuMDUsIGZsb2F0KHNlbGYuc2V0dGluZ3MubW91c2Vfc2VucykpCiAgICAgICAgc2VsZi5fcHJldl9lcnJfeCA9IE5vbmUKICAgICAgICBzZWxmLl9mbGlwX2NvdW50ID0gMAogICAgICAgIHNlbGYuX3Nsb3dfY291bnQgPSAwCiAgICAgICAgc2VsZi5fc2NyZWVuID0gTm9uZQogICAgICAgIHNlbGYuX3dvcmtlciA9IE5vbmUKICAgICAgICBzZWxmLl93b3JrZXJfZXJyb3IgPSBOb25lCiAgICAgICAgc2VsZi5fc3RpY2t5ID0gTm9uZQogICAgICAgIHNlbGYuX3N0aWNreV91bnRpbCA9IDAuMAogICAgICAgIHNlbGYuX2xhc3RfZGV0cyA9IFtdCiAgICAgICAgc2VsZi5fbGFzdF9kZXRzX3RpbWUgPSAwLjAKICAgICAgICBzZWxmLl9jYXB0dXJlX21zID0gMC4wCiAgICAgICAgc2VsZi5faW5mZXJfbXMgPSAwLjAKICAgICAgICBzZWxmLl9hY2NfeCA9IDAuMAogICAgICAgIHNlbGYuX2FjY195ID0gMC4wCiAgICAgICAgc2VsZi5fdHJhY2tfcG9zID0gTm9uZQogICAgICAgIHNlbGYuX3RyYWNrX3RpbWUgPSAwLjAKICAgICAgICBzZWxmLl92ZWxfeCA9IDAuMAogICAgICAgIHNlbGYuX3ZlbF95ID0gMC4wCiAgICAgICAgc2VsZi5fa2FsbWFuLnJlc2V0KCkKICAgICAgICBzZWxmLl9kZXRfdHJhY2tlci5yZXNldCgpCiAgICAgICAgc2VsZi5fZnJlc2ggPSBGYWxzZQogICAgICAgIHNlbGYuX2FpbV9vbl9zaGFyZWQgPSBGYWxzZQogICAgICAgIHNlbGYuX2xhc3RfZGlzcGF0Y2ggPSB0aW1lLnBlcmZfY291bnRlcigpCiAgICAgICAgd2l0aCBzZWxmLl9zbG90X2xvY2s6CiAgICAgICAgICAgIHNlbGYuX3Nsb3QgPSB7ImRldHMiOiBbXSwgIndhbGwiOiAwLjAsICJwZXJmIjogMC4wLCAidmVyIjogMCwgImluZmVyX21zIjogMC4wLCAiY2FwX21zIjogMC4wfQogICAgICAgIHRyeToKICAgICAgICAgICAgc2VsZi5kZXRlY3Rvci5sb2FkKHNlbGYuc2V0dGluZ3Muc25hcHNob3QoKSkKICAgICAgICAgICAgaWYgc2VsZi5kZXRlY3Rvci5wcm92aWRlcl91c2VkID09ICJDUFVFeGVjdXRpb25Qcm92aWRlciI6CiAgICAgICAgICAgICAgICBzZWxmLmxvZ19zaWcuZW1pdCgi6K2m5ZGKOiBDUFXmjqjoq5bjga/ph43jgYTjgafjgZnjgILou73ph4/ljJbjga7jgZ/jgoHmjqjoq5bkuIrpmZAzMGZwc+S7peS4i+OCkuaOqOWlqOOBl+OBvuOBmSIpCiAgICAgICAgICAgIGlmIHNlbGYuZGV0ZWN0b3IuZXJyb3I6CiAgICAgICAgICAgICAgICBzZWxmLmxvZ19zaWcuZW1pdChmIuaknOWHuuWZqDoge3NlbGYuZGV0ZWN0b3IuZXJyb3J9IikKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHNlbGYubG9nX3NpZy5lbWl0KGYi44Oi44OH44Or6Kqt44G/6L6844G/5a6M5LqGICjjg5fjg63jg5DjgqTjg4A9e3NlbGYuZGV0ZWN0b3IucHJvdmlkZXJfdXNlZH0pIikKICAgICAgICAgICAgaWYgc2VsZi5kZXRlY3Rvci5lcnJvcjoKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICBpZiBzZWxmLnNldHRpbmdzLmlucHV0X21vZGUgIT0gIm1vdXNlIiBhbmQgbm90IHNlbGYucGFkX3dyaXRlci5hdmFpbGFibGU6CiAgICAgICAgICAgICAgICBzZWxmLmxvZ19zaWcuZW1pdCgi44OR44OD44OJ5Ye65Yqb44GM5Yip55So44Gn44GN44G+44Gb44KT77yIVmlHRW1CdXPlv4XpoIjvvIkiKQogICAgICAgICAgICBzZWxmLl93b3JrZXIgPSB0aHJlYWRpbmcuVGhyZWFkKHRhcmdldD1zZWxmLl9pbmZlcl93b3JrZXIsIGRhZW1vbj1UcnVlKQogICAgICAgICAgICBzZWxmLl93b3JrZXIuc3RhcnQoKQogICAgICAgICAgICBzZWxmLl9sb29wKCkKICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgIGxvZy5leGNlcHRpb24oIuOCqOODs+OCuOODs+OBjOOCr+ODqeODg+OCt+ODpeOBl+OBvuOBl+OBnyIpCiAgICAgICAgICAgIHNlbGYubG9nX3NpZy5lbWl0KGYi44Ko44Oz44K444Oz44Kv44Op44OD44K344OlOiB7ZX0iKQogICAgICAgIGZpbmFsbHk6CiAgICAgICAgICAgIGlmIHNlbGYuX3dvcmtlciBpcyBub3QgTm9uZToKICAgICAgICAgICAgICAgIHNlbGYuX3dvcmtlci5qb2luKHRpbWVvdXQ9Mi4wKQogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBpZiBzZWxmLnNldHRpbmdzLmF1dG9fZ2FpbiBhbmQgc2VsZi5zZXR0aW5ncy5pbnB1dF9tb2RlID09ICJtb3VzZSI6CiAgICAgICAgICAgICAgICAgICAgc2VsZi5zZXR0aW5ncy5tb3VzZV9zZW5zID0gcm91bmQobWluKDUuMCwgbWF4KDAuMDUsIHNlbGYuX2dhaW4pKSwgMykKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgIGxvZy53YXJuaW5nKCLmhJ/luqbjgqrjg7zjg4joqr/mlbTjga7mm7jjgY3miLvjgZfjgavlpLHmlZfjgZfjgb7jgZfjgZ8iLCBleGNfaW5mbz1UcnVlKQogICAgICAgICAgICBzZWxmLnBhZF93cml0ZXIucmVzZXQoKQoKICAgIGRlZiBfaW5mZXJfd29ya2VyKHNlbGYpOgogICAgICAgIHRyeToKICAgICAgICAgICAgd2l0aCBtc3MubXNzKCkgYXMgc2N0OgogICAgICAgICAgICAgICAgX21vbnMgPSBzY3QubW9uaXRvcnMKICAgICAgICAgICAgICAgIF9taSA9IHNlbGYuc2V0dGluZ3MubW9uaXRvcl9pbmRleCBpZiBzZWxmLnNldHRpbmdzLm1vbml0b3JfaW5kZXggPCBsZW4oX21vbnMpIGVsc2UgMQogICAgICAgICAgICAgICAgbW9uaXRvciA9IF9tb25zW19taV0KICAgICAgICAgICAgICAgIHN3LCBzaCA9IG1vbml0b3JbIndpZHRoIl0sIG1vbml0b3JbImhlaWdodCJdCiAgICAgICAgICAgICAgICBzZWxmLl9zY3JlZW4gPSAoc3csIHNoKQogICAgICAgICAgICAgICAgbmV4dF90ID0gMC4wCiAgICAgICAgICAgICAgICBwcmV2X2FpbSA9IEZhbHNlCiAgICAgICAgICAgICAgICBfZmFpbHMgPSAwCiAgICAgICAgICAgICAgICB3aGlsZSBub3Qgc2VsZi5fZXZ0LmlzX3NldCgpOgogICAgICAgICAgICAgICAgICAgIHN0ID0gc2VsZi5zZXR0aW5ncy5zbmFwc2hvdCgpCiAgICAgICAgICAgICAgICAgICAgaWYgbm90IHN0LmVuYWJsZWQgb3Igc2VsZi5kZXRlY3Rvci5zZXNzaW9uIGlzIE5vbmU6CiAgICAgICAgICAgICAgICAgICAgICAgIHNlbGYuX2V2dC53YWl0KDAuMDUpCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgYWltID0gc2VsZi5fYWltX29uX3NoYXJlZAogICAgICAgICAgICAgICAgICAgIGlmIGFpbSBhbmQgbm90IHByZXZfYWltOgogICAgICAgICAgICAgICAgICAgICAgICBuZXh0X3QgPSAwLjAKICAgICAgICAgICAgICAgICAgICBwcmV2X2FpbSA9IGFpbQogICAgICAgICAgICAgICAgICAgIG5vdyA9IHRpbWUucGVyZl9jb3VudGVyKCkKICAgICAgICAgICAgICAgICAgICBpZiBub3cgPCBuZXh0X3Q6CiAgICAgICAgICAgICAgICAgICAgICAgIHNlbGYuX2V2dC53YWl0KG1pbigwLjAwNCwgbmV4dF90IC0gbm93KSkKICAgICAgICAgICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgICAgICAgICBjcm9wID0gaW50KG1heChzdC5jcm9wX3NpemUsIG1heChzdC5oaXBfZm92LCBzdC5hZHNfZm92KSAqIDIpKQogICAgICAgICAgICAgICAgICAgIGNyb3AgPSBtYXgoNjQsIG1pbihjcm9wLCBzdywgc2gpKQogICAgICAgICAgICAgICAgICAgIGlmIGNyb3AgJSAyOgogICAgICAgICAgICAgICAgICAgICAgICBjcm9wIC09IDEKICAgICAgICAgICAgICAgICAgICBsZWZ0ID0gaW50KG1vbml0b3IuZ2V0KCJsZWZ0IiwgMCkpICsgbWF4KDAsIG1pbihzdyAvLyAyIC0gY3JvcCAvLyAyLCBzdyAtIGNyb3ApKQogICAgICAgICAgICAgICAgICAgIHRvcCA9IGludChtb25pdG9yLmdldCgidG9wIiwgMCkpICsgbWF4KDAsIG1pbihzaCAvLyAyIC0gY3JvcCAvLyAyLCBzaCAtIGNyb3ApKQogICAgICAgICAgICAgICAgICAgIG9mZl94ID0gbGVmdCAtIGludChtb25pdG9yLmdldCgibGVmdCIsIDApKQogICAgICAgICAgICAgICAgICAgIG9mZl95ID0gdG9wIC0gaW50KG1vbml0b3IuZ2V0KCJ0b3AiLCAwKSkKICAgICAgICAgICAgICAgICAgICByZWdpb24gPSB7ImxlZnQiOiBsZWZ0LCAidG9wIjogdG9wLCAid2lkdGgiOiBjcm9wLCAiaGVpZ2h0IjogY3JvcH0KICAgICAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgICAgIHRfY2FwID0gdGltZS5wZXJmX2NvdW50ZXIoKQogICAgICAgICAgICAgICAgICAgICAgICBzaG90ID0gc2N0LmdyYWIocmVnaW9uKQogICAgICAgICAgICAgICAgICAgICAgICBidWYgPSBucC5mcm9tYnVmZmVyKHNob3QuYmdyYSwgZHR5cGU9bnAudWludDgpCiAgICAgICAgICAgICAgICAgICAgICAgIGZyYW1lID0gYnVmLnJlc2hhcGUoc2hvdC5oZWlnaHQsIHNob3Qud2lkdGgsIDQpWzosIDosIDozXQogICAgICAgICAgICAgICAgICAgICAgICBjYXBfbXMgPSAodGltZS5wZXJmX2NvdW50ZXIoKSAtIHRfY2FwKSAqIDEwMDAuMAogICAgICAgICAgICAgICAgICAgICAgICB0X2luZiA9IHRpbWUucGVyZl9jb3VudGVyKCkKICAgICAgICAgICAgICAgICAgICAgICAgZGV0c19jcm9wID0gc2VsZi5kZXRlY3Rvci5pbmZlcihmcmFtZSwgc3QsIGNyb3AsIGNyb3ApCiAgICAgICAgICAgICAgICAgICAgICAgIGluZmVyX21zID0gKHRpbWUucGVyZl9jb3VudGVyKCkgLSB0X2luZikgKiAxMDAwLjAKICAgICAgICAgICAgICAgICAgICAgICAgZm9yIGQgaW4gZGV0c19jcm9wOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgYiA9IGRbImJveCJdCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiWzBdICs9IG9mZl94CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiWzFdICs9IG9mZl95CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiWzJdICs9IG9mZl94CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiWzNdICs9IG9mZl95CiAgICAgICAgICAgICAgICAgICAgICAgIGRldHMgPSBzZWxmLl9kZXRfdHJhY2tlci51cGRhdGUoZGV0c19jcm9wLCB0aW1lLnRpbWUoKSkKICAgICAgICAgICAgICAgICAgICAgICAgd2l0aCBzZWxmLl9zbG90X2xvY2s6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxmLl9zbG90ID0geyJkZXRzIjogZGV0cywgIndhbGwiOiB0aW1lLnRpbWUoKSwgInBlcmYiOiB0aW1lLnBlcmZfY291bnRlcigpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAidmVyIjogc2VsZi5fc2xvdFsidmVyIl0gKyAxLCAiaW5mZXJfbXMiOiBpbmZlcl9tcywgImNhcF9tcyI6IGNhcF9tc30KICAgICAgICAgICAgICAgICAgICAgICAgX2ZhaWxzID0gMAogICAgICAgICAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgICAgICAgICAgICAgIF9mYWlscyArPSAxCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIF9mYWlscyA+PSAxMDoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJhaXNlCiAgICAgICAgICAgICAgICAgICAgICAgIHNlbGYuX2V2dC53YWl0KDAuMDUpCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgaWYgYWltOgogICAgICAgICAgICAgICAgICAgICAgICBpbnRlcnZhbCA9ICgxLjAgLyBzdC5tYXhfaW5mZXJfZnBzKSBpZiBzdC5tYXhfaW5mZXJfZnBzID4gMCBlbHNlIDAuMAogICAgICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgICAgIGludGVydmFsID0gMS4wIC8gbWF4KDEsIHN0LmlkbGVfaW5mZXJfZnBzKQogICAgICAgICAgICAgICAgICAgIG5leHRfdCA9ICh0X2luZiArIGludGVydmFsKSBpZiBpbnRlcnZhbCA+IDAgZWxzZSAwLjAKICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgIHNlbGYuX3dvcmtlcl9lcnJvciA9IHN0cihlKQogICAgICAgICAgICBsb2cuZXhjZXB0aW9uKCLmjqjoq5bjg6/jg7zjgqvjg7zjgYzlgZzmraLjgZfjgb7jgZfjgZ8iKQoKICAgIGRlZiBfd29ya2VyX2dvbmUoc2VsZik6CiAgICAgICAgcmV0dXJuIHNlbGYuX3dvcmtlciBpcyBub3QgTm9uZSBhbmQgbm90IHNlbGYuX3dvcmtlci5pc19hbGl2ZSgpCgogICAgZGVmIF9sb29wKHNlbGYpOgogICAgICAgIHdoaWxlIG5vdCBzZWxmLl9ldnQuaXNfc2V0KCkgYW5kIG5vdCBzZWxmLl9zY3JlZW46CiAgICAgICAgICAgIGlmIHNlbGYuX3dvcmtlcl9nb25lKCk6CiAgICAgICAgICAgICAgICBzZWxmLmxvZ19zaWcuZW1pdChmIuaOqOirluODr+ODvOOCq+ODvOOBjOi1t+WLleOBp+OBjeOBvuOBm+OCk+OBp+OBl+OBnzoge3NlbGYuX3dvcmtlcl9lcnJvciBvciAn5LiN5piO44Gq44Ko44Op44O8J30iKQogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIHNlbGYuX2V2dC53YWl0KDAuMDIpCiAgICAgICAgaWYgc2VsZi5fZXZ0LmlzX3NldCgpOgogICAgICAgICAgICByZXR1cm4KICAgICAgICBzdywgc2ggPSBzZWxmLl9zY3JlZW4KICAgICAgICBjeCwgY3kgPSBzdyAvLyAyLCBzaCAvLyAyCiAgICAgICAgbGFzdF9zdGF0ID0gdGltZS5wZXJmX2NvdW50ZXIoKQogICAgICAgIGZyYW1lcyA9IDAKICAgICAgICBpbmZlcl9mcmFtZXMgPSAwCiAgICAgICAgc2Vlbl92ZXIgPSAwCiAgICAgICAgd2hpbGUgbm90IHNlbGYuX2V2dC5pc19zZXQoKToKICAgICAgICAgICAgdDAgPSB0aW1lLnBlcmZfY291bnRlcigpCiAgICAgICAgICAgIHdhbGxfbm93ID0gdGltZS50aW1lKCkKICAgICAgICAgICAgc3QgPSBzZWxmLnNldHRpbmdzLnNuYXBzaG90KCkKICAgICAgICAgICAgaWYgc3QuaW5wdXRfbW9kZSA9PSAicGFkIjoKICAgICAgICAgICAgICAgIHBhZF9zbmFwID0gc2VsZi5wYWRfcmVhZGVyLnNuYXBzaG90KCkgaWYgc2VsZi5wYWRfcmVhZGVyIGlzIG5vdCBOb25lIGVsc2UgTm9uZQogICAgICAgICAgICAgICAga2V5cyA9IE5vbmUKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHBhZF9zbmFwID0gc2VsZi5wYWRfcmVhZGVyLnNuYXBzaG90KCkgaWYgKHN0LmlucHV0X21vZGUgPT0gImNvbnZlcnRlciIgYW5kIHNlbGYucGFkX3JlYWRlciBpcyBub3QgTm9uZSkgZWxzZSBOb25lCiAgICAgICAgICAgICAgICBrZXlzID0geyJybWIiOiBrZXlfZG93bigicm1iIiksICJsbWIiOiBrZXlfZG93bigibG1iIil9CiAgICAgICAgICAgIHByb2YsIGFpbV9vbiA9IHNlbGYuX2FjdGl2ZV9wcm9maWxlKHN0LCBwYWRfc25hcD1wYWRfc25hcCwga2V5cz1rZXlzKQogICAgICAgICAgICBzZWxmLl9haW1fb25fc2hhcmVkID0gYWltX29uCiAgICAgICAgICAgIGlmIG5vdCBzdC5lbmFibGVkOgogICAgICAgICAgICAgICAgc2VsZi5vdmVybGF5X3NpZy5lbWl0KFtdLCB7fSkKICAgICAgICAgICAgICAgIF9udyA9IHRpbWUucGVyZl9jb3VudGVyKCkKICAgICAgICAgICAgICAgIGlmIF9udyAtIGxhc3Rfc3RhdCA+PSAwLjU6CiAgICAgICAgICAgICAgICAgICAgaWYgc2VsZi5fd29ya2VyX2dvbmUoKToKICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5sb2dfc2lnLmVtaXQoZiLmjqjoq5bjg6/jg7zjgqvjg7zjgYzlgZzmraLjgZfjgb7jgZfjgZ86IHtzZWxmLl93b3JrZXJfZXJyb3Igb3IgJ+S4jeaYjuOBquOCqOODqeODvCd9IikKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgICAgICAgICAgbGFzdF9zdGF0ID0gX253CiAgICAgICAgICAgICAgICAgICAgZnJhbWVzID0gMAogICAgICAgICAgICAgICAgICAgIGluZmVyX2ZyYW1lcyA9IDAKICAgICAgICAgICAgICAgICAgICBzZWxmLnN0YXR1c19zaWcuZW1pdCh7ImZwcyI6IDAuMCwgImluZmVyX21zIjogc2VsZi5faW5mZXJfbXMsICJsb29wX21zIjogMC4wLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZGV0cyI6IDAsICJ0YXJnZXQiOiBGYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIm1vZGVsIjogc2VsZi5kZXRlY3Rvci5zZXNzaW9uIGlzIG5vdCBOb25lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAibW9kZSI6IHByb2YubW9kZSwgImluZmVyX2ZwcyI6IDAuMH0pCiAgICAgICAgICAgICAgICBzZWxmLl9ldnQud2FpdCgwLjA1KQogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgd2l0aCBzZWxmLl9zbG90X2xvY2s6CiAgICAgICAgICAgICAgICBzbG90ID0gc2VsZi5fc2xvdAogICAgICAgICAgICBpZiBzbG90WyJ2ZXIiXSAhPSBzZWVuX3ZlcjoKICAgICAgICAgICAgICAgIHNlZW5fdmVyID0gc2xvdFsidmVyIl0KICAgICAgICAgICAgICAgIGluZmVyX2ZyYW1lcyArPSAxCiAgICAgICAgICAgICAgICBzZWxmLl9sYXN0X2RldHMgPSBzbG90WyJkZXRzIl0KICAgICAgICAgICAgICAgIHNlbGYuX2xhc3RfZGV0c190aW1lID0gc2xvdFsid2FsbCJdCiAgICAgICAgICAgICAgICBzZWxmLl9pbmZlcl9tcyA9IHNsb3RbImluZmVyX21zIl0KICAgICAgICAgICAgICAgIHNlbGYuX2NhcHR1cmVfbXMgPSBzbG90WyJjYXBfbXMiXSArIG1heCgwLjAsICh0aW1lLnBlcmZfY291bnRlcigpIC0gc2xvdFsicGVyZiJdKSAqIDEwMDAuMCkKICAgICAgICAgICAgICAgIHNlbGYuX2ZyZXNoID0gVHJ1ZQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgc2VsZi5fZnJlc2ggPSBGYWxzZQogICAgICAgICAgICBkZXRzID0gc2VsZi5fbGFzdF9kZXRzCiAgICAgICAgICAgIGlmIHdhbGxfbm93IC0gc2VsZi5fbGFzdF9kZXRzX3RpbWUgPiAwLjI6CiAgICAgICAgICAgICAgICBkZXRzID0gW10KICAgICAgICAgICAgICAgIHNlbGYuX2xhc3RfZGV0cyA9IFtdCiAgICAgICAgICAgIHJhd190YXJnZXQgPSBzZWxmLl9jaG9vc2UoZGV0cywgY3gsIGN5LCBwcm9mLCBzdCwgbm93PXdhbGxfbm93KSBpZiAoYWltX29uIGFuZCBkZXRzKSBlbHNlIE5vbmUKICAgICAgICAgICAgaWYgcmF3X3RhcmdldCBpcyBub3QgTm9uZSBhbmQgc2VsZi5fZnJlc2g6CiAgICAgICAgICAgICAgICBzZWxmLl9hZGFwdF9nYWluKHJhd190YXJnZXQsIGN4LCBjeSwgc3QpCiAgICAgICAgICAgIGlmIHJhd190YXJnZXQgaXMgbm90IE5vbmU6CiAgICAgICAgICAgICAgICB0YXJnZXQgPSBzZWxmLl9wcmVkaWN0KHJhd190YXJnZXQsIHN0KQogICAgICAgICAgICBlbGlmIGFpbV9vbiBhbmQgc2VsZi5fa2FsbWFuLnJlYWR5IGFuZCBcCiAgICAgICAgICAgICAgICAgICAgKHRpbWUucGVyZl9jb3VudGVyKCkgLSBzZWxmLl9rYWxtYW4ubGFzdF90aW1lKSAqIDEwMDAuMCA8PSBtYXgoc3QuaG9sZF9tcywgc2VsZi5faW5mZXJfbXMgKiAxLjUpOgogICAgICAgICAgICAgICAgX2xlYWQgPSBtaW4oKHNlbGYuX2NhcHR1cmVfbXMgKyBzZWxmLl9pbmZlcl9tcykgLyAxMDAwLjAsIDAuMTIpIFwKICAgICAgICAgICAgICAgICAgICAqIGZsb2F0KHN0LnByZWRpY3Rpb24pIGlmIHN0LnByZWRpY3Rpb24gPiAwIGVsc2UgMC4wCiAgICAgICAgICAgICAgICB0YXJnZXQgPSBzZWxmLl9rYWxtYW4uZXh0cmFwb2xhdGUodGltZS5wZXJmX2NvdW50ZXIoKSwgX2xlYWQpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICB0YXJnZXQgPSBOb25lCiAgICAgICAgICAgIF9yZWFkeSA9IHNlbGYuX2FpbV9yZWFkeShhaW1fb24sIHN0LCB0aW1lLnBlcmZfY291bnRlcigpKQogICAgICAgICAgICBpZiB0YXJnZXQgaXMgbm90IE5vbmU6CiAgICAgICAgICAgICAgICBpZiBfcmVhZHk6CiAgICAgICAgICAgICAgICAgICAgc2VsZi5fZGlzcGF0Y2godGFyZ2V0LCBjeCwgY3ksIHByb2YsIHN0LCBwYWRfc25hcD1wYWRfc25hcCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmaXJpbmc9KGtleXNbImxtYiJdIGlmIGtleXMgaXMgbm90IE5vbmUgZWxzZSBOb25lKSkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHNlbGYuX3N0aWNreSA9IE5vbmUKICAgICAgICAgICAgICAgIHNlbGYuX3JhbmRfbW9kZSA9IE5vbmUKICAgICAgICAgICAgICAgIHNlbGYuX2FjY194ID0gc2VsZi5fYWNjX3kgPSAwLjAKICAgICAgICAgICAgICAgIHNlbGYuX3RyYWNrX3BvcyA9IE5vbmUKICAgICAgICAgICAgICAgIHNlbGYuX3ZlbF94ID0gc2VsZi5fdmVsX3kgPSAwLjAKICAgICAgICAgICAgICAgIHNlbGYuX2thbG1hbi5yZXNldCgpCiAgICAgICAgICAgICAgICBpZiBzdC5pbnB1dF9tb2RlID09ICJwYWQiOgogICAgICAgICAgICAgICAgICAgIHNlbGYuX2VtaXRfcGFkKHBhZF9zbmFwLCAwLjAsIDAuMCkKICAgICAgICAgICAgICAgIGVsaWYgc3QuaW5wdXRfbW9kZSAhPSAibW91c2UiOgogICAgICAgICAgICAgICAgICAgIHNlbGYucGFkX3dyaXRlci5yaWdodF9zdGljaygwLjAsIDAuMCkKICAgICAgICAgICAgX25vd19wID0gdGltZS5wZXJmX2NvdW50ZXIoKQogICAgICAgICAgICBpZiBfbm93X3AgLSBzZWxmLl9sYXN0X292ZXJsYXkgPj0gMS4wIC8gbWF4KDUsIHN0Lm92ZXJsYXlfZnBzKToKICAgICAgICAgICAgICAgIHNlbGYuX2xhc3Rfb3ZlcmxheSA9IF9ub3dfcAogICAgICAgICAgICAgICAgc2VsZi5vdmVybGF5X3NpZy5lbWl0KGRldHMsIHsidGFyZ2V0IjogdGFyZ2V0LCAiYWltX2FjdGl2ZSI6IGFpbV9vbn0pCiAgICAgICAgICAgIHNlbGYuX2xvb3BfbXMgPSAodGltZS5wZXJmX2NvdW50ZXIoKSAtIHQwKSAqIDEwMDAuMAogICAgICAgICAgICBmcmFtZXMgKz0gMQogICAgICAgICAgICBub3cgPSB0aW1lLnBlcmZfY291bnRlcigpCiAgICAgICAgICAgIGlmIG5vdyAtIGxhc3Rfc3RhdCA+PSAwLjU6CiAgICAgICAgICAgICAgICBpZiBzZWxmLl93b3JrZXJfZ29uZSgpOgogICAgICAgICAgICAgICAgICAgIHNlbGYubG9nX3NpZy5lbWl0KGYi5o6o6KuW44Ov44O844Kr44O844GM5YGc5q2i44GX44G+44GX44GfOiB7c2VsZi5fd29ya2VyX2Vycm9yIG9yICfkuI3mmI7jgarjgqjjg6njg7wnfSIpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgICAgICBfZWwgPSBub3cgLSBsYXN0X3N0YXQKICAgICAgICAgICAgICAgIHNlbGYuc3RhdHVzX3NpZy5lbWl0KHsKICAgICAgICAgICAgICAgICAgICAiZnBzIjogZnJhbWVzIC8gX2VsLAogICAgICAgICAgICAgICAgICAgICJpbmZlcl9tcyI6IHNlbGYuX2luZmVyX21zLAogICAgICAgICAgICAgICAgICAgICJsb29wX21zIjogc2VsZi5fbG9vcF9tcywKICAgICAgICAgICAgICAgICAgICAiZGV0cyI6IGxlbihkZXRzKSwKICAgICAgICAgICAgICAgICAgICAidGFyZ2V0IjogdGFyZ2V0IGlzIG5vdCBOb25lLAogICAgICAgICAgICAgICAgICAgICJtb2RlbCI6IHNlbGYuZGV0ZWN0b3Iuc2Vzc2lvbiBpcyBub3QgTm9uZSwKICAgICAgICAgICAgICAgICAgICAibW9kZSI6IHByb2YubW9kZSwKICAgICAgICAgICAgICAgICAgICAiaW5mZXJfZnBzIjogaW5mZXJfZnJhbWVzIC8gX2VsLAogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIGZyYW1lcyA9IDAKICAgICAgICAgICAgICAgIGluZmVyX2ZyYW1lcyA9IDAKICAgICAgICAgICAgICAgIGxhc3Rfc3RhdCA9IG5vdwogICAgICAgICAgICBsaW1pdCA9IDEuMCAvIDI0MCBpZiBhaW1fb24gZWxzZSAxLjAgLyAxMjAKICAgICAgICAgICAgZWxhcHNlZCA9IHRpbWUucGVyZl9jb3VudGVyKCkgLSB0MAogICAgICAgICAgICBzbGVlcCA9IGxpbWl0IC0gZWxhcHNlZAogICAgICAgICAgICBpZiBzbGVlcCA+IDAuMDAxOgogICAgICAgICAgICAgICAgc2VsZi5fZXZ0LndhaXQoc2xlZXApCgoKICAgIGRlZiBfYWN0aXZlX3Byb2ZpbGUoc2VsZiwgc3QsIHBhZF9zbmFwPU5vbmUsIGtleXM9Tm9uZSk6CiAgICAgICAgd2FudCA9IHtrLnN0cmlwKCkubG93ZXIoKSBmb3IgayBpbiBzdHIoc3QuYWltX2tleXMpLnNwbGl0KCIsIikgaWYgay5zdHJpcCgpfSBvciB7InJtYiIsICJsbWIifQogICAgICAgIGFkcyA9IGZpcmUgPSBGYWxzZQogICAgICAgIGlmIHN0LmlucHV0X21vZGUgIT0gInBhZCI6CiAgICAgICAgICAgIGlmIGtleXMgaXMgbm90IE5vbmU6CiAgICAgICAgICAgICAgICBybWIsIGxtYiA9IGtleXNbInJtYiJdLCBrZXlzWyJsbWIiXQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgcm1iLCBsbWIgPSBrZXlfZG93bigicm1iIiksIGtleV9kb3duKCJsbWIiKQogICAgICAgICAgICBhZHMgPSBybWIgYW5kICJybWIiIGluIHdhbnQKICAgICAgICAgICAgZmlyZSA9IGxtYiBhbmQgImxtYiIgaW4gd2FudAogICAgICAgIHNuYXAgPSBwYWRfc25hcAogICAgICAgIGlmIHNuYXAgaXMgTm9uZSBhbmQgc3QuaW5wdXRfbW9kZSAhPSAibW91c2UiIGFuZCBzZWxmLnBhZF9yZWFkZXIgaXMgbm90IE5vbmU6CiAgICAgICAgICAgIHNuYXAgPSBzZWxmLnBhZF9yZWFkZXIuc25hcHNob3QoKQogICAgICAgIGlmIHNuYXAgaXMgbm90IE5vbmUgYW5kIHNuYXAuZ2V0KCJjb25uZWN0ZWQiKToKICAgICAgICAgICAgYnRucyA9IHNuYXAuZ2V0KCJidXR0b25zIikgb3IgZnJvemVuc2V0KCkKICAgICAgICAgICAgbHQgPSBzbmFwLmdldCgibHQiLCAwLjApID4gMC40IG9yICJsdF9idG4iIGluIGJ0bnMKICAgICAgICAgICAgcnQgPSBzbmFwLmdldCgicnQiLCAwLjApID4gMC40IG9yICJydF9idG4iIGluIGJ0bnMKICAgICAgICAgICAgYWRzID0gYWRzIG9yIChsdCBhbmQgKCJsdCIgaW4gd2FudCBvciAicm1iIiBpbiB3YW50KSkgb3IgKCJsYiIgaW4gYnRucyBhbmQgImxiIiBpbiB3YW50KQogICAgICAgICAgICBmaXJlID0gZmlyZSBvciAocnQgYW5kICgicnQiIGluIHdhbnQgb3IgImxtYiIgaW4gd2FudCkpIG9yICgicmIiIGluIGJ0bnMgYW5kICJyYiIgaW4gd2FudCkKICAgICAgICBpZiBnZXRhdHRyKHN0LCAiYWN0aXZhdGlvbl9tb2RlIiwgImVpdGhlciIpID09ICJib3RoIjoKICAgICAgICAgICAgaWYgYWRzIGFuZCBmaXJlOgogICAgICAgICAgICAgICAgaWYgc3QuYWRzX2VuYWJsZWQ6CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHN0LmFpbV9wcm9maWxlKCJhZHMiKSwgVHJ1ZQogICAgICAgICAgICAgICAgaWYgc3QuaGlwX2VuYWJsZWQ6CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHN0LmFpbV9wcm9maWxlKCJoaXAiKSwgVHJ1ZQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGlmIGFkcyBhbmQgc3QuYWRzX2VuYWJsZWQ6CiAgICAgICAgICAgICAgICByZXR1cm4gc3QuYWltX3Byb2ZpbGUoImFkcyIpLCBUcnVlCiAgICAgICAgICAgIGlmIGZpcmUgYW5kIHN0LmhpcF9lbmFibGVkOgogICAgICAgICAgICAgICAgcmV0dXJuIHN0LmFpbV9wcm9maWxlKCJoaXAiKSwgVHJ1ZQogICAgICAgIGlmIHN0LmFpbV9hbHdheXNfb246CiAgICAgICAgICAgIGlmIHN0LmhpcF9lbmFibGVkOgogICAgICAgICAgICAgICAgcmV0dXJuIHN0LmFpbV9wcm9maWxlKCJoaXAiKSwgVHJ1ZQogICAgICAgICAgICBpZiBzdC5hZHNfZW5hYmxlZDoKICAgICAgICAgICAgICAgIHJldHVybiBzdC5haW1fcHJvZmlsZSgiYWRzIiksIFRydWUKICAgICAgICByZXR1cm4gc3QuYWltX3Byb2ZpbGUoImFkcyIgaWYgYWRzIGVsc2UgImhpcCIpLCBGYWxzZQoKICAgIGRlZiBfY2hvb3NlKHNlbGYsIGRldHMsIGN4LCBjeSwgcHJvZiwgc3QsIG5vdz1Ob25lKToKICAgICAgICBpZiBub3cgaXMgTm9uZToKICAgICAgICAgICAgbm93ID0gdGltZS50aW1lKCkKICAgICAgICBpZiBzdC5haW1fcG9pbnRfbW9kZSA9PSAicmFuZG9tIiBhbmQgc2VsZi5fcmFuZF9tb2RlIGlzIE5vbmU6CiAgICAgICAgICAgIHNlbGYuX3JhbmRfbW9kZSA9IHJhbmRvbS5jaG9pY2UoKCJoZWFkIiwgImJvZHkiKSkKICAgICAgICBpZiBzZWxmLl9zdGlja3kgaXMgbm90IE5vbmUgYW5kIG5vdyA8IHNlbGYuX3N0aWNreV91bnRpbDoKICAgICAgICAgICAgZm9yIGQgaW4gZGV0czoKICAgICAgICAgICAgICAgIGlmIGRbImNvbmYiXSA8IHByb2YuY29uZiAqIDAuODU6CiAgICAgICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgICAgIHNjID0gc2VsZi5fYWltX3BvaW50KGRbImJveCJdLCBzdCkKICAgICAgICAgICAgICAgIGlmIG1hdGguaHlwb3Qoc2NbMF0gLSBzZWxmLl9zdGlja3lbMF0sIHNjWzFdIC0gc2VsZi5fc3RpY2t5WzFdKSA8IDkwOgogICAgICAgICAgICAgICAgICAgIHNlbGYuX3N0aWNreSA9IHNjCiAgICAgICAgICAgICAgICAgICAgc2VsZi5fc3RpY2t5X3VudGlsID0gbm93ICsgc3Quc3RpY2t5X21zIC8gMTAwMC4wCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHNjCiAgICAgICAgICAgIHNlbGYuX3N0aWNreSA9IE5vbmUKICAgICAgICBiZXN0ID0gTm9uZQogICAgICAgIGJlc3Rfc2NvcmUgPSAxZTE4CiAgICAgICAgZm92ID0gZmxvYXQocHJvZi5mb3YpCiAgICAgICAgZm9yIGQgaW4gZGV0czoKICAgICAgICAgICAgaWYgZFsiY29uZiJdIDwgcHJvZi5jb25mOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgdHgsIHR5ID0gc2VsZi5fYWltX3BvaW50KGRbImJveCJdLCBzdCkKICAgICAgICAgICAgZGlzdCA9IG1hdGguaHlwb3QodHggLSBjeCwgdHkgLSBjeSkKICAgICAgICAgICAgaWYgZGlzdCA+IGZvdjoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIGlmIHN0LnRhcmdldF9wcmlvcml0eSA9PSAiYmlnZ2VzdCI6CiAgICAgICAgICAgICAgICBfYncgPSBkWyJib3giXVsyXSAtIGRbImJveCJdWzBdCiAgICAgICAgICAgICAgICBfYmggPSBkWyJib3giXVszXSAtIGRbImJveCJdWzFdCiAgICAgICAgICAgICAgICBzY29yZSA9IC0oX2J3ICogX2JoKSArIGRpc3QgKiAwLjUKICAgICAgICAgICAgZWxpZiBzdC50YXJnZXRfcHJpb3JpdHkgPT0gImNvbmYiOgogICAgICAgICAgICAgICAgc2NvcmUgPSAtZFsiY29uZiJdICogMTAwMC4wICsgZGlzdCAqIDAuMjUKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHNjb3JlID0gZGlzdCAtIGRbImNvbmYiXSAqIDQwCiAgICAgICAgICAgIGlmIHNjb3JlIDwgYmVzdF9zY29yZToKICAgICAgICAgICAgICAgIGJlc3Rfc2NvcmUgPSBzY29yZQogICAgICAgICAgICAgICAgYmVzdCA9ICh0eCwgdHkpCiAgICAgICAgaWYgYmVzdCBpcyBub3QgTm9uZSBhbmQgc3Quc3RpY2t5X21zID4gMDoKICAgICAgICAgICAgc2VsZi5fc3RpY2t5ID0gYmVzdAogICAgICAgICAgICBzZWxmLl9zdGlja3lfdW50aWwgPSBub3cgKyBzdC5zdGlja3lfbXMgLyAxMDAwLjAKICAgICAgICByZXR1cm4gYmVzdAoKICAgIGRlZiBfYWltX3BvaW50KHNlbGYsIGJveCwgc3QpOgogICAgICAgIG1vZGUgPSBzdC5haW1fcG9pbnRfbW9kZQogICAgICAgIGlmIG1vZGUgPT0gInJhbmRvbSI6CiAgICAgICAgICAgIG1vZGUgPSBzZWxmLl9yYW5kX21vZGUgb3IgImhlYWQiCiAgICAgICAgaWYgbW9kZSA9PSAiaGVhZCI6CiAgICAgICAgICAgIHJldHVybiB0YXJnZXRfcG9pbnQoYm94LCAiaGVhZCIpCiAgICAgICAgcmV0dXJuIHRhcmdldF9wb2ludF9yYXRpbyhib3gsIDAuMzgpCgogICAgZGVmIF9hZGFwdF9nYWluKHNlbGYsIHJhd190YXJnZXQsIGN4LCBjeSwgc3QpOgogICAgICAgIGlmIG5vdCBzdC5hdXRvX2dhaW4gb3Igc3QuaW5wdXRfbW9kZSAhPSAibW91c2UiOgogICAgICAgICAgICByZXR1cm4KICAgICAgICBlcnJfeCA9IHJhd190YXJnZXRbMF0gLSBjeAogICAgICAgIG5vdyA9IHRpbWUucGVyZl9jb3VudGVyKCkKICAgICAgICBpZiBzZWxmLl9wcmV2X2Vycl94IGlzIE5vbmU6CiAgICAgICAgICAgIHNlbGYuX3ByZXZfZXJyX3ggPSBlcnJfeAogICAgICAgICAgICByZXR1cm4KICAgICAgICBwcmV2ID0gc2VsZi5fcHJldl9lcnJfeAogICAgICAgIHNlbGYuX3ByZXZfZXJyX3ggPSBlcnJfeAogICAgICAgIGlmIHByZXYgKiBlcnJfeCA8IDAgYW5kIGFicyhlcnJfeCkgPiA0OgogICAgICAgICAgICBpZiBub3cgLSBzZWxmLl9mbGlwX3dpbmRvdyA+IDAuNToKICAgICAgICAgICAgICAgIHNlbGYuX2ZsaXBfY291bnQgPSAwCiAgICAgICAgICAgICAgICBzZWxmLl9mbGlwX3dpbmRvdyA9IG5vdwogICAgICAgICAgICBzZWxmLl9mbGlwX2NvdW50ICs9IDEKICAgICAgICAgICAgc2VsZi5fc2xvd19jb3VudCA9IDAKICAgICAgICAgICAgaWYgc2VsZi5fZmxpcF9jb3VudCA+PSAyOgogICAgICAgICAgICAgICAgc2VsZi5fZ2FpbiA9IG1heCgwLjA1LCBzZWxmLl9nYWluICogMC44NSkKICAgICAgICAgICAgICAgIHNlbGYuX2ZsaXBfY291bnQgPSAwCiAgICAgICAgICAgICAgICBzZWxmLl9mbGlwX3dpbmRvdyA9IG5vdwogICAgICAgICAgICByZXR1cm4KICAgICAgICBpZiBwcmV2ICogZXJyX3ggPiAwIGFuZCBhYnMoZXJyX3gpID4gMjUgYW5kIGFicyhwcmV2KSA+IDE6CiAgICAgICAgICAgIHNocmluayA9IDEuMCAtIGFicyhlcnJfeCkgLyBhYnMocHJldikKICAgICAgICAgICAgaWYgc2hyaW5rIDwgMC4xMDoKICAgICAgICAgICAgICAgIHNlbGYuX3Nsb3dfY291bnQgKz0gMQogICAgICAgICAgICAgICAgaWYgc2VsZi5fc2xvd19jb3VudCA+PSAzOgogICAgICAgICAgICAgICAgICAgIHNlbGYuX2dhaW4gPSBtaW4oNS4wLCBzZWxmLl9nYWluICogMS4xMikKICAgICAgICAgICAgICAgICAgICBzZWxmLl9zbG93X2NvdW50ID0gMAogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgc2VsZi5fc2xvd19jb3VudCA9IDAKCiAgICBkZWYgX3ByZWRpY3Qoc2VsZiwgcG9zLCBzdCk6CiAgICAgICAgbm93ID0gdGltZS5wZXJmX2NvdW50ZXIoKQogICAgICAgIGlmIHN0LnByZWRpY3Rpb24gPD0gMC4wOgogICAgICAgICAgICBzZWxmLl9rYWxtYW4ucmVzZXQocG9zLCBub3cpCiAgICAgICAgICAgIHNlbGYuX3RyYWNrX3Bvcywgc2VsZi5fdHJhY2tfdGltZSA9IHBvcywgbm93CiAgICAgICAgICAgIHNlbGYuX3ZlbF94ID0gc2VsZi5fdmVsX3kgPSAwLjAKICAgICAgICAgICAgcmV0dXJuIHBvcwogICAgICAgIGVzdCA9IHNlbGYuX2thbG1hbi51cGRhdGUocG9zLCBub3cpCiAgICAgICAgc2VsZi5fdHJhY2tfcG9zLCBzZWxmLl90cmFja190aW1lID0gZXN0LCBub3cKICAgICAgICBzZWxmLl92ZWxfeCwgc2VsZi5fdmVsX3kgPSBzZWxmLl9rYWxtYW4udngsIHNlbGYuX2thbG1hbi52eQogICAgICAgIGxlYWQgPSBtaW4oKHNlbGYuX2NhcHR1cmVfbXMgKyBzZWxmLl9pbmZlcl9tcykgLyAxMDAwLjAgKyAwLjAwOCwgMC4xMikgXAogICAgICAgICAgICAqIGZsb2F0KHN0LnByZWRpY3Rpb24pCgoKICAgICAgICBfc3BkID0gbWF0aC5oeXBvdChzZWxmLl92ZWxfeCwgc2VsZi5fdmVsX3kpCiAgICAgICAgX2dhdGUgPSBtYXgoMC4wLCBtaW4oMS4wLCAoX3NwZCAtIDQwLjApIC8gMTYwLjApKQogICAgICAgIHJldHVybiAoZXN0WzBdICsgc2VsZi5fdmVsX3ggKiBsZWFkICogX2dhdGUsIGVzdFsxXSArIHNlbGYuX3ZlbF95ICogbGVhZCAqIF9nYXRlKQoKICAgIGRlZiBfZW1pdF9wYWQoc2VsZiwgcGFkX3NuYXAsIHN4LCBzeSk6CiAgICAgICAgYmFzZSA9IHBhZF9zbmFwIGlmIChwYWRfc25hcCBpcyBub3QgTm9uZSBhbmQgcGFkX3NuYXAuZ2V0KCJjb25uZWN0ZWQiKSkgZWxzZSBOb25lCiAgICAgICAgdHJ5OgogICAgICAgICAgICBzZWxmLnBhZF93cml0ZXIuZnVsbF91cGRhdGUoYmFzZSwgc3gsIHN5KQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHNlbGYucGFkX3dyaXRlci5yaWdodF9zdGljayhzeCwgc3kpCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgICAgICBwYXNzCgogICAgZGVmIF9haW1fcmVhZHkoc2VsZiwgYWltX29uLCBzdCwgbm93KToKICAgICAgICBpZiBub3QgYWltX29uOgogICAgICAgICAgICBzZWxmLl9haW1fc2luY2UgPSBOb25lCiAgICAgICAgICAgIHJldHVybiBGYWxzZQogICAgICAgIGlmIHNlbGYuX2FpbV9zaW5jZSBpcyBOb25lOgogICAgICAgICAgICBzZWxmLl9haW1fc2luY2UgPSBub3cKICAgICAgICByZXR1cm4gKG5vdyAtIHNlbGYuX2FpbV9zaW5jZSkgKiAxMDAwLjAgPj0gZmxvYXQoc3QuYWltX2RlbGF5X21zKQoKICAgIGRlZiBfZGlzcGF0Y2goc2VsZiwgdGFyZ2V0LCBjeCwgY3ksIHByb2YsIHN0LCBwYWRfc25hcD1Ob25lLCBmaXJpbmc9Tm9uZSk6CiAgICAgICAgdHgsIHR5ID0gdGFyZ2V0CiAgICAgICAgaWYgc3Quaml0dGVyX3B4ID4gMDoKICAgICAgICAgICAgdHggKz0gcmFuZG9tLnVuaWZvcm0oLXN0LmppdHRlcl9weCwgc3Quaml0dGVyX3B4KQogICAgICAgICAgICB0eSArPSByYW5kb20udW5pZm9ybSgtc3Quaml0dGVyX3B4LCBzdC5qaXR0ZXJfcHgpCiAgICAgICAgZHggPSB0eCAtIGN4CiAgICAgICAgZHkgPSB0eSAtIGN5CgogICAgICAgIF9ub3cgPSB0aW1lLnBlcmZfY291bnRlcigpCiAgICAgICAgX2R0ID0gbWluKDAuMDUsIG1heCgwLjAwMSwgX25vdyAtIHNlbGYuX2xhc3RfZGlzcGF0Y2gpKQogICAgICAgIHNlbGYuX2xhc3RfZGlzcGF0Y2ggPSBfbm93CiAgICAgICAgX3RhdSA9IG1heCgwLjAxLCBmbG9hdChwcm9mLnNtb290aGluZykgKiAwLjAxNCkKICAgICAgICBfZ2FpbiA9IDEuMCAtIG1hdGguZXhwKC1fZHQgLyBfdGF1KQogICAgICAgIG14ID0gZHggKiBfZ2FpbgogICAgICAgIG15ID0gZHkgKiBfZ2FpbgogICAgICAgIGlmIG1hdGguaHlwb3QoZHgsIGR5KSA8IHN0LmRlYWR6b25lOgogICAgICAgICAgICBteCA9IDAuMAogICAgICAgICAgICBteSA9IDAuMAogICAgICAgIF9kaXN0ID0gbWF0aC5oeXBvdChkeCwgZHkpCiAgICAgICAgX2NmYWMgPSAxLjAKICAgICAgICBpZiBzdC5haW1fY3VydmUgIT0gMS4wIGFuZCBfZGlzdCA+IDFlLTY6CiAgICAgICAgICAgIF9jZmFjID0gbWF4KDAuMDUsIG1pbigyMC4wLCAoX2Rpc3QgLyBtYXgoMS4wLCBmbG9hdChwcm9mLmZvdikpKSAqKiAoc3QuYWltX2N1cnZlIC0gMS4wKSkpCiAgICAgICAgbXggPSBteCAqIF9jZmFjICogc3QueF9zY2FsZQogICAgICAgIG15ID0gbXkgKiBfY2ZhYyAqIHN0Lnlfc2NhbGUKICAgICAgICBpZiBmaXJpbmcgaXMgTm9uZToKICAgICAgICAgICAgaWYgc3QuaW5wdXRfbW9kZSAhPSAicGFkIjoKICAgICAgICAgICAgICAgIGZpcmluZyA9IGtleV9kb3duKCJsbWIiKQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgZmlyaW5nID0gRmFsc2UKICAgICAgICAgICAgICAgIF9zbmFwID0gcGFkX3NuYXAKICAgICAgICAgICAgICAgIGlmIF9zbmFwIGlzIE5vbmUgYW5kIHNlbGYucGFkX3JlYWRlciBpcyBub3QgTm9uZToKICAgICAgICAgICAgICAgICAgICBfc25hcCA9IHNlbGYucGFkX3JlYWRlci5zbmFwc2hvdCgpCiAgICAgICAgICAgICAgICBpZiBfc25hcCBpcyBub3QgTm9uZToKICAgICAgICAgICAgICAgICAgICBmaXJpbmcgPSBib29sKF9zbmFwLmdldCgiY29ubmVjdGVkIikpIGFuZCAoX3NuYXAuZ2V0KCJydCIsIDAuMCkgPiAwLjQgb3IgInJ0X2J0biIgaW4gKF9zbmFwLmdldCgiYnV0dG9ucyIpIG9yIGZyb3plbnNldCgpKSkKICAgICAgICByeCA9IHN0LnJlY29pbF94ICogX2R0IGlmIChmaXJpbmcgYW5kIHN0LnJlY29pbF9lbmFibGVkKSBlbHNlIDAuMAogICAgICAgIHJ5ID0gc3QucmVjb2lsX3kgKiBfZHQgaWYgKGZpcmluZyBhbmQgc3QucmVjb2lsX2VuYWJsZWQpIGVsc2UgMC4wCiAgICAgICAgaWYgc3QuaW5wdXRfbW9kZSA9PSAibW91c2UiOgogICAgICAgICAgICBzZW5zID0gbWF4KDAuMDEsIGdldGF0dHIoc2VsZiwgIl9nYWluIiwgc3QubW91c2Vfc2VucykgaWYgc3QuYXV0b19nYWluIGVsc2Ugc3QubW91c2Vfc2VucykgKiBwcm9mLnN0cmVuZ3RoCgoKICAgICAgICAgICAgdG90YWxfeCA9IG14ICogc2VucyArIHJ4ICsgc2VsZi5fYWNjX3gKICAgICAgICAgICAgdG90YWxfeSA9IG15ICogc2VucyArIHJ5ICsgc2VsZi5fYWNjX3kKICAgICAgICAgICAgc2VudF94ID0gaW50KHJvdW5kKHRvdGFsX3gpKQogICAgICAgICAgICBzZW50X3kgPSBpbnQocm91bmQodG90YWxfeSkpCiAgICAgICAgICAgIHNlbGYuX2FjY194ID0gbWF4KC0xLjAsIG1pbigxLjAsIHRvdGFsX3ggLSBzZW50X3gpKQogICAgICAgICAgICBzZWxmLl9hY2NfeSA9IG1heCgtMS4wLCBtaW4oMS4wLCB0b3RhbF95IC0gc2VudF95KSkKICAgICAgICAgICAgaWYgc3QubWF4X21vdmVfcHggPiAwOgogICAgICAgICAgICAgICAgX21hZyA9IG1hdGguaHlwb3Qoc2VudF94LCBzZW50X3kpCiAgICAgICAgICAgICAgICBpZiBfbWFnID4gc3QubWF4X21vdmVfcHg6CiAgICAgICAgICAgICAgICAgICAgX3IgPSBzdC5tYXhfbW92ZV9weCAvIF9tYWcKICAgICAgICAgICAgICAgICAgICBzZW50X3ggPSBpbnQocm91bmQoc2VudF94ICogX3IpKQogICAgICAgICAgICAgICAgICAgIHNlbnRfeSA9IGludChyb3VuZChzZW50X3kgKiBfcikpCiAgICAgICAgICAgICAgICAgICAgc2VsZi5fYWNjX3ggPSAwLjAKICAgICAgICAgICAgICAgICAgICBzZWxmLl9hY2NfeSA9IDAuMAogICAgICAgICAgICBpZiBzZW50X3ggb3Igc2VudF95OgogICAgICAgICAgICAgICAgbW91c2VfbW92ZShmbG9hdChzZW50X3gpLCBmbG9hdChzZW50X3kpKQogICAgICAgIGVsc2U6CgogICAgICAgICAgICBub3JtID0gbWF4KDEuMCwgZmxvYXQocHJvZi5mb3YpKQogICAgICAgICAgICBzZW5zID0gbWF4KDAuMDEsIHN0LnBhZF9zZW5zKSAqIHByb2Yuc3RyZW5ndGgKICAgICAgICAgICAgaWYgbWF0aC5oeXBvdChkeCwgZHkpIDwgc3QuZGVhZHpvbmU6CiAgICAgICAgICAgICAgICBzeCA9IDAuMAogICAgICAgICAgICAgICAgc3kgPSAwLjAKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHN4ID0gZHggLyBub3JtICogc2VucyAqIDIKICAgICAgICAgICAgICAgIHN5ID0gLWR5IC8gbm9ybSAqIHNlbnMgKiAyCiAgICAgICAgICAgIHN4ID0gc3ggKiBfY2ZhYyAqIHN0Lnhfc2NhbGUKICAgICAgICAgICAgc3kgPSBzeSAqIF9jZmFjICogc3QueV9zY2FsZQogICAgICAgICAgICBzeCA9IG1heCgtMS4wLCBtaW4oMS4wLCBzeCArIHJ4IC8gbm9ybSAqIHNlbnMgKiAyKSkKICAgICAgICAgICAgc3kgPSBtYXgoLTEuMCwgbWluKDEuMCwgc3kgLSByeSAvIG5vcm0gKiBzZW5zICogMikpCiAgICAgICAgICAgIGlmIHN0LmlucHV0X21vZGUgPT0gInBhZCI6CiAgICAgICAgICAgICAgICBzZWxmLl9lbWl0X3BhZChwYWRfc25hcCwgc3gsIHN5KQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgc2VsZi5wYWRfd3JpdGVyLnJpZ2h0X3N0aWNrKHN4LCBzeSkK
+from __future__ import annotations
+
+import math
+import random
+import threading
+import time
+from typing import Optional
+
+import mss
+import numpy as np
+from PyQt6.QtCore import QThread, pyqtSignal
+
+from .config import Settings, log
+from .input_io import PadReader, PadWriter, key_down, mouse_move
+from .tracking import DetTracker, KalmanCV, target_point, target_point_ratio
+from .vision import Detector
+
+
+class AimEngine(QThread):
+    overlay_sig = pyqtSignal(list, dict)
+    status_sig = pyqtSignal(dict)
+    log_sig = pyqtSignal(str)
+
+    def __init__(self, settings: Settings, pad_reader: Optional[PadReader]):
+        super().__init__()
+        self.settings = settings
+        self.pad_reader = pad_reader
+        self._evt = threading.Event()
+        self.detector = Detector()
+        self.pad_writer = PadWriter(settings.pad_output)
+        self._sticky = None
+        self._sticky_until = 0.0
+        self._rand_mode = None
+        self._last_dets = []
+        self._last_dets_time = 0.0
+        self._capture_ms = 0.0
+        self._infer_ms = 0.0
+        self._loop_ms = 0.0
+
+        self._acc_x = 0.0
+        self._acc_y = 0.0
+
+        self._track_pos = None
+        self._track_time = 0.0
+        self._vel_x = 0.0
+        self._vel_y = 0.0
+        self._kalman = KalmanCV()
+        self._det_tracker = DetTracker()
+        self._next_infer = 0.0
+        self._prev_aim_on = False
+        self._aim_since = None
+        self._rand_mode = None
+        self._gain = 1.0
+        self._prev_err_x = None
+        self._flip_count = 0
+        self._flip_window = 0.0
+        self._slow_count = 0
+        self._fresh = False
+        self._last_overlay = 0.0
+        self._last_dispatch = time.perf_counter()
+        self._slot_lock = threading.Lock()
+        self._slot = {"dets": [], "wall": 0.0, "perf": 0.0, "ver": 0, "infer_ms": 0.0, "cap_ms": 0.0}
+        self._aim_on_shared = False
+        self._screen = None
+        self._worker = None
+        self._worker_error = None
+
+    def stop(self):
+        self._evt.set()
+
+    def run(self):
+        self._evt.clear()
+        self._gain = max(0.05, float(self.settings.mouse_sens))
+        self._prev_err_x = None
+        self._flip_count = 0
+        self._slow_count = 0
+        self._screen = None
+        self._worker = None
+        self._worker_error = None
+        self._sticky = None
+        self._sticky_until = 0.0
+        self._last_dets = []
+        self._last_dets_time = 0.0
+        self._capture_ms = 0.0
+        self._infer_ms = 0.0
+        self._acc_x = 0.0
+        self._acc_y = 0.0
+        self._track_pos = None
+        self._track_time = 0.0
+        self._vel_x = 0.0
+        self._vel_y = 0.0
+        self._kalman.reset()
+        self._det_tracker.reset()
+        self._fresh = False
+        self._aim_on_shared = False
+        self._last_dispatch = time.perf_counter()
+        with self._slot_lock:
+            self._slot = {"dets": [], "wall": 0.0, "perf": 0.0, "ver": 0, "infer_ms": 0.0, "cap_ms": 0.0}
+        try:
+            self.detector.load(self.settings.snapshot())
+            if self.detector.provider_used == "CPUExecutionProvider":
+                self.log_sig.emit("警告: CPU推論は重いです。軽量化のため推論上限30fps以下を推奨します")
+            if self.detector.error:
+                self.log_sig.emit(f"検出器: {self.detector.error}")
+            else:
+                self.log_sig.emit(f"モデル読み込み完了 (プロバイダ={self.detector.provider_used})")
+            if self.detector.error:
+                return
+            if self.settings.input_mode != "mouse" and not self.pad_writer.available:
+                self.log_sig.emit("パッド出力が利用できません（ViGEmBus必須）")
+            self._worker = threading.Thread(target=self._infer_worker, daemon=True)
+            self._worker.start()
+            self._loop()
+        except Exception as e:
+            log.exception("エンジンがクラッシュしました")
+            self.log_sig.emit(f"エンジンクラッシュ: {e}")
+        finally:
+            if self._worker is not None:
+                self._worker.join(timeout=2.0)
+            try:
+                if self.settings.auto_gain and self.settings.input_mode == "mouse":
+                    self.settings.mouse_sens = round(min(5.0, max(0.05, self._gain)), 3)
+            except Exception:
+                log.warning("感度オート調整の書き戻しに失敗しました", exc_info=True)
+            self.pad_writer.reset()
+
+    def _infer_worker(self):
+        try:
+            with mss.mss() as sct:
+                _mons = sct.monitors
+                _mi = self.settings.monitor_index if self.settings.monitor_index < len(_mons) else 1
+                monitor = _mons[_mi]
+                sw, sh = monitor["width"], monitor["height"]
+                self._screen = (sw, sh)
+                next_t = 0.0
+                prev_aim = False
+                _fails = 0
+                while not self._evt.is_set():
+                    st = self.settings.snapshot()
+                    if not st.enabled or self.detector.session is None:
+                        self._evt.wait(0.05)
+                        continue
+                    aim = self._aim_on_shared
+                    if aim and not prev_aim:
+                        next_t = 0.0
+                    prev_aim = aim
+                    now = time.perf_counter()
+                    if now < next_t:
+                        self._evt.wait(min(0.004, next_t - now))
+                        continue
+                    crop = int(max(st.crop_size, max(st.hip_fov, st.ads_fov) * 2))
+                    crop = max(64, min(crop, sw, sh))
+                    if crop % 2:
+                        crop -= 1
+                    left = int(monitor.get("left", 0)) + max(0, min(sw // 2 - crop // 2, sw - crop))
+                    top = int(monitor.get("top", 0)) + max(0, min(sh // 2 - crop // 2, sh - crop))
+                    off_x = left - int(monitor.get("left", 0))
+                    off_y = top - int(monitor.get("top", 0))
+                    region = {"left": left, "top": top, "width": crop, "height": crop}
+                    try:
+                        t_cap = time.perf_counter()
+                        shot = sct.grab(region)
+                        buf = np.frombuffer(shot.bgra, dtype=np.uint8)
+                        frame = buf.reshape(shot.height, shot.width, 4)[:, :, :3]
+                        cap_ms = (time.perf_counter() - t_cap) * 1000.0
+                        t_inf = time.perf_counter()
+                        dets_crop = self.detector.infer(frame, st, crop, crop)
+                        infer_ms = (time.perf_counter() - t_inf) * 1000.0
+                        for d in dets_crop:
+                            b = d["box"]
+                            b[0] += off_x
+                            b[1] += off_y
+                            b[2] += off_x
+                            b[3] += off_y
+                        dets = self._det_tracker.update(dets_crop, time.time())
+                        with self._slot_lock:
+                            self._slot = {"dets": dets, "wall": time.time(), "perf": time.perf_counter(),
+                                          "ver": self._slot["ver"] + 1, "infer_ms": infer_ms, "cap_ms": cap_ms}
+                        _fails = 0
+                    except Exception:
+                        _fails += 1
+                        if _fails >= 10:
+                            raise
+                        self._evt.wait(0.05)
+                        continue
+                    if aim:
+                        interval = (1.0 / st.max_infer_fps) if st.max_infer_fps > 0 else 0.0
+                    else:
+                        interval = 1.0 / max(1, st.idle_infer_fps)
+                    next_t = (t_inf + interval) if interval > 0 else 0.0
+        except Exception as e:
+            self._worker_error = str(e)
+            log.exception("推論ワーカーが停止しました")
+
+    def _worker_gone(self):
+        return self._worker is not None and not self._worker.is_alive()
+
+    def _loop(self):
+        while not self._evt.is_set() and not self._screen:
+            if self._worker_gone():
+                self.log_sig.emit(f"推論ワーカーが起動できませんでした: {self._worker_error or '不明なエラー'}")
+                return
+            self._evt.wait(0.02)
+        if self._evt.is_set():
+            return
+        sw, sh = self._screen
+        cx, cy = sw // 2, sh // 2
+        last_stat = time.perf_counter()
+        frames = 0
+        infer_frames = 0
+        seen_ver = 0
+        while not self._evt.is_set():
+            t0 = time.perf_counter()
+            wall_now = time.time()
+            st = self.settings.snapshot()
+            if st.input_mode == "pad":
+                pad_snap = self.pad_reader.snapshot() if self.pad_reader is not None else None
+                keys = None
+            else:
+                pad_snap = self.pad_reader.snapshot() if (st.input_mode == "converter" and self.pad_reader is not None) else None
+                keys = {"rmb": key_down("rmb"), "lmb": key_down("lmb")}
+            prof, aim_on = self._active_profile(st, pad_snap=pad_snap, keys=keys)
+            self._aim_on_shared = aim_on
+            if not st.enabled:
+                self.overlay_sig.emit([], {})
+                _nw = time.perf_counter()
+                if _nw - last_stat >= 0.5:
+                    if self._worker_gone():
+                        self.log_sig.emit(f"推論ワーカーが停止しました: {self._worker_error or '不明なエラー'}")
+                        return
+                    last_stat = _nw
+                    frames = 0
+                    infer_frames = 0
+                    self.status_sig.emit({"fps": 0.0, "infer_ms": self._infer_ms, "loop_ms": 0.0,
+                                          "dets": 0, "target": False,
+                                          "model": self.detector.session is not None,
+                                          "mode": prof.mode, "infer_fps": 0.0})
+                self._evt.wait(0.05)
+                continue
+            with self._slot_lock:
+                slot = self._slot
+            if slot["ver"] != seen_ver:
+                seen_ver = slot["ver"]
+                infer_frames += 1
+                self._last_dets = slot["dets"]
+                self._last_dets_time = slot["wall"]
+                self._infer_ms = slot["infer_ms"]
+                self._capture_ms = slot["cap_ms"] + max(0.0, (time.perf_counter() - slot["perf"]) * 1000.0)
+                self._fresh = True
+            else:
+                self._fresh = False
+            dets = self._last_dets
+            if wall_now - self._last_dets_time > 0.2:
+                dets = []
+                self._last_dets = []
+            raw_target = self._choose(dets, cx, cy, prof, st, now=wall_now) if (aim_on and dets) else None
+            if raw_target is not None and self._fresh:
+                self._adapt_gain(raw_target, cx, cy, st)
+            if raw_target is not None:
+                target = self._predict(raw_target, st)
+            elif aim_on and self._kalman.ready and \
+                    (time.perf_counter() - self._kalman.last_time) * 1000.0 <= max(st.hold_ms, self._infer_ms * 1.5):
+                _lead = min((self._capture_ms + self._infer_ms) / 1000.0, 0.12) \
+                    * float(st.prediction) if st.prediction > 0 else 0.0
+                target = self._kalman.extrapolate(time.perf_counter(), _lead)
+            else:
+                target = None
+            _ready = self._aim_ready(aim_on, st, time.perf_counter())
+            if target is not None:
+                if _ready:
+                    self._dispatch(target, cx, cy, prof, st, pad_snap=pad_snap,
+                                   firing=(keys["lmb"] if keys is not None else None))
+            else:
+                self._sticky = None
+                self._rand_mode = None
+                self._acc_x = self._acc_y = 0.0
+                self._track_pos = None
+                self._vel_x = self._vel_y = 0.0
+                self._kalman.reset()
+                if st.input_mode == "pad":
+                    self._emit_pad(pad_snap, 0.0, 0.0)
+                elif st.input_mode != "mouse":
+                    self.pad_writer.right_stick(0.0, 0.0)
+            _now_p = time.perf_counter()
+            if _now_p - self._last_overlay >= 1.0 / max(5, st.overlay_fps):
+                self._last_overlay = _now_p
+                self.overlay_sig.emit(dets, {"target": target, "aim_active": aim_on})
+            self._loop_ms = (time.perf_counter() - t0) * 1000.0
+            frames += 1
+            now = time.perf_counter()
+            if now - last_stat >= 0.5:
+                if self._worker_gone():
+                    self.log_sig.emit(f"推論ワーカーが停止しました: {self._worker_error or '不明なエラー'}")
+                    return
+                _el = now - last_stat
+                self.status_sig.emit({
+                    "fps": frames / _el,
+                    "infer_ms": self._infer_ms,
+                    "loop_ms": self._loop_ms,
+                    "dets": len(dets),
+                    "target": target is not None,
+                    "model": self.detector.session is not None,
+                    "mode": prof.mode,
+                    "infer_fps": infer_frames / _el,
+                })
+                frames = 0
+                infer_frames = 0
+                last_stat = now
+            limit = 1.0 / 240 if aim_on else 1.0 / 120
+            elapsed = time.perf_counter() - t0
+            sleep = limit - elapsed
+            if sleep > 0.001:
+                self._evt.wait(sleep)
+
+
+    def _active_profile(self, st, pad_snap=None, keys=None):
+        want = {k.strip().lower() for k in str(st.aim_keys).split(",") if k.strip()} or {"rmb", "lmb"}
+        ads = fire = False
+        if st.input_mode != "pad":
+            if keys is not None:
+                rmb, lmb = keys["rmb"], keys["lmb"]
+            else:
+                rmb, lmb = key_down("rmb"), key_down("lmb")
+            ads = rmb and "rmb" in want
+            fire = lmb and "lmb" in want
+        snap = pad_snap
+        if snap is None and st.input_mode != "mouse" and self.pad_reader is not None:
+            snap = self.pad_reader.snapshot()
+        if snap is not None and snap.get("connected"):
+            btns = snap.get("buttons") or frozenset()
+            lt = snap.get("lt", 0.0) > 0.4 or "lt_btn" in btns
+            rt = snap.get("rt", 0.0) > 0.4 or "rt_btn" in btns
+            ads = ads or (lt and ("lt" in want or "rmb" in want)) or ("lb" in btns and "lb" in want)
+            fire = fire or (rt and ("rt" in want or "lmb" in want)) or ("rb" in btns and "rb" in want)
+        if getattr(st, "activation_mode", "either") == "both":
+            if ads and fire:
+                if st.ads_enabled:
+                    return st.aim_profile("ads"), True
+                if st.hip_enabled:
+                    return st.aim_profile("hip"), True
+        else:
+            if ads and st.ads_enabled:
+                return st.aim_profile("ads"), True
+            if fire and st.hip_enabled:
+                return st.aim_profile("hip"), True
+        if st.aim_always_on:
+            if st.hip_enabled:
+                return st.aim_profile("hip"), True
+            if st.ads_enabled:
+                return st.aim_profile("ads"), True
+        return st.aim_profile("ads" if ads else "hip"), False
+
+    def _choose(self, dets, cx, cy, prof, st, now=None):
+        if now is None:
+            now = time.time()
+        if st.aim_point_mode == "random" and self._rand_mode is None:
+            self._rand_mode = random.choice(("head", "body"))
+        if self._sticky is not None and now < self._sticky_until:
+            for d in dets:
+                if d["conf"] < prof.conf * 0.85:
+                    continue
+                sc = self._aim_point(d["box"], st)
+                if math.hypot(sc[0] - self._sticky[0], sc[1] - self._sticky[1]) < 90:
+                    self._sticky = sc
+                    self._sticky_until = now + st.sticky_ms / 1000.0
+                    return sc
+            self._sticky = None
+        best = None
+        best_score = 1e18
+        fov = float(prof.fov)
+        for d in dets:
+            if d["conf"] < prof.conf:
+                continue
+            tx, ty = self._aim_point(d["box"], st)
+            dist = math.hypot(tx - cx, ty - cy)
+            if dist > fov:
+                continue
+            if st.target_priority == "biggest":
+                _bw = d["box"][2] - d["box"][0]
+                _bh = d["box"][3] - d["box"][1]
+                score = -(_bw * _bh) + dist * 0.5
+            elif st.target_priority == "conf":
+                score = -d["conf"] * 1000.0 + dist * 0.25
+            else:
+                score = dist - d["conf"] * 40
+            if score < best_score:
+                best_score = score
+                best = (tx, ty)
+        if best is not None and st.sticky_ms > 0:
+            self._sticky = best
+            self._sticky_until = now + st.sticky_ms / 1000.0
+        return best
+
+    def _aim_point(self, box, st):
+        mode = st.aim_point_mode
+        if mode == "random":
+            mode = self._rand_mode or "head"
+        if mode == "head":
+            return target_point(box, "head")
+        return target_point_ratio(box, 0.38)
+
+    def _adapt_gain(self, raw_target, cx, cy, st):
+        if not st.auto_gain or st.input_mode != "mouse":
+            return
+        err_x = raw_target[0] - cx
+        now = time.perf_counter()
+        if self._prev_err_x is None:
+            self._prev_err_x = err_x
+            return
+        prev = self._prev_err_x
+        self._prev_err_x = err_x
+        if prev * err_x < 0 and abs(err_x) > 4:
+            if now - self._flip_window > 0.5:
+                self._flip_count = 0
+                self._flip_window = now
+            self._flip_count += 1
+            self._slow_count = 0
+            if self._flip_count >= 2:
+                self._gain = max(0.05, self._gain * 0.85)
+                self._flip_count = 0
+                self._flip_window = now
+            return
+        if prev * err_x > 0 and abs(err_x) > 25 and abs(prev) > 1:
+            shrink = 1.0 - abs(err_x) / abs(prev)
+            if shrink < 0.10:
+                self._slow_count += 1
+                if self._slow_count >= 3:
+                    self._gain = min(5.0, self._gain * 1.12)
+                    self._slow_count = 0
+            else:
+                self._slow_count = 0
+
+    def _predict(self, pos, st):
+        now = time.perf_counter()
+        if st.prediction <= 0.0:
+            self._kalman.reset(pos, now)
+            self._track_pos, self._track_time = pos, now
+            self._vel_x = self._vel_y = 0.0
+            return pos
+        est = self._kalman.update(pos, now)
+        self._track_pos, self._track_time = est, now
+        self._vel_x, self._vel_y = self._kalman.vx, self._kalman.vy
+        lead = min((self._capture_ms + self._infer_ms) / 1000.0 + 0.008, 0.12) \
+            * float(st.prediction)
+
+
+        _spd = math.hypot(self._vel_x, self._vel_y)
+        _gate = max(0.0, min(1.0, (_spd - 40.0) / 160.0))
+        return (est[0] + self._vel_x * lead * _gate, est[1] + self._vel_y * lead * _gate)
+
+    def _emit_pad(self, pad_snap, sx, sy):
+        base = pad_snap if (pad_snap is not None and pad_snap.get("connected")) else None
+        try:
+            self.pad_writer.full_update(base, sx, sy)
+        except Exception:
+            try:
+                self.pad_writer.right_stick(sx, sy)
+            except Exception:
+                pass
+
+    def _aim_ready(self, aim_on, st, now):
+        if not aim_on:
+            self._aim_since = None
+            return False
+        if self._aim_since is None:
+            self._aim_since = now
+        return (now - self._aim_since) * 1000.0 >= float(st.aim_delay_ms)
+
+    def _dispatch(self, target, cx, cy, prof, st, pad_snap=None, firing=None):
+        tx, ty = target
+        if st.jitter_px > 0:
+            tx += random.uniform(-st.jitter_px, st.jitter_px)
+            ty += random.uniform(-st.jitter_px, st.jitter_px)
+        dx = tx - cx
+        dy = ty - cy
+
+        _now = time.perf_counter()
+        _dt = min(0.05, max(0.001, _now - self._last_dispatch))
+        self._last_dispatch = _now
+        _tau = max(0.01, float(prof.smoothing) * 0.014)
+        _gain = 1.0 - math.exp(-_dt / _tau)
+        mx = dx * _gain
+        my = dy * _gain
+        if math.hypot(dx, dy) < st.deadzone:
+            mx = 0.0
+            my = 0.0
+        _dist = math.hypot(dx, dy)
+        _cfac = 1.0
+        if st.aim_curve != 1.0 and _dist > 1e-6:
+            _cfac = max(0.05, min(20.0, (_dist / max(1.0, float(prof.fov))) ** (st.aim_curve - 1.0)))
+        mx = mx * _cfac * st.x_scale
+        my = my * _cfac * st.y_scale
+        if firing is None:
+            if st.input_mode != "pad":
+                firing = key_down("lmb")
+            else:
+                firing = False
+                _snap = pad_snap
+                if _snap is None and self.pad_reader is not None:
+                    _snap = self.pad_reader.snapshot()
+                if _snap is not None:
+                    firing = bool(_snap.get("connected")) and (_snap.get("rt", 0.0) > 0.4 or "rt_btn" in (_snap.get("buttons") or frozenset()))
+        rx = st.recoil_x * _dt if (firing and st.recoil_enabled) else 0.0
+        ry = st.recoil_y * _dt if (firing and st.recoil_enabled) else 0.0
+        if st.input_mode == "mouse":
+            sens = max(0.01, getattr(self, "_gain", st.mouse_sens) if st.auto_gain else st.mouse_sens) * prof.strength
+
+
+            total_x = mx * sens + rx + self._acc_x
+            total_y = my * sens + ry + self._acc_y
+            sent_x = int(round(total_x))
+            sent_y = int(round(total_y))
+            self._acc_x = max(-1.0, min(1.0, total_x - sent_x))
+            self._acc_y = max(-1.0, min(1.0, total_y - sent_y))
+            if st.max_move_px > 0:
+                _mag = math.hypot(sent_x, sent_y)
+                if _mag > st.max_move_px:
+                    _r = st.max_move_px / _mag
+                    sent_x = int(round(sent_x * _r))
+                    sent_y = int(round(sent_y * _r))
+                    self._acc_x = 0.0
+                    self._acc_y = 0.0
+            if sent_x or sent_y:
+                mouse_move(float(sent_x), float(sent_y))
+        else:
+
+            norm = max(1.0, float(prof.fov))
+            sens = max(0.01, st.pad_sens) * prof.strength
+            if math.hypot(dx, dy) < st.deadzone:
+                sx = 0.0
+                sy = 0.0
+            else:
+                sx = dx / norm * sens * 2
+                sy = -dy / norm * sens * 2
+            sx = sx * _cfac * st.x_scale
+            sy = sy * _cfac * st.y_scale
+            sx = max(-1.0, min(1.0, sx + rx / norm * sens * 2))
+            sy = max(-1.0, min(1.0, sy - ry / norm * sens * 2))
+            if st.input_mode == "pad":
+                self._emit_pad(pad_snap, sx, sy)
+            else:
+                self.pad_writer.right_stick(sx, sy)
