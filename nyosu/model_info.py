@@ -1,1 +1,34 @@
-ZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpNT0RFTF9JTkZPX0NBQ0hFID0ge30KCgpkZWYgbW9kZWxfaW5mb190ZXh0KG1vZGVsX3BhdGgsIG9ydCk6CiAgICBtcCA9IFBhdGgobW9kZWxfcGF0aCkgaWYgbW9kZWxfcGF0aCBlbHNlIE5vbmUKICAgIGlmIG1wIGlzIE5vbmUgb3Igbm90IG1wLmV4aXN0cygpOgogICAgICAgIHJldHVybiAi44Oi44OH44Or5pyq6Kit5a6aIiwgKG1wLm5hbWUgaWYgbXAgZWxzZSBOb25lKQogICAgdHJ5OgogICAgICAgIGtleSA9IChzdHIobXApLCBtcC5zdGF0KCkuc3RfbXRpbWVfbnMsIG1wLnN0YXQoKS5zdF9zaXplKQogICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICBrZXkgPSBOb25lCiAgICBpZiBrZXkgaXMgbm90IE5vbmUgYW5kIGtleSBpbiBNT0RFTF9JTkZPX0NBQ0hFOgogICAgICAgIHJldHVybiBNT0RFTF9JTkZPX0NBQ0hFW2tleV0sIG1wLm5hbWUKICAgIGlmIG9ydCBpcyBOb25lOgogICAgICAgIHJldHVybiAib25ueHJ1bnRpbWUg44GM5Yip55So44Gn44GN44G+44Gb44KTIiwgbXAubmFtZQogICAgdHJ5OgogICAgICAgIHNlc3MgPSBvcnQuSW5mZXJlbmNlU2Vzc2lvbihzdHIobXApLCBwcm92aWRlcnM9WyJDUFVFeGVjdXRpb25Qcm92aWRlciJdKQogICAgICAgIGkwID0gc2Vzcy5nZXRfaW5wdXRzKClbMF0KICAgICAgICBvMCA9IHNlc3MuZ2V0X291dHB1dHMoKVswXQogICAgICAgIG1ldGEgPSBzZXNzLmdldF9tb2RlbG1ldGEoKS5jdXN0b21fbWV0YWRhdGFfbWFwIG9yIHt9CiAgICAgICAgbmFtZXMgPSBtZXRhLmdldCgibmFtZXMiLCAiPyIpCiAgICAgICAgc2l6ZV9tYiA9IG1wLnN0YXQoKS5zdF9zaXplIC8gMWU2CiAgICAgICAgdGV4dCA9IGYie21wLm5hbWV9IMK3IHtzaXplX21iOi4xZn0gTUIgwrcg5YWl5YqbIHtpMC5zaGFwZX0gwrcg5Ye65YqbIHtvMC5zaGFwZX0gwrcg44Kv44Op44K5IHtuYW1lc30iCiAgICAgICAgaWYga2V5IGlzIG5vdCBOb25lOgogICAgICAgICAgICBpZiBsZW4oTU9ERUxfSU5GT19DQUNIRSkgPiA4OgogICAgICAgICAgICAgICAgTU9ERUxfSU5GT19DQUNIRS5jbGVhcigpCiAgICAgICAgICAgIE1PREVMX0lORk9fQ0FDSEVba2V5XSA9IHRleHQKICAgICAgICByZXR1cm4gdGV4dCwgbXAubmFtZQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHJldHVybiBmIuiqreOBv+i+vOOBv+WkseaVlzoge2V9IiwgbXAubmFtZQo=
+from __future__ import annotations
+
+from pathlib import Path
+
+MODEL_INFO_CACHE = {}
+
+
+def model_info_text(model_path, ort):
+    mp = Path(model_path) if model_path else None
+    if mp is None or not mp.exists():
+        return "モデル未設定", (mp.name if mp else None)
+    try:
+        key = (str(mp), mp.stat().st_mtime_ns, mp.stat().st_size)
+    except Exception:
+        key = None
+    if key is not None and key in MODEL_INFO_CACHE:
+        return MODEL_INFO_CACHE[key], mp.name
+    if ort is None:
+        return "onnxruntime が利用できません", mp.name
+    try:
+        sess = ort.InferenceSession(str(mp), providers=["CPUExecutionProvider"])
+        i0 = sess.get_inputs()[0]
+        o0 = sess.get_outputs()[0]
+        meta = sess.get_modelmeta().custom_metadata_map or {}
+        names = meta.get("names", "?")
+        size_mb = mp.stat().st_size / 1e6
+        text = f"{mp.name} · {size_mb:.1f} MB · 入力 {i0.shape} · 出力 {o0.shape} · クラス {names}"
+        if key is not None:
+            if len(MODEL_INFO_CACHE) > 8:
+                MODEL_INFO_CACHE.clear()
+            MODEL_INFO_CACHE[key] = text
+        return text, mp.name
+    except Exception as e:
+        return f"読み込み失敗: {e}", mp.name
