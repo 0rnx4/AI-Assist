@@ -1,1 +1,64 @@
-UVNTID0gIiIiCiogeyBmb250LWZhbWlseToiU2Vnb2UgVUkiLCJZdSBHb3RoaWMgVUkiLCJNZWlyeW8gVUkiLHNhbnMtc2VyaWY7IGNvbG9yOiNFQ0VDRUM7IGZvbnQtc2l6ZToxM3B4OyB9CiNSb290IHsgYmFja2dyb3VuZDojMTkxOTE5OyBib3JkZXI6MXB4IHNvbGlkICMzNDM0MzQ7IGJvcmRlci1yYWRpdXM6MHB4OyB9CiNIZWFkZXIgeyBiYWNrZ3JvdW5kOnRyYW5zcGFyZW50OyB9CiNMb2dvIHsgZm9udC1zaXplOjE3cHg7IGZvbnQtd2VpZ2h0OjcwMDsgY29sb3I6I0ZGRkZGRjsgbGV0dGVyLXNwYWNpbmc6MXB4OyB9CiNTaWRlYmFyIHsgYmFja2dyb3VuZDojMUQxRDFEOyBib3JkZXI6MXB4IHNvbGlkICMzMDMwMzA7IGJvcmRlci1yYWRpdXM6MTZweDsgfQpRUHVzaEJ1dHRvbiNOYXZCdG4geyBiYWNrZ3JvdW5kOnRyYW5zcGFyZW50OyBib3JkZXI6bm9uZTsgYm9yZGVyLXJhZGl1czoxMXB4OyBwYWRkaW5nOjlweCAxMnB4OyBtYXJnaW46MnB4IDA7IGNvbG9yOiNCNUI1QjU7IGZvbnQtc2l6ZToxMy41cHg7IGZvbnQtd2VpZ2h0OjYwMDsgdGV4dC1hbGlnbjpsZWZ0OyB9ClFQdXNoQnV0dG9uI05hdkJ0bjpob3ZlciB7IGNvbG9yOiNGRkZGRkY7IGJhY2tncm91bmQ6IzJBMkEyQTsgfQpRUHVzaEJ1dHRvbiNOYXZCdG46Y2hlY2tlZCB7IGNvbG9yOiNGRkZGRkY7IGJhY2tncm91bmQ6I0Q4NDA0MDsgfQpRTGluZUVkaXQjQmFkZ2VFZGl0IHsgYmFja2dyb3VuZDojMTQxNDE0OyBib3JkZXI6MnB4IHNvbGlkICNEODQwNDA7IGJvcmRlci1yYWRpdXM6OXB4OyBwYWRkaW5nOjRweCA4cHg7IGNvbG9yOiNGRkZGRkY7IGZvbnQtZmFtaWx5OiJDb25zb2xhcyIsbW9ub3NwYWNlOyBmb250LXNpemU6MTNweDsgfQpRUHVzaEJ1dHRvbjpkaXNhYmxlZCB7IGNvbG9yOiM2NjY2NjY7IH0KUVB1c2hCdXR0b24jUG93ZXIgeyBiYWNrZ3JvdW5kOiMyNjI2MjY7IGJvcmRlcjoxcHggc29saWQgIzQwNDA0MDsgYm9yZGVyLXJhZGl1czoxOHB4OyBjb2xvcjojRDhEOEQ4OyBmb250LXNpemU6MTZweDsgfQpRUHVzaEJ1dHRvbiNQb3dlcjpob3ZlciB7IGNvbG9yOiNGRkZGRkY7IGJvcmRlci1jb2xvcjojNjY2NjY2OyBiYWNrZ3JvdW5kOiMyRTJFMkU7IH0KUVB1c2hCdXR0b24jV2luQnRuIHsgYmFja2dyb3VuZDp0cmFuc3BhcmVudDsgYm9yZGVyOm5vbmU7IGJvcmRlci1yYWRpdXM6MTRweDsgbWluLXdpZHRoOjMwcHg7IG1heC13aWR0aDozMHB4OyBtaW4taGVpZ2h0OjMwcHg7IG1heC1oZWlnaHQ6MzBweDsgY29sb3I6I0I1QjVCNTsgZm9udC1zaXplOjEzcHg7IH0KUVB1c2hCdXR0b24jV2luQnRuOmhvdmVyIHsgYmFja2dyb3VuZDojMkMyQzJDOyBjb2xvcjojRkZGRkZGOyB9CiNDYXJkIHsgYmFja2dyb3VuZDojMjAyMDIwOyBib3JkZXI6MXB4IHNvbGlkICMzMDMwMzA7IGJvcmRlci1yYWRpdXM6MTZweDsgfQojQ2FyZFRpdGxlIHsgZm9udC1zaXplOjE0LjVweDsgZm9udC13ZWlnaHQ6NzAwOyBjb2xvcjojRkZGRkZGOyB9CiNDdGxMYWJlbCB7IGZvbnQtc2l6ZToxM3B4OyBmb250LXdlaWdodDo2MDA7IGNvbG9yOiNGMkYyRjI7IH0KI0N0bERlc2MgeyBmb250LXNpemU6MTEuNXB4OyBjb2xvcjojQThBOEE4OyB9CiNNdXRlZCB7IGNvbG9yOiNBOEE4QTg7IGZvbnQtc2l6ZToxMnB4OyB9CiNCYWRnZSB7IGJhY2tncm91bmQ6IzI2MjYyNjsgYm9yZGVyOjFweCBzb2xpZCAjMzgzODM4OyBib3JkZXItcmFkaXVzOjlweDsgcGFkZGluZzozcHggOXB4OyBjb2xvcjojRkZGRkZGOyBmb250LWZhbWlseToiQ29uc29sYXMiLG1vbm9zcGFjZTsgZm9udC1zaXplOjEyLjVweDsgfQojQmFkZ2U6aG92ZXIgeyBib3JkZXItY29sb3I6I0Q4NDA0MDsgfQpRU2xpZGVyOjpncm9vdmU6aG9yaXpvbnRhbCB7IGhlaWdodDo2cHg7IGJhY2tncm91bmQ6IzM0MzQzNDsgYm9yZGVyLXJhZGl1czozcHg7IH0KUVNsaWRlcjo6c3ViLXBhZ2U6aG9yaXpvbnRhbCB7IGJhY2tncm91bmQ6I0Q4NDA0MDsgYm9yZGVyLXJhZGl1czozcHg7IH0KUVNsaWRlcjo6aGFuZGxlOmhvcml6b250YWwgeyB3aWR0aDoxOHB4OyBoZWlnaHQ6MThweDsgbWFyZ2luOi02cHggMDsgYm9yZGVyLXJhZGl1czo5cHg7IGJhY2tncm91bmQ6I0ZGRkZGRjsgYm9yZGVyOjJweCBzb2xpZCAjNTU1NTU1OyB9ClFTbGlkZXI6OmhhbmRsZTpob3Jpem9udGFsOmhvdmVyIHsgYm9yZGVyLWNvbG9yOiNEODQwNDA7IH0KUUxpbmVFZGl0LFFDb21ib0JveCB7IGJhY2tncm91bmQ6IzE2MTYxNjsgYm9yZGVyOjFweCBzb2xpZCAjMzgzODM4OyBib3JkZXItcmFkaXVzOjEwcHg7IHBhZGRpbmc6OHB4IDExcHg7IGNvbG9yOiNGMEYwRjA7IGZvbnQtc2l6ZToxM3B4OyBzZWxlY3Rpb24tYmFja2dyb3VuZC1jb2xvcjojRDg0MDQwOyB9ClFMaW5lRWRpdDpmb2N1cyxRQ29tYm9Cb3g6Zm9jdXMgeyBib3JkZXI6MnB4IHNvbGlkICNEODQwNDA7IHBhZGRpbmc6N3B4IDEwcHg7IH0KUUxpbmVFZGl0OmhvdmVyLFFDb21ib0JveDpob3ZlciB7IGJvcmRlci1jb2xvcjojNTA1MDUwOyB9ClFDb21ib0JveDo6ZHJvcC1kb3duIHsgYm9yZGVyOm5vbmU7IHdpZHRoOjIycHg7IH0KUUNvbWJvQm94IFFBYnN0cmFjdEl0ZW1WaWV3IHsgYmFja2dyb3VuZDojMjMyMzIzOyBib3JkZXI6MXB4IHNvbGlkICMzQTNBM0E7IGJvcmRlci1yYWRpdXM6MTBweDsgcGFkZGluZzo0cHg7IHNlbGVjdGlvbi1iYWNrZ3JvdW5kLWNvbG9yOiNEODQwNDA7IG91dGxpbmU6bm9uZTsgfQpRUHVzaEJ1dHRvbiNHaG9zdCB7IGJhY2tncm91bmQ6IzI2MjYyNjsgYm9yZGVyOjFweCBzb2xpZCAjM0QzRDNEOyBib3JkZXItcmFkaXVzOjExcHg7IHBhZGRpbmc6OXB4IDE2cHg7IGNvbG9yOiNFREVERUQ7IGZvbnQtc2l6ZToxMi41cHg7IGZvbnQtd2VpZ2h0OjYwMDsgfQpRUHVzaEJ1dHRvbiNHaG9zdDpob3ZlciB7IGJvcmRlci1jb2xvcjojNjY2NjY2OyBjb2xvcjojRkZGRkZGOyBiYWNrZ3JvdW5kOiMyRDJEMkQ7IH0KUVB1c2hCdXR0b24jR2hvc3Q6cHJlc3NlZCB7IGJhY2tncm91bmQ6IzFDMUMxQzsgfQpRUHVzaEJ1dHRvbiNHaG9zdDpjaGVja2VkIHsgYmFja2dyb3VuZDojRDg0MDQwOyBjb2xvcjojRkZGRkZGOyBib3JkZXItY29sb3I6I0Q4NDA0MDsgfQojU3RhdHVzQmFyIHsgYmFja2dyb3VuZDojMUQxRDFEOyBib3JkZXI6MXB4IHNvbGlkICMzMDMwMzA7IGJvcmRlci1yYWRpdXM6MTZweDsgfQojU3RhdHVzVGV4dCB7IGNvbG9yOiNCREJEQkQ7IGZvbnQtZmFtaWx5OiJDb25zb2xhcyIsbW9ub3NwYWNlOyBmb250LXNpemU6MTJweDsgfQojU3RhdHVzTW9kZSB7IGJhY2tncm91bmQ6dHJhbnNwYXJlbnQ7IGJvcmRlcjpub25lOyBwYWRkaW5nOjRweCA2cHg7IGNvbG9yOiNGRkZGRkY7IGZvbnQtc2l6ZToxMnB4OyBmb250LXdlaWdodDo3MDA7IH0KI1NlY3Rpb25MYmwgeyBjb2xvcjojQTBBMEEwOyBmb250LXNpemU6MTFweDsgZm9udC13ZWlnaHQ6NjAwOyB9ClFQdXNoQnV0dG9uI1ByZXNldE51bSB7IGJhY2tncm91bmQ6IzI2MjYyNjsgYm9yZGVyOjFweCBzb2xpZCAjM0QzRDNEOyBib3JkZXItcmFkaXVzOjE2cHg7IG1pbi13aWR0aDozMnB4OyBtYXgtd2lkdGg6MzJweDsgbWluLWhlaWdodDozMnB4OyBtYXgtaGVpZ2h0OjMycHg7IGNvbG9yOiNCREJEQkQ7IGZvbnQtc2l6ZToxMi41cHg7IGZvbnQtd2VpZ2h0OjcwMDsgfQpRUHVzaEJ1dHRvbiNQcmVzZXROdW06aG92ZXIgeyBjb2xvcjojRkZGRkZGOyBib3JkZXItY29sb3I6IzY2NjY2NjsgfQpRUHVzaEJ1dHRvbiNQcmVzZXROdW06Y2hlY2tlZCB7IGJhY2tncm91bmQ6I0Q4NDA0MDsgY29sb3I6I0ZGRkZGRjsgYm9yZGVyLWNvbG9yOiNEODQwNDA7IH0KUVRleHRFZGl0IHsgYmFja2dyb3VuZDojMTQxNDE0OyBib3JkZXI6MXB4IHNvbGlkICMyRTJFMkU7IGJvcmRlci1yYWRpdXM6MTJweDsgY29sb3I6I0JEQkRCRDsgcGFkZGluZzoxMHB4OyBmb250LWZhbWlseToiQ29uc29sYXMiLG1vbm9zcGFjZTsgZm9udC1zaXplOjExcHg7IH0KUVNjcm9sbEJhcjp2ZXJ0aWNhbCB7IGJhY2tncm91bmQ6dHJhbnNwYXJlbnQ7IHdpZHRoOjEwcHg7IG1hcmdpbjoycHg7IH0KUVNjcm9sbEJhcjo6aGFuZGxlOnZlcnRpY2FsIHsgYmFja2dyb3VuZDojM0QzRDNEOyBib3JkZXItcmFkaXVzOjVweDsgbWluLWhlaWdodDoyOHB4OyB9ClFTY3JvbGxCYXI6OmhhbmRsZTp2ZXJ0aWNhbDpob3ZlciB7IGJhY2tncm91bmQ6IzU1NTU1NTsgfQpRU2Nyb2xsQmFyOjphZGQtbGluZTp2ZXJ0aWNhbCxRU2Nyb2xsQmFyOjpzdWItbGluZTp2ZXJ0aWNhbCB7IGhlaWdodDowOyB9ClFTY3JvbGxCYXI6aG9yaXpvbnRhbCB7IGhlaWdodDowOyB9ClFTY3JvbGxBcmVhIHsgYmFja2dyb3VuZDp0cmFuc3BhcmVudDsgYm9yZGVyOm5vbmU7IH0KUVNjcm9sbEFyZWEgPiBRV2lkZ2V0ID4gUVdpZGdldCB7IGJhY2tncm91bmQ6dHJhbnNwYXJlbnQ7IH0KI092ZXJsYXlQcmV2aWV3IHsgYmFja2dyb3VuZDojMTQxNDE0OyBib3JkZXI6MXB4IHNvbGlkICMyRTJFMkU7IGJvcmRlci1yYWRpdXM6MTRweDsgfQojTWV0cmljVmFsIHsgZm9udC1zaXplOjIycHg7IGZvbnQtd2VpZ2h0OjcwMDsgY29sb3I6I0ZGRkZGRjsgZm9udC1mYW1pbHk6IkNvbnNvbGFzIixtb25vc3BhY2U7IH0KI01ldHJpY0xibCB7IGNvbG9yOiNBOEE4QTg7IGZvbnQtc2l6ZToxMS41cHg7IGZvbnQtd2VpZ2h0OjYwMDsgfQpRUHVzaEJ1dHRvbiNRdWlja1Bvd2VyIHsgYmFja2dyb3VuZDojRDg0MDQwOyBib3JkZXI6bm9uZTsgYm9yZGVyLXJhZGl1czoxNHB4OyBjb2xvcjojRkZGRkZGOyBmb250LXNpemU6MTVweDsgZm9udC13ZWlnaHQ6NzAwOyBwYWRkaW5nOjEwcHggMjZweDsgfQpRUHVzaEJ1dHRvbiNRdWlja1Bvd2VyOmhvdmVyIHsgYmFja2dyb3VuZDojRTg1MDUwOyB9ClFQdXNoQnV0dG9uI1F1aWNrUG93ZXI6cHJlc3NlZCB7IGJhY2tncm91bmQ6I0I5MzMzMzsgfQpRUHVzaEJ1dHRvbiNHaG9zdDpmb2N1cyB7IGJvcmRlci1jb2xvcjojRDg0MDQwOyB9ClFQdXNoQnV0dG9uI05hdkJ0bjpmb2N1cyB7IGNvbG9yOiNGRkZGRkY7IGJhY2tncm91bmQ6IzJBMkEyQTsgfQpRUHVzaEJ1dHRvbiNQcmVzZXROdW06Zm9jdXMgeyBib3JkZXItY29sb3I6I0Q4NDA0MDsgY29sb3I6I0ZGRkZGRjsgfQojUGVyZkdyYXBoIHsgYmFja2dyb3VuZDojMTQxNDE0OyBib3JkZXI6MXB4IHNvbGlkICMyRTJFMkU7IGJvcmRlci1yYWRpdXM6MTJweDsgfQojU3RhdGVEb3QgeyBib3JkZXItcmFkaXVzOjVweDsgYmFja2dyb3VuZDojN0U4NDk5OyB9CiNRdWlja1N0YXRlIHsgZm9udC1zaXplOjE0cHg7IGZvbnQtd2VpZ2h0OjcwMDsgY29sb3I6I0ZGRkZGRjsgfQpRVG9vbFRpcCB7IGJhY2tncm91bmQ6IzJBMkEyQTsgY29sb3I6I0ZGRkZGRjsgYm9yZGVyOjFweCBzb2xpZCAjNDg0ODQ4OyBib3JkZXItcmFkaXVzOjhweDsgcGFkZGluZzo2cHggMTBweDsgZm9udC1zaXplOjEycHg7IH0KIiIiCg==
+QSS = """
+* { font-family:"Segoe UI","Yu Gothic UI","Meiryo UI",sans-serif; color:#ECECEC; font-size:13px; }
+#Root { background:#191919; border:1px solid #343434; border-radius:0px; }
+#Header { background:transparent; }
+#Logo { font-size:17px; font-weight:700; color:#FFFFFF; letter-spacing:1px; }
+#Sidebar { background:#1D1D1D; border:1px solid #303030; border-radius:16px; }
+QPushButton#NavBtn { background:transparent; border:none; border-radius:11px; padding:9px 12px; margin:2px 0; color:#B5B5B5; font-size:13.5px; font-weight:600; text-align:left; }
+QPushButton#NavBtn:hover { color:#FFFFFF; background:#2A2A2A; }
+QPushButton#NavBtn:checked { color:#FFFFFF; background:#D84040; }
+QLineEdit#BadgeEdit { background:#141414; border:2px solid #D84040; border-radius:9px; padding:4px 8px; color:#FFFFFF; font-family:"Consolas",monospace; font-size:13px; }
+QPushButton:disabled { color:#666666; }
+QPushButton#Power { background:#262626; border:1px solid #404040; border-radius:18px; color:#D8D8D8; font-size:16px; }
+QPushButton#Power:hover { color:#FFFFFF; border-color:#666666; background:#2E2E2E; }
+QPushButton#WinBtn { background:transparent; border:none; border-radius:14px; min-width:30px; max-width:30px; min-height:30px; max-height:30px; color:#B5B5B5; font-size:13px; }
+QPushButton#WinBtn:hover { background:#2C2C2C; color:#FFFFFF; }
+#Card { background:#202020; border:1px solid #303030; border-radius:16px; }
+#CardTitle { font-size:14.5px; font-weight:700; color:#FFFFFF; }
+#CtlLabel { font-size:13px; font-weight:600; color:#F2F2F2; }
+#CtlDesc { font-size:11.5px; color:#A8A8A8; }
+#Muted { color:#A8A8A8; font-size:12px; }
+#Badge { background:#262626; border:1px solid #383838; border-radius:9px; padding:3px 9px; color:#FFFFFF; font-family:"Consolas",monospace; font-size:12.5px; }
+#Badge:hover { border-color:#D84040; }
+QSlider::groove:horizontal { height:6px; background:#343434; border-radius:3px; }
+QSlider::sub-page:horizontal { background:#D84040; border-radius:3px; }
+QSlider::handle:horizontal { width:18px; height:18px; margin:-6px 0; border-radius:9px; background:#FFFFFF; border:2px solid #555555; }
+QSlider::handle:horizontal:hover { border-color:#D84040; }
+QLineEdit,QComboBox { background:#161616; border:1px solid #383838; border-radius:10px; padding:8px 11px; color:#F0F0F0; font-size:13px; selection-background-color:#D84040; }
+QLineEdit:focus,QComboBox:focus { border:2px solid #D84040; padding:7px 10px; }
+QLineEdit:hover,QComboBox:hover { border-color:#505050; }
+QComboBox::drop-down { border:none; width:22px; }
+QComboBox QAbstractItemView { background:#232323; border:1px solid #3A3A3A; border-radius:10px; padding:4px; selection-background-color:#D84040; outline:none; }
+QPushButton#Ghost { background:#262626; border:1px solid #3D3D3D; border-radius:11px; padding:9px 16px; color:#EDEDED; font-size:12.5px; font-weight:600; }
+QPushButton#Ghost:hover { border-color:#666666; color:#FFFFFF; background:#2D2D2D; }
+QPushButton#Ghost:pressed { background:#1C1C1C; }
+QPushButton#Ghost:checked { background:#D84040; color:#FFFFFF; border-color:#D84040; }
+#StatusBar { background:#1D1D1D; border:1px solid #303030; border-radius:16px; }
+#StatusText { color:#BDBDBD; font-family:"Consolas",monospace; font-size:12px; }
+#StatusMode { background:transparent; border:none; padding:4px 6px; color:#FFFFFF; font-size:12px; font-weight:700; }
+#SectionLbl { color:#A0A0A0; font-size:11px; font-weight:600; }
+QPushButton#PresetNum { background:#262626; border:1px solid #3D3D3D; border-radius:16px; min-width:32px; max-width:32px; min-height:32px; max-height:32px; color:#BDBDBD; font-size:12.5px; font-weight:700; }
+QPushButton#PresetNum:hover { color:#FFFFFF; border-color:#666666; }
+QPushButton#PresetNum:checked { background:#D84040; color:#FFFFFF; border-color:#D84040; }
+QTextEdit { background:#141414; border:1px solid #2E2E2E; border-radius:12px; color:#BDBDBD; padding:10px; font-family:"Consolas",monospace; font-size:11px; }
+QScrollBar:vertical { background:transparent; width:10px; margin:2px; }
+QScrollBar::handle:vertical { background:#3D3D3D; border-radius:5px; min-height:28px; }
+QScrollBar::handle:vertical:hover { background:#555555; }
+QScrollBar::add-line:vertical,QScrollBar::sub-line:vertical { height:0; }
+QScrollBar:horizontal { height:0; }
+QScrollArea { background:transparent; border:none; }
+QScrollArea > QWidget > QWidget { background:transparent; }
+#OverlayPreview { background:#141414; border:1px solid #2E2E2E; border-radius:14px; }
+#MetricVal { font-size:22px; font-weight:700; color:#FFFFFF; font-family:"Consolas",monospace; }
+#MetricLbl { color:#A8A8A8; font-size:11.5px; font-weight:600; }
+QPushButton#QuickPower { background:#D84040; border:none; border-radius:14px; color:#FFFFFF; font-size:15px; font-weight:700; padding:10px 26px; }
+QPushButton#QuickPower:hover { background:#E85050; }
+QPushButton#QuickPower:pressed { background:#B93333; }
+QPushButton#Ghost:focus { border-color:#D84040; }
+QPushButton#NavBtn:focus { color:#FFFFFF; background:#2A2A2A; }
+QPushButton#PresetNum:focus { border-color:#D84040; color:#FFFFFF; }
+#PerfGraph { background:#141414; border:1px solid #2E2E2E; border-radius:12px; }
+#StateDot { border-radius:5px; background:#7E8499; }
+#QuickState { font-size:14px; font-weight:700; color:#FFFFFF; }
+QToolTip { background:#2A2A2A; color:#FFFFFF; border:1px solid #484848; border-radius:8px; padding:6px 10px; font-size:12px; }
+"""
