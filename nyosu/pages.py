@@ -1,1 +1,418 @@
-ZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpmcm9tIFB5UXQ2LlF0V2lkZ2V0cyBpbXBvcnQgKAogICAgUUNvbWJvQm94LCBRR3JpZExheW91dCwgUUhCb3hMYXlvdXQsIFFMYWJlbCwgUUxpbmVFZGl0LCBRUHVzaEJ1dHRvbiwKICAgIFFUZXh0RWRpdCwgUVZCb3hMYXlvdXQsIFFXaWRnZXQsIFFGcmFtZSwKKQoKZnJvbSAuaW5wdXRfaW8gaW1wb3J0IHZnCmZyb20gLndpZGdldHMgaW1wb3J0IE92ZXJsYXlQcmV2aWV3LCBQZXJmR3JhcGgKCgpjbGFzcyBQYWdlc01peGluOgogICAgZGVmIF9wYWdlX2Rhc2hib2FyZChzZWxmKToKICAgICAgICBwYWdlID0gUVdpZGdldCgpCiAgICAgICAgbGF5ID0gUVZCb3hMYXlvdXQocGFnZSkKICAgICAgICBsYXkuc2V0Q29udGVudHNNYXJnaW5zKDAsIDAsIDAsIDApCiAgICAgICAgbGF5LnNldFNwYWNpbmcoMTIpCiAgICAgICAgcWMsIHFsID0gc2VsZi5fY2FyZCgi44Kv44Kk44OD44Kv5pON5L2cIiwgIuOCqOODs+OCuOODs+OBrumWi+WniyAvIOWBnOatouOBr+OBk+OBk+OBi+OCieOBp+OCguOBp+OBjeOBvuOBme+8iOODm+ODg+ODiOOCreODvOOBp+OCguWIh+abv+WPr+iDve+8iSIpCiAgICAgICAgcXJvdyA9IFFIQm94TGF5b3V0KCkKICAgICAgICBxcm93LnNldFNwYWNpbmcoMTQpCiAgICAgICAgc2VsZi5idG5fcXVpY2sgPSBRUHVzaEJ1dHRvbigi4pa2IOmWi+WniyIpCiAgICAgICAgc2VsZi5idG5fcXVpY2suc2V0T2JqZWN0TmFtZSgiUXVpY2tQb3dlciIpCiAgICAgICAgc2VsZi5idG5fcXVpY2suc2V0Rml4ZWRIZWlnaHQoNDYpCiAgICAgICAgc2VsZi5idG5fcXVpY2suY2xpY2tlZC5jb25uZWN0KHNlbGYudG9nZ2xlX2VuZ2luZSkKICAgICAgICBxcm93LmFkZFdpZGdldChzZWxmLmJ0bl9xdWljaykKICAgICAgICBxdGV4dHMgPSBRVkJveExheW91dCgpCiAgICAgICAgcXRleHRzLnNldFNwYWNpbmcoMikKICAgICAgICBzZWxmLl9xdWlja19zdGF0ZSA9IFFMYWJlbCgi5b6F5qmf5LitIikKICAgICAgICBzZWxmLl9xdWlja19zdGF0ZS5zZXRPYmplY3ROYW1lKCJRdWlja1N0YXRlIikKICAgICAgICBxdGV4dHMuYWRkV2lkZ2V0KHNlbGYuX3F1aWNrX3N0YXRlKQogICAgICAgIHNlbGYuX3F1aWNrX21ldGEgPSBRTGFiZWwoZiLjg6Ljg4fjg6s6IHtQYXRoKHNlbGYuc2V0dGluZ3MubW9kZWxfcGF0aCkubmFtZSBpZiBzZWxmLnNldHRpbmdzLm1vZGVsX3BhdGggZWxzZSAn5pyq6Kit5a6aJ30gwrcg44OX44Oq44K744OD44OIOiB7c2VsZi5zZXR0aW5ncy5wcmVzZXRfbmFtZX0gwrcg5YWl5YqbOiB7c2VsZi5zZXR0aW5ncy5pbnB1dF9tb2RlfSIpCiAgICAgICAgc2VsZi5fcXVpY2tfbWV0YS5zZXRPYmplY3ROYW1lKCJNdXRlZCIpCiAgICAgICAgc2VsZi5fcXVpY2tfbWV0YS5zZXRXb3JkV3JhcChUcnVlKQogICAgICAgIHF0ZXh0cy5hZGRXaWRnZXQoc2VsZi5fcXVpY2tfbWV0YSkKICAgICAgICBxcm93LmFkZExheW91dChxdGV4dHMsIDEpCiAgICAgICAgcWwuYWRkTGF5b3V0KHFyb3cpCiAgICAgICAgbGF5LmFkZFdpZGdldChxYykKICAgICAgICBsYXkuYWRkV2lkZ2V0KHNlbGYuX3Byb2ZpbGVfcGFuZWwoIuOCqOOCpOODoOOCouOCt+OCueODiO+8iOiFsOaSg+OBoSAvIEFEUyDlhbHpgJrvvIkiLCAiaGlwIiwgIuOCqOOCpOODoOOCouOCt+OCueODiOOCkuacieWKueWMliIsICLohbDmkoPjgaHjgahBRFPjgaflkIzjgZjoqK3lrprjgpLkvb/jgYTjgb7jgZkiKSkKICAgICAgICBsYXkuYWRkU3RyZXRjaCgpCiAgICAgICAgcmV0dXJuIHBhZ2UKCiAgICBkZWYgX3BhZ2VfdHJhY2tpbmcoc2VsZik6CiAgICAgICAgcGFnZSA9IFFXaWRnZXQoKQogICAgICAgIGxheSA9IFFWQm94TGF5b3V0KHBhZ2UpCiAgICAgICAgbGF5LnNldENvbnRlbnRzTWFyZ2lucygwLCAwLCAwLCAwKQogICAgICAgIGxheS5zZXRTcGFjaW5nKDEyKQogICAgICAgIGMsIGwgPSBzZWxmLl9jYXJkKCLkuojmuKzjg7vmjZXmjYkiKQogICAgICAgIHNlbGYuX2FpbV9lbmFibGVkX3RvZ2dsZSA9IHNlbGYuX3RvZ2dsZSgKICAgICAgICAgICAgbCwgIuOCqOOCpOODoOOCouOCt+OCueODiOacieWKuSIsIHNlbGYuc2V0dGluZ3MuZW5hYmxlZCwKICAgICAgICAgICAgbGFtYmRhIHY6IHNldGF0dHIoc2VsZi5zZXR0aW5ncywgImVuYWJsZWQiLCB2KSkKICAgICAgICBzZWxmLl90b2dnbGUobCwgIuW4uOaZguWQuOOBhOS7mOOBje+8iOOCreODvOS4jeimge+8iSIsIHNlbGYuc2V0dGluZ3MuYWltX2Fsd2F5c19vbiwKICAgICAgICAgICAgICAgICAgICAgbGFtYmRhIHY6IHNldGF0dHIoc2VsZi5zZXR0aW5ncywgImFpbV9hbHdheXNfb24iLCB2KSkKICAgICAgICBjb2xzID0gUUhCb3hMYXlvdXQoKQogICAgICAgIGNvbHMuc2V0U3BhY2luZygxNikKICAgICAgICBmb3IgbWFrZSBpbiBbCiAgICAgICAgICAgIGxhbWJkYSBsYXkyOiBzZWxmLl9zbGlkZXIobGF5MiwgIuenu+WLleS6iOa4rCIsIDAsIDIwMCwgaW50KHNlbGYuc2V0dGluZ3MucHJlZGljdGlvbiAqIDEwMCksICIgJSIsIGxhbWJkYSB2OiBzZXRhdHRyKHNlbGYuc2V0dGluZ3MsICJwcmVkaWN0aW9uIiwgdiAvIDEwMC4wKSwgIiIpLAogICAgICAgICAgICBsYW1iZGEgbGF5Mjogc2VsZi5fc2xpZGVyKGxheTIsICLkuK3lpK7jgq/jg63jg4Pjg5ciLCAzMjAsIDEyODAsIHNlbGYuc2V0dGluZ3MuY3JvcF9zaXplLCAiIHB4IiwgbGFtYmRhIHY6IHNldGF0dHIoc2VsZi5zZXR0aW5ncywgImNyb3Bfc2l6ZSIsIHYpLCAi5o6o6KuW44GZ44KL5Lit5aSu56+E5ZuyIiksCiAgICAgICAgICAgIGxhbWJkYSBsYXkyOiBzZWxmLl9zbGlkZXIobGF5MiwgIuOCueODhuOCo+ODg+OCreODvOS/neaMgSIsIDAsIDUwMCwgc2VsZi5zZXR0aW5ncy5zdGlja3lfbXMsICIgbXMiLCBsYW1iZGEgdjogc2V0YXR0cihzZWxmLnNldHRpbmdzLCAic3RpY2t5X21zIiwgdiksICIiKSwKICAgICAgICBdOgogICAgICAgICAgICBjb2x3ID0gUVdpZGdldCgpCiAgICAgICAgICAgIGNvbGwgPSBRVkJveExheW91dChjb2x3KQogICAgICAgICAgICBjb2xsLnNldENvbnRlbnRzTWFyZ2lucygwLCAwLCAwLCAwKQogICAgICAgICAgICBtYWtlKGNvbGwpCiAgICAgICAgICAgIGNvbHMuYWRkV2lkZ2V0KGNvbHcpCiAgICAgICAgbC5hZGRMYXlvdXQoY29scykKICAgICAgICBzZWxmLl9jb21ib19tYXAobCwgIuWEquWFiOOCv+ODvOOCsuODg+ODiCIsIFsoIuacgOOCgui/keOBhCIsICJuZWFyZXN0IiksICgi5pyA44KC5aSn44GN44GEIiwgImJpZ2dlc3QiKSwgKCLkv6HpoLzluqbjgYzpq5jjgYQiLCAiY29uZiIpXSwKICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5zZXR0aW5ncy50YXJnZXRfcHJpb3JpdHksIGxhbWJkYSB2OiBzZXRhdHRyKHNlbGYuc2V0dGluZ3MsICJ0YXJnZXRfcHJpb3JpdHkiLCB2KSkKICAgICAgICBsYXkuYWRkV2lkZ2V0KGMpCiAgICAgICAgYzIsIGwyID0gc2VsZi5fY2FyZCgi44Oq44Kz44Kk44Or44O75a6J5a6a5YyWIikKICAgICAgICBzZWxmLl90b2dnbGUobDIsICLjg6rjgrPjgqTjg6voo5zmraPjgpLmnInlirnljJYiLCBzZWxmLnNldHRpbmdzLnJlY29pbF9lbmFibGVkLAogICAgICAgICAgICAgICAgICAgICBsYW1iZGEgdjogc2V0YXR0cihzZWxmLnNldHRpbmdzLCAicmVjb2lsX2VuYWJsZWQiLCB2KSwKICAgICAgICAgICAgICAgICAgICAgIk9GRuOBq+OBmeOCi+OBqOe4puODu+aoquOBruijnOato+mHj+OBjOS4oeaWueeEoeWKueOBq+OBquOCiuOBvuOBmSIpCiAgICAgICAgY29sczIgPSBRSEJveExheW91dCgpCiAgICAgICAgY29sczIuc2V0U3BhY2luZygxNikKICAgICAgICBmb3IgbWFrZSBpbiBbCiAgICAgICAgICAgIGxhbWJkYSBsYXkyOiBzZWxmLl9zbGlkZXIobGF5MiwgIuODquOCs+OCpOODq+ijnOato++8iOe4pu+8iSIsIDAsIDQwMCwgaW50KHNlbGYuc2V0dGluZ3MucmVjb2lsX3kpLCAiIHB4L+enkiIsIGxhbWJkYSB2OiBzZXRhdHRyKHNlbGYuc2V0dGluZ3MsICJyZWNvaWxfeSIsIGZsb2F0KHYpKSwgIiIpLAogICAgICAgICAgICBsYW1iZGEgbGF5Mjogc2VsZi5fc2xpZGVyKGxheTIsICLjg6rjgrPjgqTjg6voo5zmraPvvIjmqKrvvIkiLCAtMjAwLCAyMDAsIGludChzZWxmLnNldHRpbmdzLnJlY29pbF94KSwgIiBweC/np5IiLCBsYW1iZGEgdjogc2V0YXR0cihzZWxmLnNldHRpbmdzLCAicmVjb2lsX3giLCBmbG9hdCh2KSksICIiKSwKICAgICAgICAgICAgbGFtYmRhIGxheTI6IHNlbGYuX3NsaWRlcihsYXkyLCAi44OH44OD44OJ44K+44O844OzIiwgMCwgODAsIGludChzZWxmLnNldHRpbmdzLmRlYWR6b25lICogMTApLCAiIiwgbGFtYmRhIHY6IHNldGF0dHIoc2VsZi5zZXR0aW5ncywgImRlYWR6b25lIiwgdiAvIDEwLjApLCAiIiwgbGFtYmRhIHY6IGYie3YgLyAxMDouMWZ9cHgiKSwKICAgICAgICBdOgogICAgICAgICAgICBjb2x3ID0gUVdpZGdldCgpCiAgICAgICAgICAgIGNvbGwgPSBRVkJveExheW91dChjb2x3KQogICAgICAgICAgICBjb2xsLnNldENvbnRlbnRzTWFyZ2lucygwLCAwLCAwLCAwKQogICAgICAgICAgICBtYWtlKGNvbGwpCiAgICAgICAgICAgIGNvbHMyLmFkZFdpZGdldChjb2x3KQogICAgICAgIGwyLmFkZExheW91dChjb2xzMikKICAgICAgICBsYXkuYWRkV2lkZ2V0KGMyKQogICAgICAgIGMzLCBsMyA9IHNlbGYuX2NhcmQoIuW/nOetlOOBruiqv+aVtCIpCiAgICAgICAgY29sczMgPSBRSEJveExheW91dCgpCiAgICAgICAgY29sczMuc2V0U3BhY2luZygxNikKICAgICAgICBmb3IgbWFrZSBpbiBbCiAgICAgICAgICAgIGxhbWJkYSBsYXkyOiBzZWxmLl9zbGlkZXIobGF5MiwgIuacgOWkp+enu+WLlemAn+W6piIsIDAsIDIwMCwgc2VsZi5zZXR0aW5ncy5tYXhfbW92ZV9weCwgIiIsIGxhbWJkYSB2OiBzZXRhdHRyKHNlbGYuc2V0dGluZ3MsICJtYXhfbW92ZV9weCIsIHYpLCAiMeWbnuOBruenu+WLlemHj+OBruS4iumZkO+8iDDjgafnhKHliLbpmZDvvIkiLCBsYW1iZGEgdjogIueEoeWItumZkCIgaWYgdiA9PSAwIGVsc2UgZiJ7dn1weCIpLAogICAgICAgICAgICBsYW1iZGEgbGF5Mjogc2VsZi5fc2xpZGVyKGxheTIsICLjgqjjgqTjg6Dplovlp4vjg4fjgqPjg6zjgqQiLCAwLCAzMDAsIHNlbGYuc2V0dGluZ3MuYWltX2RlbGF5X21zLCAiIG1zIiwgbGFtYmRhIHY6IHNldGF0dHIoc2VsZi5zZXR0aW5ncywgImFpbV9kZWxheV9tcyIsIHYpLCAi54uZ44GE5aeL44KB44Gm44GL44KJ44Ki44K344K544OI44GM5Yq544GP44G+44Gn44Gu6YGF5bu2IiksCiAgICAgICAgICAgIGxhbWJkYSBsYXkyOiBzZWxmLl9zbGlkZXIobGF5MiwgIuOCuOODg+OCv+ODvCIsIDAsIDUwLCBpbnQoc2VsZi5zZXR0aW5ncy5qaXR0ZXJfcHggKiAxMCksICIiLCBsYW1iZGEgdjogc2V0YXR0cihzZWxmLnNldHRpbmdzLCAiaml0dGVyX3B4IiwgdiAvIDEwLjApLCAi54uZ54K544Gr6Laz44GZ5b6u5bCP44Gq44Op44Oz44OA44Og5o+644KMIiwgbGFtYmRhIHY6IGYie3YgLyAxMDouMWZ9cHgiKSwKICAgICAgICBdOgogICAgICAgICAgICBjb2x3ID0gUVdpZGdldCgpCiAgICAgICAgICAgIGNvbGwgPSBRVkJveExheW91dChjb2x3KQogICAgICAgICAgICBjb2xsLnNldENvbnRlbnRzTWFyZ2lucygwLCAwLCAwLCAwKQogICAgICAgICAgICBtYWtlKGNvbGwpCiAgICAgICAgICAgIGNvbHMzLmFkZFdpZGdldChjb2x3KQogICAgICAgIGwzLmFkZExheW91dChjb2xzMykKICAgICAgICBsYXkuYWRkV2lkZ2V0KGMzKQogICAgICAgIGxheS5hZGRTdHJldGNoKCkKICAgICAgICByZXR1cm4gcGFnZQoKICAgIGRlZiBfcGFnZV9kaXNwbGF5KHNlbGYpOgogICAgICAgIHBhZ2UgPSBRV2lkZ2V0KCkKICAgICAgICBsYXkgPSBRVkJveExheW91dChwYWdlKQogICAgICAgIGxheS5zZXRDb250ZW50c01hcmdpbnMoMCwgMCwgMCwgMCkKICAgICAgICBsYXkuc2V0U3BhY2luZygxMikKICAgICAgICBjLCBsID0gc2VsZi5fY2FyZCgi6KGo56S677yI44Kq44O844OQ44O844Os44Kk77yJIiwgIiIpCiAgICAgICAgc2VsZi5fdG9nZ2xlKGwsICJGT1blhobjgpLooajnpLoiLCBzZWxmLnNldHRpbmdzLnNob3dfZm92LAogICAgICAgICAgICAgICAgICAgICBsYW1iZGEgdjogc2V0YXR0cihzZWxmLnNldHRpbmdzLCAic2hvd19mb3YiLCB2KSkKICAgICAgICBzZWxmLl90b2dnbGUobCwgIuaknOWHuuODnOODg+OCr+OCueOCkuihqOekuiIsIHNlbGYuc2V0dGluZ3Muc2hvd19ib3hlcywKICAgICAgICAgICAgICAgICAgICAgbGFtYmRhIHY6IHNldGF0dHIoc2VsZi5zZXR0aW5ncywgInNob3dfYm94ZXMiLCB2KSkKICAgICAgICBzZWxmLl90b2dnbGUobCwgIuOCv+ODvOOCsuODg+ODiOe3muOCkuihqOekuiIsIHNlbGYuc2V0dGluZ3Muc2hvd190YXJnZXRfbGluZSwKICAgICAgICAgICAgICAgICAgICAgbGFtYmRhIHY6IHNldGF0dHIoc2VsZi5zZXR0aW5ncywgInNob3dfdGFyZ2V0X2xpbmUiLCB2KSkKICAgICAgICBzZWxmLl9zbGlkZXIobCwgIuOCquODvOODkOODvOODrOOCpOabtOaWsCIsIDEwLCA2MCwgc2VsZi5zZXR0aW5ncy5vdmVybGF5X2ZwcywgIiBmcHMiLAogICAgICAgICAgICAgICAgICAgICBsYW1iZGEgdjogc2V0YXR0cihzZWxmLnNldHRpbmdzLCAib3ZlcmxheV9mcHMiLCB2KSwgIiIpCiAgICAgICAgc2VsZi5fdG9nZ2xlKGwsICLoqK3lrprnlLvpnaLjgpLluLjjgavmnIDliY3pnaLjgavooajnpLoiLCBzZWxmLnNldHRpbmdzLmFsd2F5c19vbl90b3AsCiAgICAgICAgICAgICAgICAgICAgIHNlbGYuX29uX2Fsd2F5c19vbl90b3AsICLjgrLjg7zjg6Djga7kuIrjgavoqK3lrprnlLvpnaLjgpLlh7rjgZfntprjgZHjgb7jgZkiKQogICAgICAgIGxheS5hZGRXaWRnZXQoYykKICAgICAgICBjMjUsIGwyNSA9IHNlbGYuX2NhcmQoIumFjeS/oeOBq+aYoOOCieOBquOBhCIsICLoh6rliIbjgavjga/opovjgYjjgb7jgZnjgYzjgIFPQlMgLyBEaXNjb3JkIC8gWGJveCBHYW1lIEJhciDjgarjganjga7nlLvpnaLjgq3jg6Pjg5fjg4Hjg6Pjgavjga/mmKDjgorjgb7jgZvjgpPjgIJXaW5kb3dzIDEwIDIwMDTku6XpmY3jgYzlv4XopoHjgafjgZnjgILjgrnjgq/jg6rjg7zjg7Pjgrfjg6fjg4Pjg4jjgavjgoLmmKDjgonjgarjgY/jgarjgorjgb7jgZkiKQogICAgICAgIHNlbGYuX3RvZ2dsZShsMjUsICLjgqrjg7zjg5Djg7zjg6zjgqTjgpLphY3kv6HjgavmmKDjgZXjgarjgYQiLCBzZWxmLnNldHRpbmdzLmhpZGVfb3ZlcmxheV9mcm9tX2NhcHR1cmUsCiAgICAgICAgICAgICAgICAgICAgIHNlbGYuX29uX2hpZGVfb3ZlcmxheV9jYXB0dXJlLCAiRk9W5YaG44O75qSc5Ye644Oc44OD44Kv44K544O744K/44O844Ky44OD44OI57ea44GM6YWN5L+h55S76Z2i44Gr5Ye644G+44Gb44KTIikKICAgICAgICBzZWxmLl90b2dnbGUobDI1LCAi6Kit5a6a55S76Z2i77yIR1VJ77yJ44KS6YWN5L+h44Gr5pig44GV44Gq44GEIiwgc2VsZi5zZXR0aW5ncy5oaWRlX2d1aV9mcm9tX2NhcHR1cmUsCiAgICAgICAgICAgICAgICAgICAgIHNlbGYuX29uX2hpZGVfZ3VpX2NhcHR1cmUsICJOWU9TVeOBruOCpuOCo+ODs+ODieOCpuiHquS9k+OBjOmFjeS/oeeUu+mdouOBq+WHuuOBvuOBm+OCkyIpCiAgICAgICAgbGF5LmFkZFdpZGdldChjMjUpCiAgICAgICAgYzIsIGwyID0gc2VsZi5fY2FyZCgi44OX44Os44OT44Ol44O8IiwgIiIpCiAgICAgICAgbDIuYWRkV2lkZ2V0KE92ZXJsYXlQcmV2aWV3KHNlbGYuc2V0dGluZ3MpKQogICAgICAgIGxheS5hZGRXaWRnZXQoYzIpCiAgICAgICAgYzQsIGw0ID0gc2VsZi5fY2FyZCgi44K344On44O844OI44Kr44OD44OIIiwgIiIpCiAgICAgICAgZm9yIGtleXMsIGFjdCBpbiBbCiAgICAgICAgICAgIChzZWxmLnNldHRpbmdzLmhvdGtleS51cHBlcigpLCAi44Ko44Oz44K444Oz6ZaL5aeLIC8g5YGc5q2iIiksCiAgICAgICAgICAgIChzZWxmLnNldHRpbmdzLnBhbmljX2tleS51cHBlcigpLCAi57eK5oCl5YGc5q2iIiksCiAgICAgICAgICAgICgiQ3RybCArIDHjgJw2IiwgIuODmuODvOOCuOWIh+abvyIpLAogICAgICAgICAgICAoIkN0cmwgKyBUYWIgLyBDdHJsICsgU2hpZnQgKyBUYWIiLCAi5qyhIC8g5YmN44Gu44Oa44O844K4IiksCiAgICAgICAgICAgICgiQ3RybCArIEFsdCArIDHjgJw0IiwgIuODl+ODquOCu+ODg+ODiOWIh+abv++8iOertuaKgCAvIOODkOODqeODs+OCuSAvIOi7vemHjyAvIOmBoOi3nembou+8iSIpLAogICAgICAgIF06CiAgICAgICAgICAgIHJvdyA9IFFIQm94TGF5b3V0KCkKICAgICAgICAgICAga2wgPSBRTGFiZWwoa2V5cykKICAgICAgICAgICAga2wuc2V0T2JqZWN0TmFtZSgiQ3RsTGFiZWwiKQogICAgICAgICAgICBrbC5zZXRGaXhlZFdpZHRoKDI1MCkKICAgICAgICAgICAgYWwgPSBRTGFiZWwoYWN0KQogICAgICAgICAgICBhbC5zZXRPYmplY3ROYW1lKCJNdXRlZCIpCiAgICAgICAgICAgIHJvdy5hZGRXaWRnZXQoa2wpCiAgICAgICAgICAgIHJvdy5hZGRXaWRnZXQoYWwsIDEpCiAgICAgICAgICAgIGw0LmFkZExheW91dChyb3cpCiAgICAgICAgbGF5LmFkZFdpZGdldChjNCkKICAgICAgICBsYXkuYWRkU3RyZXRjaCgpCiAgICAgICAgcmV0dXJuIHBhZ2UKCiAgICBkZWYgX3Byb2ZpbGVfcGFuZWwoc2VsZiwgdGl0bGUsIHByZWZpeCwgZW5hYmxlX2xhYmVsLCBlbmFibGVfZGVzYyk6CiAgICAgICAgZiA9IFFGcmFtZSgpCiAgICAgICAgZi5zZXRPYmplY3ROYW1lKCJDYXJkIikKICAgICAgICBsID0gUVZCb3hMYXlvdXQoZikKICAgICAgICBsLnNldENvbnRlbnRzTWFyZ2lucygxOCwgMTYsIDE4LCAxNikKICAgICAgICBsLnNldFNwYWNpbmcoMTApCiAgICAgICAgaGRyID0gUUhCb3hMYXlvdXQoKQogICAgICAgIGJhciA9IFFGcmFtZSgpCiAgICAgICAgYmFyLnNldEZpeGVkU2l6ZSgzLCAxNCkKICAgICAgICBiYXIuc2V0U3R5bGVTaGVldCgiYmFja2dyb3VuZDojRDg0MDQwO2JvcmRlcjpub25lO2JvcmRlci1yYWRpdXM6MnB4OyIpCiAgICAgICAgaGRyLmFkZFdpZGdldChiYXIpCiAgICAgICAgdCA9IFFMYWJlbCh0aXRsZSkKICAgICAgICB0LnNldE9iamVjdE5hbWUoIkNhcmRUaXRsZSIpCiAgICAgICAgaGRyLmFkZFdpZGdldCh0KQogICAgICAgIGhkci5hZGRTdHJldGNoKCkKICAgICAgICBsLmFkZExheW91dChoZHIpCiAgICAgICAgc2VsZi5fdG9nZ2xlKGwsIGVuYWJsZV9sYWJlbCwgZ2V0YXR0cihzZWxmLnNldHRpbmdzLCBmIntwcmVmaXh9X2VuYWJsZWQiKSwKICAgICAgICAgICAgICAgICAgICAgbGFtYmRhIHYsIHA9cHJlZml4OiBzZXRhdHRyKHNlbGYuc2V0dGluZ3MsIGYie3B9X2VuYWJsZWQiLCB2KSwgZW5hYmxlX2Rlc2MpCiAgICAgICAgc2VsZi5fc2xpZGVyKGwsICLlkLjjgYTku5jjgY3lvLfluqYiLCAxMCwgMTUwLCBpbnQoZ2V0YXR0cihzZWxmLnNldHRpbmdzLCBmIntwcmVmaXh9X3N0cmVuZ3RoIikgKiAxMDApLCAiIiwKICAgICAgICAgICAgICAgICAgICAgbGFtYmRhIHYsIHA9cHJlZml4OiBzZXRhdHRyKHNlbGYuc2V0dGluZ3MsIGYie3B9X3N0cmVuZ3RoIiwgdiAvIDEwMC4wKSwKICAgICAgICAgICAgICAgICAgICAgIuaknOWHuuOBuOWQuOOBhOS7mOOBj+mAn+OBlSIsIGxhbWJkYSB2OiBmInt2IC8gMTAwOi4yZn0iKQogICAgICAgIHNlbGYuX3NsaWRlcihsLCAi44K544Og44O844K444Oz44KwIiwgMSwgMjAsIGdldGF0dHIoc2VsZi5zZXR0aW5ncywgZiJ7cHJlZml4fV9zbW9vdGhpbmciKSwgIiIsCiAgICAgICAgICAgICAgICAgICAgIGxhbWJkYSB2LCBwPXByZWZpeDogc2V0YXR0cihzZWxmLnNldHRpbmdzLCBmIntwfV9zbW9vdGhpbmciLCB2KSwKICAgICAgICAgICAgICAgICAgICAgIuWkp+OBjeOBhOOBu+OBqea7keOCieOBi+OAgeWwj+OBleOBhOOBu+OBqeOCreODk+OCreODk+WLleOBjeOBvuOBmSIsIGxhbWJkYSB2OiBmInt2fSIpCiAgICAgICAgc2VsZi5fc2xpZGVyKGwsICJGT1bljYrlvoQiLCA0MCwgNjAwLCBnZXRhdHRyKHNlbGYuc2V0dGluZ3MsIGYie3ByZWZpeH1fZm92IiksICIiLAogICAgICAgICAgICAgICAgICAgICBsYW1iZGEgdiwgcD1wcmVmaXg6IHNldGF0dHIoc2VsZi5zZXR0aW5ncywgZiJ7cH1fZm92IiwgdiksCiAgICAgICAgICAgICAgICAgICAgICLnlLvpnaLkuK3lpK7jga7jgZPjga7lhobjga7kuK3jgavjgYTjgovmlbXjgaDjgZHjgpLni5njgYTjgb7jgZkiLCBsYW1iZGEgdjogZiJ7dn1weCIpCiAgICAgICAgc2VsZi5fY29tYm9fbWFwKGwsICLni5nngrkiLCBbKCLpoK0iLCAiaGVhZCIpLCAoIuiDtOS9kyIsICJib2R5IiksICgi44Op44Oz44OA44Og77yI6aCtIC8g6IO05L2T77yJIiwgInJhbmRvbSIpXSwKICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5zZXR0aW5ncy5haW1fcG9pbnRfbW9kZSwgbGFtYmRhIHY6IHNldGF0dHIoc2VsZi5zZXR0aW5ncywgImFpbV9wb2ludF9tb2RlIiwgdikpCiAgICAgICAgc2VsZi5fc2xpZGVyKGwsICLmnIDkvY7kv6HpoLzluqYiLCAxMCwgOTUsIGludChnZXRhdHRyKHNlbGYuc2V0dGluZ3MsIGYie3ByZWZpeH1fY29uZiIpICogMTAwKSwgIiIsCiAgICAgICAgICAgICAgICAgICAgIGxhbWJkYSB2LCBwPXByZWZpeDogc2V0YXR0cihzZWxmLnNldHRpbmdzLCBmIntwfV9jb25mIiwgdiAvIDEwMC4wKSwKICAgICAgICAgICAgICAgICAgICAgIuOBk+OCjOacqua6gOOBrueiuuOBi+OCieOBl+OBleOBruaknOWHuuOBr+eEoeimluOBl+OBvuOBmSIsIGxhbWJkYSB2OiBmInt2IC8gMTAwOi4yZn0iKQogICAgICAgIHNlbGYuX3NsaWRlcihsLCAiWOi7uOOCueOCseODvOODqyIsIDMwLCAxNTAsIGludChzZWxmLnNldHRpbmdzLnhfc2NhbGUgKiAxMDApLCAiIiwKICAgICAgICAgICAgICAgICAgICAgbGFtYmRhIHY6IHNldGF0dHIoc2VsZi5zZXR0aW5ncywgInhfc2NhbGUiLCB2IC8gMTAwLjApLAogICAgICAgICAgICAgICAgICAgICAi5qiq5pa55ZCR44Gu5Yq544GN5YW35ZCIIiwgbGFtYmRhIHY6IGYie3YgLyAxMDA6LjJmfSIpCiAgICAgICAgc2VsZi5fc2xpZGVyKGwsICJZ6Lu444K544Kx44O844OrIiwgMzAsIDE1MCwgaW50KHNlbGYuc2V0dGluZ3MueV9zY2FsZSAqIDEwMCksICIiLAogICAgICAgICAgICAgICAgICAgICBsYW1iZGEgdjogc2V0YXR0cihzZWxmLnNldHRpbmdzLCAieV9zY2FsZSIsIHYgLyAxMDAuMCksCiAgICAgICAgICAgICAgICAgICAgICLnuKbmlrnlkJHjga7lirnjgY3lhbflkIgiLCBsYW1iZGEgdjogZiJ7diAvIDEwMDouMmZ9IikKICAgICAgICBzZWxmLl9zbGlkZXIobCwgIuOCqOOCpOODoOOCq+ODvOODliIsIDUwLCAyMDAsIGludChzZWxmLnNldHRpbmdzLmFpbV9jdXJ2ZSAqIDEwMCksICIiLAogICAgICAgICAgICAgICAgICAgICBsYW1iZGEgdjogc2V0YXR0cihzZWxmLnNldHRpbmdzLCAiYWltX2N1cnZlIiwgdiAvIDEwMC4wKSwKICAgICAgICAgICAgICAgICAgICAgIjEuMDDjgafnm7Tnt5ogLyDlsI/jgZXjgYTjgajov5Hot53pm6LjgaflvLfjgY/jgIHlpKfjgY3jgYTjgajpgaDot53pm6LjgaflvLfjgY/lirnjgY3jgb7jgZkiLCBsYW1iZGEgdjogZiJ7diAvIDEwMDouMmZ9IikKICAgICAgICByZXR1cm4gZgoKICAgIGRlZiBfcGFnZV9pbnB1dChzZWxmKToKICAgICAgICBwYWdlID0gUVdpZGdldCgpCiAgICAgICAgbGF5ID0gUVZCb3hMYXlvdXQocGFnZSkKICAgICAgICBsYXkuc2V0Q29udGVudHNNYXJnaW5zKDAsIDAsIDAsIDApCiAgICAgICAgbGF5LnNldFNwYWNpbmcoMTApCiAgICAgICAgYzAsIGwwID0gc2VsZi5fY2FyZCgi5ZC444GE5LuY44GN6ZaL5aeL44Oc44K/44OzIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJPTuOBruODnOOCv+ODs+OCkuaKvOOBl+OBpuOBhOOCi+mWk+OAgeWQuOOBhOS7mOOBjeOBjOacieWKue+8iE9S5Yik5a6a77yJIikKICAgICAgICBzZWxmLl9haW1fcHJldmlldyA9IFFMYWJlbCgiIikKICAgICAgICBzZWxmLl9haW1fcHJldmlldy5zZXRPYmplY3ROYW1lKCJNdXRlZCIpCiAgICAgICAgbDAuYWRkV2lkZ2V0KHNlbGYuX2FpbV9wcmV2aWV3KQogICAgICAgIGZvciBsYWJlbCwga2V5IGluIFsKICAgICAgICAgICAgKCJBRFMgLyDlj7Pjgq/jg6rjg4Pjgq8gLyBMVCIsICJybWIiKSwKICAgICAgICAgICAgKCLnmbrngasgLyDlt6bjgq/jg6rjg4Pjgq8gLyBSVCIsICJsbWIiKSwKICAgICAgICAgICAgKCLjg5Hjg4Pjg4kgTDIiLCAibHQiKSwKICAgICAgICAgICAgKCLjg5Hjg4Pjg4kgUjIiLCAicnQiKSwKICAgICAgICAgICAgKCLjg5Hjg4Pjg4kgTDEiLCAibGIiKSwKICAgICAgICAgICAgKCLjg5Hjg4Pjg4kgUjEiLCAicmIiKSwKICAgICAgICBdOgogICAgICAgICAgICBzZWxmLl90b2dnbGUobDAsIGxhYmVsLCBrZXkgaW4gc2VsZi5fYWltX2tleV9zZXQoKSwKICAgICAgICAgICAgICAgICAgICAgICAgIGxhbWJkYSBvbiwgaz1rZXk6IHNlbGYuX3RvZ2dsZV9haW1fa2V5KGssIG9uKSkKICAgICAgICBzZWxmLl9jb21ib19tYXAobDAsICJBSemWi+Wni+OBruadoeS7tiIsIFsoIuOBqeOBoeOCieOBi+aKvOOBm+OBsOmWi+Wni++8iOeLmeOBhiBvciDmkoPjgaTvvIkiLCAiZWl0aGVyIiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKCLkuKHmlrnlkIzmmYLmirzjgZfjgafplovlp4vvvIjni5njgYYgKyDmkoPjgaTvvIkiLCAiYm90aCIpXSwKICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5zZXR0aW5ncy5hY3RpdmF0aW9uX21vZGUsIGxhbWJkYSB2OiBzZXRhdHRyKHNlbGYuc2V0dGluZ3MsICJhY3RpdmF0aW9uX21vZGUiLCB2KSkKICAgICAgICBzZWxmLl9yZWZyZXNoX2FpbV9wcmV2aWV3KCkKICAgICAgICBsYXkuYWRkV2lkZ2V0KGMwKQogICAgICAgIGMxLCBsMSA9IHNlbGYuX2NhcmQoIuWFpeWKmyAvIOWHuuWKmyIpCiAgICAgICAgc2VsZi5fY29tYm9fbWFwKGwxLCAi5YWl5Yqb44Oi44O844OJIiwgWygi44Oe44Km44K5IiwgIm1vdXNlIiksICgi44OR44OD44OJIiwgInBhZCIpLCAoIuOCs+ODs+ODkOODvOOCv+ODvO+8iOOCreODvOODnuOCpuWFpeWKmyDihpIg44OR44OD44OJ5Ye65Yqb77yJIiwgImNvbnZlcnRlciIpXSwKICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5zZXR0aW5ncy5pbnB1dF9tb2RlLCBzZWxmLl9vbl9pbnB1dF9tb2RlKQogICAgICAgIHNlbGYuX2NvbWJvX21hcChsMSwgIuWHuuWKm+ODkeODg+ODie+8iOODkeODg+ODiSAvIOOCs+ODs+ODkOODvOOCv+ODvOaZgu+8iSIsIFsoIlhib3ggMzYwIiwgIngzNjAiKSwgKCJEdWFsU2hvY2sgNCIsICJkczQiKV0sCiAgICAgICAgICAgICAgICAgICAgICAgIHNlbGYuc2V0dGluZ3MucGFkX291dHB1dCwgbGFtYmRhIHY6IHNldGF0dHIoc2VsZi5zZXR0aW5ncywgInBhZF9vdXRwdXQiLCB2KSkKICAgICAgICBzZWxmLl9zbGlkZXIobDEsICLjg57jgqbjgrnmhJ/luqbkv4LmlbAiLCA1LCAzMDAsIGludChzZWxmLnNldHRpbmdzLm1vdXNlX3NlbnMgKiAxMDApLCAiJSIsCiAgICAgICAgICAgICAgICAgICAgIGxhbWJkYSB2OiBzZXRhdHRyKHNlbGYuc2V0dGluZ3MsICJtb3VzZV9zZW5zIiwgdiAvIDEwMC4wKSkKICAgICAgICBzZWxmLl90b2dnbGUobDEsICLmhJ/luqbjgqrjg7zjg4joqr/mlbTvvIhEUEkv44Ky44O844Og5YaF5oSf5bqmL0FEU+WAjeeOh+OBrumBleOBhOOCkuiHquWLleijnOato++8iSIsIHNlbGYuc2V0dGluZ3MuYXV0b19nYWluLAogICAgICAgICAgICAgICAgICAgICBsYW1iZGEgdjogc2V0YXR0cihzZWxmLnNldHRpbmdzLCAiYXV0b19nYWluIiwgdikpCiAgICAgICAgc2VsZi5fc2xpZGVyKGwxLCAi44OR44OD44OJ5oSf5bqmIiwgMTAsIDMwMCwgaW50KHNlbGYuc2V0dGluZ3MucGFkX3NlbnMgKiAxMDApLCAiJSIsCiAgICAgICAgICAgICAgICAgICAgIGxhbWJkYSB2OiBzZXRhdHRyKHNlbGYuc2V0dGluZ3MsICJwYWRfc2VucyIsIHYgLyAxMDAuMCkpCiAgICAgICAgbGJsID0gUUxhYmVsKGYidmdhbWVwYWQ6IHsn5Yip55So5Y+v6IO9JyBpZiB2ZyBlbHNlICfmnKrjgqTjg7Pjgrnjg4jjg7zjg6snfSIpCiAgICAgICAgbGJsLnNldE9iamVjdE5hbWUoIk11dGVkIikKICAgICAgICBsMS5hZGRXaWRnZXQobGJsKQogICAgICAgIHNlbGYuX3BhZF9zdGF0dXMgPSBRTGFiZWwoIuODkeODg+ODiTog5pyq5o6l57aaIikKICAgICAgICBzZWxmLl9wYWRfc3RhdHVzLnNldE9iamVjdE5hbWUoIk11dGVkIikKICAgICAgICBzZWxmLl9wYWRfc3RhdHVzLnNldFdvcmRXcmFwKFRydWUpCiAgICAgICAgbDEuYWRkV2lkZ2V0KHNlbGYuX3BhZF9zdGF0dXMpCiAgICAgICAgbm90ZSA9IFFMYWJlbCgi44OR44OD44OJ44Oi44O844OJ44Gn44Gv54mp55CG44OR44OD44OJ44Gu5YWo5YWl5Yqb77yI5Lih44K544OG44Kj44OD44Kv44O744OI44Oq44Ks44O844O75YWo44Oc44K/44Oz44O75Y2B5a2X44Kt44O877yJ44KS5Luu5oOz44OR44OD44OJ44G444Gd44Gu44G+44G+6Lui6YCB44GX44CB5Y+z44K544OG44Kj44OD44Kv44Gr44Gg44GR54Wn5rqW6KOc5q2j44KS5ZCI5oiQ44GX44G+44GZIikKICAgICAgICBub3RlLnNldE9iamVjdE5hbWUoIkN0bERlc2MiKQogICAgICAgIG5vdGUuc2V0V29yZFdyYXAoVHJ1ZSkKICAgICAgICBsMS5hZGRXaWRnZXQobm90ZSkKICAgICAgICBsYXkuYWRkV2lkZ2V0KGMxKQogICAgICAgIGMyLCBsMiA9IHNlbGYuX2NhcmQoIuODm+ODg+ODiOOCreODvCIsICIiKQogICAgICAgIHNlbGYuX2VudHJ5KGwyLCAi6ZaL5aeLIC8g5YGc5q2i44Kt44O8Iiwgc2VsZi5zZXR0aW5ncy5ob3RrZXksCiAgICAgICAgICAgICAgICAgICAgbGFtYmRhIHY6IChzZXRhdHRyKHNlbGYuc2V0dGluZ3MsICJob3RrZXkiLCB2LnN0cmlwKCkubG93ZXIoKSBvciAiZjIiKSwgc2VsZi5faW5zdGFsbF9ob3RrZXlzKCkpKQogICAgICAgIHNlbGYuX2VudHJ5KGwyLCAi57eK5oCl5YGc5q2i44Kt44O8Iiwgc2VsZi5zZXR0aW5ncy5wYW5pY19rZXksCiAgICAgICAgICAgICAgICAgICAgbGFtYmRhIHY6IChzZXRhdHRyKHNlbGYuc2V0dGluZ3MsICJwYW5pY19rZXkiLCB2LnN0cmlwKCkubG93ZXIoKSBvciAiZjgiKSwgc2VsZi5faW5zdGFsbF9ob3RrZXlzKCkpKQogICAgICAgIGxheS5hZGRXaWRnZXQoYzIpCiAgICAgICAgbGF5LmFkZFN0cmV0Y2goKQogICAgICAgIHJldHVybiBwYWdlCgogICAgZGVmIF9wYWdlX3N5c3RlbShzZWxmKToKICAgICAgICBwYWdlID0gUVdpZGdldCgpCiAgICAgICAgbGF5ID0gUVZCb3hMYXlvdXQocGFnZSkKICAgICAgICBsYXkuc2V0Q29udGVudHNNYXJnaW5zKDAsIDAsIDAsIDApCiAgICAgICAgbGF5LnNldFNwYWNpbmcoMTApCiAgICAgICAgY20sIGxtID0gc2VsZi5fY2FyZCgi44Oq44Ki44Or44K/44Kk44OgIikKICAgICAgICBncmlkID0gUUdyaWRMYXlvdXQoKQogICAgICAgIGdyaWQuc2V0SG9yaXpvbnRhbFNwYWNpbmcoMjQpCiAgICAgICAgc2VsZi5fbWV0cmljX3ZhbHMgPSB7fQogICAgICAgIGZvciBpLCAobGJsLCBrZXkpIGluIGVudW1lcmF0ZShbKCLnhafmupZGUFMiLCAiZnBzIiksICgi5o6o6KuWIG1zIiwgImluZmVyX21zIiksICgi5o6o6KuWRlBTIiwgImluZmVyX2ZwcyIpLCAoIuaknOWHuuaVsCIsICJkZXRzIildKToKICAgICAgICAgICAgYm94ID0gUVZCb3hMYXlvdXQoKQogICAgICAgICAgICBib3guc2V0U3BhY2luZygxKQogICAgICAgICAgICB2ID0gUUxhYmVsKCLigJQiKQogICAgICAgICAgICB2LnNldE9iamVjdE5hbWUoIk1ldHJpY1ZhbCIpCiAgICAgICAgICAgIHQgPSBRTGFiZWwobGJsKQogICAgICAgICAgICB0LnNldE9iamVjdE5hbWUoIk1ldHJpY0xibCIpCiAgICAgICAgICAgIGJveC5hZGRXaWRnZXQodikKICAgICAgICAgICAgYm94LmFkZFdpZGdldCh0KQogICAgICAgICAgICBzZWxmLl9tZXRyaWNfdmFsc1trZXldID0gdgogICAgICAgICAgICBncmlkLmFkZExheW91dChib3gsIDAsIGkpCiAgICAgICAgc2VsZi5fc2Vzc2lvbl92YWxzID0ge30KICAgICAgICBmb3IgaiwgKGxibCwga2V5KSBpbiBlbnVtZXJhdGUoWygi56i85YON5pmC6ZaTIiwgInRpbWUiKSwgKCLjg63jg4Pjgq/njociLCAibG9jayIpXSk6CiAgICAgICAgICAgIGJveCA9IFFWQm94TGF5b3V0KCkKICAgICAgICAgICAgYm94LnNldFNwYWNpbmcoMSkKICAgICAgICAgICAgdiA9IFFMYWJlbCgi4oCUIikKICAgICAgICAgICAgdi5zZXRPYmplY3ROYW1lKCJNZXRyaWNWYWwiKQogICAgICAgICAgICB0dCA9IFFMYWJlbChsYmwpCiAgICAgICAgICAgIHR0LnNldE9iamVjdE5hbWUoIk1ldHJpY0xibCIpCiAgICAgICAgICAgIGJveC5hZGRXaWRnZXQodikKICAgICAgICAgICAgYm94LmFkZFdpZGdldCh0dCkKICAgICAgICAgICAgc2VsZi5fc2Vzc2lvbl92YWxzW2tleV0gPSB2CiAgICAgICAgICAgIGdyaWQuYWRkTGF5b3V0KGJveCwgMSwgaikKICAgICAgICBsbS5hZGRMYXlvdXQoZ3JpZCkKICAgICAgICBzZWxmLl9wZXJmID0gUGVyZkdyYXBoKCkKICAgICAgICBsbS5hZGRXaWRnZXQoc2VsZi5fcGVyZikKICAgICAgICBsYXkuYWRkV2lkZ2V0KGNtKQogICAgICAgIGMxLCBsMSA9IHNlbGYuX2NhcmQoIuODouODh+ODq++8iEFwZXjnlKhZT0xPdjggNjQw5o6o5aWo77yJIikKICAgICAgICByb3cgPSBRSEJveExheW91dCgpCiAgICAgICAgbGJsID0gUUxhYmVsKCJPTk5Y44OR44K5IikKICAgICAgICBsYmwuc2V0T2JqZWN0TmFtZSgiTXV0ZWQiKQogICAgICAgIHNlbGYuZWRfbW9kZWwgPSBRTGluZUVkaXQoc2VsZi5zZXR0aW5ncy5tb2RlbF9wYXRoKQogICAgICAgIHNlbGYuZWRfbW9kZWwuZWRpdGluZ0ZpbmlzaGVkLmNvbm5lY3QoCiAgICAgICAgICAgIGxhbWJkYTogc2V0YXR0cihzZWxmLnNldHRpbmdzLCAibW9kZWxfcGF0aCIsIHNlbGYuZWRfbW9kZWwudGV4dCgpLnN0cmlwKCkpKQogICAgICAgIGJ0biA9IFFQdXNoQnV0dG9uKCLlj4LnhaciKQogICAgICAgIGJ0bi5zZXRPYmplY3ROYW1lKCJHaG9zdCIpCiAgICAgICAgYnRuLmNsaWNrZWQuY29ubmVjdChzZWxmLl9icm93c2UpCiAgICAgICAgcm93LmFkZFdpZGdldChsYmwpCiAgICAgICAgcm93LmFkZFdpZGdldChzZWxmLmVkX21vZGVsLCAxKQogICAgICAgIHJvdy5hZGRXaWRnZXQoYnRuKQogICAgICAgIGwxLmFkZExheW91dChyb3cpCiAgICAgICAgbXJvdyA9IFFIQm94TGF5b3V0KCkKICAgICAgICBtcm93LnNldFNwYWNpbmcoNikKICAgICAgICBtbGJsID0gUUxhYmVsKCLlkIzmorHjg6Ljg4fjg6siKQogICAgICAgIG1sYmwuc2V0T2JqZWN0TmFtZSgiTXV0ZWQiKQogICAgICAgIG1yb3cuYWRkV2lkZ2V0KG1sYmwpCiAgICAgICAgZm9yIHRleHQsIGZuYW1lIGluIFsoIuaZrumAmiIsICJhcGV4X3Y4c18zY2xhc3Mub25ueCIpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKCLlvLfjgYQiLCAiYXBleF92OG1fYWNjdXJhdGUub25ueCIpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKCLlvLHjgYQiLCAiQXBleF9MZWdlbmRzX2J5XzVwcl8yX2MyZzYub25ueCIpXToKICAgICAgICAgICAgbWIgPSBRUHVzaEJ1dHRvbih0ZXh0KQogICAgICAgICAgICBtYi5zZXRPYmplY3ROYW1lKCJHaG9zdCIpCiAgICAgICAgICAgIG1iLmNsaWNrZWQuY29ubmVjdChsYW1iZGEgXywgZj1mbmFtZTogc2VsZi5fc2VsZWN0X2J1bmRsZWRfbW9kZWwoZikpCiAgICAgICAgICAgIG1yb3cuYWRkV2lkZ2V0KG1iKQogICAgICAgIG1yb3cuYWRkU3RyZXRjaCgpCiAgICAgICAgbDEuYWRkTGF5b3V0KG1yb3cpCiAgICAgICAgc2VsZi5fZW50cnkobDEsICLjgq/jg6njgrlJRCIsIHNlbGYuc2V0dGluZ3MuY2xhc3NfaWRzLAogICAgICAgICAgICAgICAgICAgIGxhbWJkYSB2OiBzZXRhdHRyKHNlbGYuc2V0dGluZ3MsICJjbGFzc19pZHMiLCB2KSkKICAgICAgICBfbXAgPSBQYXRoKHNlbGYuc2V0dGluZ3MubW9kZWxfcGF0aCkgaWYgc2VsZi5zZXR0aW5ncy5tb2RlbF9wYXRoIGVsc2UgTm9uZQogICAgICAgIHNlbGYubW9kZWxfaW5mbyA9IFFMYWJlbChmIntfbXAubmFtZX0gwrcge19tcC5zdGF0KCkuc3Rfc2l6ZSAvIDFlNjouMWZ9IE1CIiBpZiBfbXAgYW5kIF9tcC5leGlzdHMoKSBlbHNlICLjg6Ljg4fjg6vmnKroqK3lrpoiKQogICAgICAgIHNlbGYubW9kZWxfaW5mby5zZXRPYmplY3ROYW1lKCJNdXRlZCIpCiAgICAgICAgc2VsZi5tb2RlbF9pbmZvLnNldFdvcmRXcmFwKFRydWUpCiAgICAgICAgbDEuYWRkV2lkZ2V0KHNlbGYubW9kZWxfaW5mbykKICAgICAgICB0YnRuID0gUVB1c2hCdXR0b24oIuODhuOCueODiOaknOWHuu+8iOeUu+mdouOCkjHlm57jgaDjgZHop6PmnpDvvIkiKQogICAgICAgIHRidG4uc2V0T2JqZWN0TmFtZSgiR2hvc3QiKQogICAgICAgIHRidG4uY2xpY2tlZC5jb25uZWN0KHNlbGYuX3Rlc3RfZGV0ZWN0aW9uKQogICAgICAgIGwxLmFkZFdpZGdldCh0YnRuKQogICAgICAgIHNlbGYuX3JlZnJlc2hfbW9kZWxfaW5mbygpCiAgICAgICAgbGF5LmFkZFdpZGdldChjMSkKICAgICAgICBjMywgbDMgPSBzZWxmLl9jYXJkKCLjg5Hjg5Xjgqnjg7zjg57jg7PjgrnvvIjou73ph4/ljJbvvIkiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIuaOqOirluS4iumZkDA95Yi26ZmQ44Gq44GX44CC6Lu944GP44GZ44KL44Gq44KJIOaOqOirluS4iumZkDMwIC8g5b6F5qmf5pmCMTUgLyDjgqrjg7zjg5Djg7zjg6zjgqQzMCDjgYznm67lrokiKQogICAgICAgIHNlbGYuX3NsaWRlcihsMywgIuaOqOirluS4iumZkO+8iOOCqOOCpOODoOS4re+8iSIsIDAsIDEyMCwgc2VsZi5zZXR0aW5ncy5tYXhfaW5mZXJfZnBzLCAiIGZwcyIsCiAgICAgICAgICAgICAgICAgICAgIGxhbWJkYSB2OiBzZXRhdHRyKHNlbGYuc2V0dGluZ3MsICJtYXhfaW5mZXJfZnBzIiwgdikpCiAgICAgICAgc2VsZi5fc2xpZGVyKGwzLCAi5o6o6KuW77yI5b6F5qmf5pmC77yJIiwgNSwgNjAsIHNlbGYuc2V0dGluZ3MuaWRsZV9pbmZlcl9mcHMsICIgZnBzIiwKICAgICAgICAgICAgICAgICAgICAgbGFtYmRhIHY6IHNldGF0dHIoc2VsZi5zZXR0aW5ncywgImlkbGVfaW5mZXJfZnBzIiwgdikpCiAgICAgICAgc2VsZi5fc2xpZGVyKGwzLCAi5qSc5Ye66JC944Gh5L+d5oyBIiwgMCwgMzAwLCBzZWxmLnNldHRpbmdzLmhvbGRfbXMsICIgbXMiLAogICAgICAgICAgICAgICAgICAgICBsYW1iZGEgdjogc2V0YXR0cihzZWxmLnNldHRpbmdzLCAiaG9sZF9tcyIsIHYpKQogICAgICAgIHNlbGYuX3NsaWRlcihsMywgIuODouODi+OCv+eVquWPtyIsIDEsIDQsIHNlbGYuc2V0dGluZ3MubW9uaXRvcl9pbmRleCwgIiIsCiAgICAgICAgICAgICAgICAgICAgIGxhbWJkYSB2OiBzZXRhdHRyKHNlbGYuc2V0dGluZ3MsICJtb25pdG9yX2luZGV4IiwgdikpCiAgICAgICAgbGF5LmFkZFdpZGdldChjMykKICAgICAgICBjMiwgbDIgPSBzZWxmLl9jYXJkKCLjg63jgrAiKQogICAgICAgIHNlbGYubG9nX3ZpZXcgPSBRVGV4dEVkaXQoKQogICAgICAgIHNlbGYubG9nX3ZpZXcuc2V0UmVhZE9ubHkoVHJ1ZSkKICAgICAgICBzZWxmLmxvZ192aWV3LnNldE1pbmltdW1IZWlnaHQoMTYwKQogICAgICAgIGwyLmFkZFdpZGdldChzZWxmLmxvZ192aWV3KQogICAgICAgIGNsciA9IFFQdXNoQnV0dG9uKCLjg63jgrDjgpLjgq/jg6rjgqIiKQogICAgICAgIGNsci5zZXRPYmplY3ROYW1lKCJHaG9zdCIpCiAgICAgICAgY2xyLmNsaWNrZWQuY29ubmVjdChsYW1iZGE6IHNlbGYubG9nX3ZpZXcuY2xlYXIoKSkKICAgICAgICBsMi5hZGRXaWRnZXQoY2xyKQogICAgICAgIGxheS5hZGRXaWRnZXQoYzIsIDEpCiAgICAgICAgcmV0dXJuIHBhZ2UKCiAgICBkZWYgX3BhZ2VfY29uZmlncyhzZWxmKToKICAgICAgICBwYWdlID0gUVdpZGdldCgpCiAgICAgICAgbGF5ID0gUVZCb3hMYXlvdXQocGFnZSkKICAgICAgICBsYXkuc2V0Q29udGVudHNNYXJnaW5zKDAsIDAsIDAsIDApCiAgICAgICAgbGF5LnNldFNwYWNpbmcoMTIpCiAgICAgICAgYzEsIGwxID0gc2VsZi5fY2FyZCgi44OX44Oq44K744OD44OIIiwgIuOCueODhuODvOOCv+OCueODkOODvOOBriAx44CcNCDjgYvjgonjgoLliIfjgormm7/jgYjjgafjgY3jgb7jgZkiKQogICAgICAgIHJvdyA9IFFIQm94TGF5b3V0KCkKICAgICAgICByb3cuc2V0U3BhY2luZyg4KQogICAgICAgIGZvciBuYW1lIGluIFsi56u25oqAIiwgIuODkOODqeODs+OCuSIsICLou73ph48iLCAi6YGg6Led6ZuiIl06CiAgICAgICAgICAgIGIgPSBRUHVzaEJ1dHRvbihuYW1lKQogICAgICAgICAgICBiLnNldE9iamVjdE5hbWUoIkdob3N0IikKICAgICAgICAgICAgYi5zZXRDaGVja2FibGUoVHJ1ZSkKICAgICAgICAgICAgYi5zZXRDaGVja2VkKHNlbGYuX3ByZXNldF9uYW1lID09IG5hbWUpCiAgICAgICAgICAgIGIuY2xpY2tlZC5jb25uZWN0KGxhbWJkYSBfLCBuPW5hbWU6IHNlbGYuX2FwcGx5X3ByZXNldChuKSkKICAgICAgICAgICAgcm93LmFkZFdpZGdldChiKQogICAgICAgIHJvdy5hZGRTdHJldGNoKCkKICAgICAgICBsMS5hZGRMYXlvdXQocm93KQogICAgICAgIHNlbGYuX3ByZXNldF9sYWJlbCA9IFFMYWJlbChmIuePvuWcqOOBruODl+ODquOCu+ODg+ODiDoge3NlbGYuX3ByZXNldF9uYW1lfSIpCiAgICAgICAgc2VsZi5fcHJlc2V0X2xhYmVsLnNldE9iamVjdE5hbWUoIk11dGVkIikKICAgICAgICBsMS5hZGRXaWRnZXQoc2VsZi5fcHJlc2V0X2xhYmVsKQogICAgICAgIGxheS5hZGRXaWRnZXQoYzEpCiAgICAgICAgYzMsIGwzID0gc2VsZi5fY2FyZCgi5ZCN5YmN5LuY44GN6Kit5a6aIiwgIiIpCiAgICAgICAgcjEgPSBRSEJveExheW91dCgpCiAgICAgICAgc2VsZi5fbmFtZWRfbmFtZSA9IFFMaW5lRWRpdCgpCiAgICAgICAgc2VsZi5fbmFtZWRfbmFtZS5zZXRQbGFjZWhvbGRlclRleHQoIuioreWumuWQje+8iOS+izog44Op44Oz44Kv55So77yJIikKICAgICAgICBzdiA9IFFQdXNoQnV0dG9uKCLjgZPjga7lkI3liY3jgafkv53lrZgiKQogICAgICAgIHN2LnNldE9iamVjdE5hbWUoIkdob3N0IikKICAgICAgICBzdi5jbGlja2VkLmNvbm5lY3Qoc2VsZi5fc2F2ZV9uYW1lZF9jb25maWcpCiAgICAgICAgcjEuYWRkV2lkZ2V0KHNlbGYuX25hbWVkX25hbWUsIDEpCiAgICAgICAgcjEuYWRkV2lkZ2V0KHN2KQogICAgICAgIGwzLmFkZExheW91dChyMSkKICAgICAgICByMiA9IFFIQm94TGF5b3V0KCkKICAgICAgICBzZWxmLl9uYW1lZF9jb21ibyA9IFFDb21ib0JveCgpCiAgICAgICAgbGQgPSBRUHVzaEJ1dHRvbigi6Kqt44G/6L6844G/IikKICAgICAgICBsZC5zZXRPYmplY3ROYW1lKCJHaG9zdCIpCiAgICAgICAgbGQuY2xpY2tlZC5jb25uZWN0KHNlbGYuX2xvYWRfbmFtZWRfY29uZmlnKQogICAgICAgIGRsID0gUVB1c2hCdXR0b24oIuWJiumZpCIpCiAgICAgICAgZGwuc2V0T2JqZWN0TmFtZSgiR2hvc3QiKQogICAgICAgIGRsLmNsaWNrZWQuY29ubmVjdChzZWxmLl9kZWxldGVfbmFtZWRfY29uZmlnKQogICAgICAgIHIyLmFkZFdpZGdldChzZWxmLl9uYW1lZF9jb21ibywgMSkKICAgICAgICByMi5hZGRXaWRnZXQobGQpCiAgICAgICAgcjIuYWRkV2lkZ2V0KGRsKQogICAgICAgIGwzLmFkZExheW91dChyMikKICAgICAgICBzZWxmLl9yZWZyZXNoX25hbWVkX2NvbmZpZ3MoKQogICAgICAgIGxheS5hZGRXaWRnZXQoYzMpCiAgICAgICAgYzIsIGwyID0gc2VsZi5fY2FyZCgi6Kit5a6a44OV44Kh44Kk44OrIiwgIuWkieabtOOBr+iHquWLleS/neWtmOOBleOCjOOBvuOBmSIpCiAgICAgICAgcm93MiA9IFFIQm94TGF5b3V0KCkKICAgICAgICBlYiA9IFFQdXNoQnV0dG9uKCLmm7jjgY3lh7rjgZciKQogICAgICAgIGViLnNldE9iamVjdE5hbWUoIkdob3N0IikKICAgICAgICBlYi5jbGlja2VkLmNvbm5lY3Qoc2VsZi5fZXhwb3J0X2NvbmZpZykKICAgICAgICBpYiA9IFFQdXNoQnV0dG9uKCLoqq3jgb/ovrzjgb8iKQogICAgICAgIGliLnNldE9iamVjdE5hbWUoIkdob3N0IikKICAgICAgICBpYi5jbGlja2VkLmNvbm5lY3Qoc2VsZi5faW1wb3J0X2NvbmZpZykKICAgICAgICByb3cyLmFkZFdpZGdldChlYikKICAgICAgICByb3cyLmFkZFdpZGdldChpYikKICAgICAgICByc3QgPSBRUHVzaEJ1dHRvbigi5YWo6Kit5a6a44KS5Yid5pyf5YCk44Gr5oi744GZIikKICAgICAgICByc3Quc2V0T2JqZWN0TmFtZSgiR2hvc3QiKQogICAgICAgIHJzdC5jbGlja2VkLmNvbm5lY3Qoc2VsZi5fcmVzZXRfYWxsX3NldHRpbmdzKQogICAgICAgIHJvdzIuYWRkV2lkZ2V0KHJzdCkKICAgICAgICByb3cyLmFkZFN0cmV0Y2goKQogICAgICAgIGwyLmFkZExheW91dChyb3cyKQogICAgICAgIGxheS5hZGRXaWRnZXQoYzIpCiAgICAgICAgbGF5LmFkZFN0cmV0Y2goKQogICAgICAgIHJldHVybiBwYWdlCgo=
+from __future__ import annotations
+
+from pathlib import Path
+
+from PyQt6.QtWidgets import (
+    QComboBox, QGridLayout, QHBoxLayout, QLabel, QLineEdit, QPushButton,
+    QTextEdit, QVBoxLayout, QWidget, QFrame,
+)
+
+from .input_io import vg
+from .widgets import OverlayPreview, PerfGraph
+
+
+class PagesMixin:
+    def _page_dashboard(self):
+        page = QWidget()
+        lay = QVBoxLayout(page)
+        lay.setContentsMargins(0, 0, 0, 0)
+        lay.setSpacing(12)
+        qc, ql = self._card("クイック操作", "エンジンの開始 / 停止はここからでもできます（ホットキーでも切替可能）")
+        qrow = QHBoxLayout()
+        qrow.setSpacing(14)
+        self.btn_quick = QPushButton("▶ 開始")
+        self.btn_quick.setObjectName("QuickPower")
+        self.btn_quick.setFixedHeight(46)
+        self.btn_quick.clicked.connect(self.toggle_engine)
+        qrow.addWidget(self.btn_quick)
+        qtexts = QVBoxLayout()
+        qtexts.setSpacing(2)
+        self._quick_state = QLabel("待機中")
+        self._quick_state.setObjectName("QuickState")
+        qtexts.addWidget(self._quick_state)
+        self._quick_meta = QLabel(f"モデル: {Path(self.settings.model_path).name if self.settings.model_path else '未設定'} · プリセット: {self.settings.preset_name} · 入力: {self.settings.input_mode}")
+        self._quick_meta.setObjectName("Muted")
+        self._quick_meta.setWordWrap(True)
+        qtexts.addWidget(self._quick_meta)
+        qrow.addLayout(qtexts, 1)
+        ql.addLayout(qrow)
+        lay.addWidget(qc)
+        lay.addWidget(self._profile_panel("エイムアシスト（腰撃ち / ADS 共通）", "hip", "エイムアシストを有効化", "腰撃ちとADSで同じ設定を使います"))
+        lay.addStretch()
+        return page
+
+    def _page_tracking(self):
+        page = QWidget()
+        lay = QVBoxLayout(page)
+        lay.setContentsMargins(0, 0, 0, 0)
+        lay.setSpacing(12)
+        c, l = self._card("予測・捕捉")
+        self._aim_enabled_toggle = self._toggle(
+            l, "エイムアシスト有効", self.settings.enabled,
+            lambda v: setattr(self.settings, "enabled", v))
+        self._toggle(l, "常時吸い付き（キー不要）", self.settings.aim_always_on,
+                     lambda v: setattr(self.settings, "aim_always_on", v))
+        cols = QHBoxLayout()
+        cols.setSpacing(16)
+        for make in [
+            lambda lay2: self._slider(lay2, "移動予測", 0, 200, int(self.settings.prediction * 100), " %", lambda v: setattr(self.settings, "prediction", v / 100.0), ""),
+            lambda lay2: self._slider(lay2, "中央クロップ", 320, 1280, self.settings.crop_size, " px", lambda v: setattr(self.settings, "crop_size", v), "推論する中央範囲"),
+            lambda lay2: self._slider(lay2, "スティッキー保持", 0, 500, self.settings.sticky_ms, " ms", lambda v: setattr(self.settings, "sticky_ms", v), ""),
+        ]:
+            colw = QWidget()
+            coll = QVBoxLayout(colw)
+            coll.setContentsMargins(0, 0, 0, 0)
+            make(coll)
+            cols.addWidget(colw)
+        l.addLayout(cols)
+        self._combo_map(l, "優先ターゲット", [("最も近い", "nearest"), ("最も大きい", "biggest"), ("信頼度が高い", "conf")],
+                        self.settings.target_priority, lambda v: setattr(self.settings, "target_priority", v))
+        lay.addWidget(c)
+        c2, l2 = self._card("リコイル・安定化")
+        self._toggle(l2, "リコイル補正を有効化", self.settings.recoil_enabled,
+                     lambda v: setattr(self.settings, "recoil_enabled", v),
+                     "OFFにすると縦・横の補正量が両方無効になります")
+        cols2 = QHBoxLayout()
+        cols2.setSpacing(16)
+        for make in [
+            lambda lay2: self._slider(lay2, "リコイル補正（縦）", 0, 400, int(self.settings.recoil_y), " px/秒", lambda v: setattr(self.settings, "recoil_y", float(v)), ""),
+            lambda lay2: self._slider(lay2, "リコイル補正（横）", -200, 200, int(self.settings.recoil_x), " px/秒", lambda v: setattr(self.settings, "recoil_x", float(v)), ""),
+            lambda lay2: self._slider(lay2, "デッドゾーン", 0, 80, int(self.settings.deadzone * 10), "", lambda v: setattr(self.settings, "deadzone", v / 10.0), "", lambda v: f"{v / 10:.1f}px"),
+        ]:
+            colw = QWidget()
+            coll = QVBoxLayout(colw)
+            coll.setContentsMargins(0, 0, 0, 0)
+            make(coll)
+            cols2.addWidget(colw)
+        l2.addLayout(cols2)
+        lay.addWidget(c2)
+        c3, l3 = self._card("応答の調整")
+        cols3 = QHBoxLayout()
+        cols3.setSpacing(16)
+        for make in [
+            lambda lay2: self._slider(lay2, "最大移動速度", 0, 200, self.settings.max_move_px, "", lambda v: setattr(self.settings, "max_move_px", v), "1回の移動量の上限（0で無制限）", lambda v: "無制限" if v == 0 else f"{v}px"),
+            lambda lay2: self._slider(lay2, "エイム開始ディレイ", 0, 300, self.settings.aim_delay_ms, " ms", lambda v: setattr(self.settings, "aim_delay_ms", v), "狙い始めてからアシストが効くまでの遅延"),
+            lambda lay2: self._slider(lay2, "ジッター", 0, 50, int(self.settings.jitter_px * 10), "", lambda v: setattr(self.settings, "jitter_px", v / 10.0), "狙点に足す微小なランダム揺れ", lambda v: f"{v / 10:.1f}px"),
+        ]:
+            colw = QWidget()
+            coll = QVBoxLayout(colw)
+            coll.setContentsMargins(0, 0, 0, 0)
+            make(coll)
+            cols3.addWidget(colw)
+        l3.addLayout(cols3)
+        lay.addWidget(c3)
+        lay.addStretch()
+        return page
+
+    def _page_display(self):
+        page = QWidget()
+        lay = QVBoxLayout(page)
+        lay.setContentsMargins(0, 0, 0, 0)
+        lay.setSpacing(12)
+        c, l = self._card("表示（オーバーレイ）", "")
+        self._toggle(l, "FOV円を表示", self.settings.show_fov,
+                     lambda v: setattr(self.settings, "show_fov", v))
+        self._toggle(l, "検出ボックスを表示", self.settings.show_boxes,
+                     lambda v: setattr(self.settings, "show_boxes", v))
+        self._toggle(l, "ターゲット線を表示", self.settings.show_target_line,
+                     lambda v: setattr(self.settings, "show_target_line", v))
+        self._slider(l, "オーバーレイ更新", 10, 60, self.settings.overlay_fps, " fps",
+                     lambda v: setattr(self.settings, "overlay_fps", v), "")
+        self._toggle(l, "設定画面を常に最前面に表示", self.settings.always_on_top,
+                     self._on_always_on_top, "ゲームの上に設定画面を出し続けます")
+        lay.addWidget(c)
+        c25, l25 = self._card("配信に映らない", "自分には見えますが、OBS / Discord / Xbox Game Bar などの画面キャプチャには映りません。Windows 10 2004以降が必要です。スクリーンショットにも映らなくなります")
+        self._toggle(l25, "オーバーレイを配信に映さない", self.settings.hide_overlay_from_capture,
+                     self._on_hide_overlay_capture, "FOV円・検出ボックス・ターゲット線が配信画面に出ません")
+        self._toggle(l25, "設定画面（GUI）を配信に映さない", self.settings.hide_gui_from_capture,
+                     self._on_hide_gui_capture, "NYOSUのウィンドウ自体が配信画面に出ません")
+        lay.addWidget(c25)
+        c2, l2 = self._card("プレビュー", "")
+        l2.addWidget(OverlayPreview(self.settings))
+        lay.addWidget(c2)
+        c4, l4 = self._card("ショートカット", "")
+        for keys, act in [
+            (self.settings.hotkey.upper(), "エンジン開始 / 停止"),
+            (self.settings.panic_key.upper(), "緊急停止"),
+            ("Ctrl + 1〜6", "ページ切替"),
+            ("Ctrl + Tab / Ctrl + Shift + Tab", "次 / 前のページ"),
+            ("Ctrl + Alt + 1〜4", "プリセット切替（競技 / バランス / 軽量 / 遠距離）"),
+        ]:
+            row = QHBoxLayout()
+            kl = QLabel(keys)
+            kl.setObjectName("CtlLabel")
+            kl.setFixedWidth(250)
+            al = QLabel(act)
+            al.setObjectName("Muted")
+            row.addWidget(kl)
+            row.addWidget(al, 1)
+            l4.addLayout(row)
+        lay.addWidget(c4)
+        lay.addStretch()
+        return page
+
+    def _profile_panel(self, title, prefix, enable_label, enable_desc):
+        f = QFrame()
+        f.setObjectName("Card")
+        l = QVBoxLayout(f)
+        l.setContentsMargins(18, 16, 18, 16)
+        l.setSpacing(10)
+        hdr = QHBoxLayout()
+        bar = QFrame()
+        bar.setFixedSize(3, 14)
+        bar.setStyleSheet("background:#D84040;border:none;border-radius:2px;")
+        hdr.addWidget(bar)
+        t = QLabel(title)
+        t.setObjectName("CardTitle")
+        hdr.addWidget(t)
+        hdr.addStretch()
+        l.addLayout(hdr)
+        self._toggle(l, enable_label, getattr(self.settings, f"{prefix}_enabled"),
+                     lambda v, p=prefix: setattr(self.settings, f"{p}_enabled", v), enable_desc)
+        self._slider(l, "吸い付き強度", 10, 150, int(getattr(self.settings, f"{prefix}_strength") * 100), "",
+                     lambda v, p=prefix: setattr(self.settings, f"{p}_strength", v / 100.0),
+                     "検出へ吸い付く速さ", lambda v: f"{v / 100:.2f}")
+        self._slider(l, "スムージング", 1, 20, getattr(self.settings, f"{prefix}_smoothing"), "",
+                     lambda v, p=prefix: setattr(self.settings, f"{p}_smoothing", v),
+                     "大きいほど滑らか、小さいほどキビキビ動きます", lambda v: f"{v}")
+        self._slider(l, "FOV半径", 40, 600, getattr(self.settings, f"{prefix}_fov"), "",
+                     lambda v, p=prefix: setattr(self.settings, f"{p}_fov", v),
+                     "画面中央のこの円の中にいる敵だけを狙います", lambda v: f"{v}px")
+        self._combo_map(l, "狙点", [("頭", "head"), ("胴体", "body"), ("ランダム（頭 / 胴体）", "random")],
+                        self.settings.aim_point_mode, lambda v: setattr(self.settings, "aim_point_mode", v))
+        self._slider(l, "最低信頼度", 10, 95, int(getattr(self.settings, f"{prefix}_conf") * 100), "",
+                     lambda v, p=prefix: setattr(self.settings, f"{p}_conf", v / 100.0),
+                     "これ未満の確からしさの検出は無視します", lambda v: f"{v / 100:.2f}")
+        self._slider(l, "X軸スケール", 30, 150, int(self.settings.x_scale * 100), "",
+                     lambda v: setattr(self.settings, "x_scale", v / 100.0),
+                     "横方向の効き具合", lambda v: f"{v / 100:.2f}")
+        self._slider(l, "Y軸スケール", 30, 150, int(self.settings.y_scale * 100), "",
+                     lambda v: setattr(self.settings, "y_scale", v / 100.0),
+                     "縦方向の効き具合", lambda v: f"{v / 100:.2f}")
+        self._slider(l, "エイムカーブ", 50, 200, int(self.settings.aim_curve * 100), "",
+                     lambda v: setattr(self.settings, "aim_curve", v / 100.0),
+                     "1.00で直線 / 小さいと近距離で強く、大きいと遠距離で強く効きます", lambda v: f"{v / 100:.2f}")
+        return f
+
+    def _page_input(self):
+        page = QWidget()
+        lay = QVBoxLayout(page)
+        lay.setContentsMargins(0, 0, 0, 0)
+        lay.setSpacing(10)
+        c0, l0 = self._card("吸い付き開始ボタン",
+                            "ONのボタンを押している間、吸い付きが有効（OR判定）")
+        self._aim_preview = QLabel("")
+        self._aim_preview.setObjectName("Muted")
+        l0.addWidget(self._aim_preview)
+        for label, key in [
+            ("ADS / 右クリック / LT", "rmb"),
+            ("発火 / 左クリック / RT", "lmb"),
+            ("パッド L2", "lt"),
+            ("パッド R2", "rt"),
+            ("パッド L1", "lb"),
+            ("パッド R1", "rb"),
+        ]:
+            self._toggle(l0, label, key in self._aim_key_set(),
+                         lambda on, k=key: self._toggle_aim_key(k, on))
+        self._combo_map(l0, "AI開始の条件", [("どちらか押せば開始（狙う or 撃つ）", "either"),
+                                            ("両方同時押しで開始（狙う + 撃つ）", "both")],
+                        self.settings.activation_mode, lambda v: setattr(self.settings, "activation_mode", v))
+        self._refresh_aim_preview()
+        lay.addWidget(c0)
+        c1, l1 = self._card("入力 / 出力")
+        self._combo_map(l1, "入力モード", [("マウス", "mouse"), ("パッド", "pad"), ("コンバーター（キーマウ入力 → パッド出力）", "converter")],
+                        self.settings.input_mode, self._on_input_mode)
+        self._combo_map(l1, "出力パッド（パッド / コンバーター時）", [("Xbox 360", "x360"), ("DualShock 4", "ds4")],
+                        self.settings.pad_output, lambda v: setattr(self.settings, "pad_output", v))
+        self._slider(l1, "マウス感度係数", 5, 300, int(self.settings.mouse_sens * 100), "%",
+                     lambda v: setattr(self.settings, "mouse_sens", v / 100.0))
+        self._toggle(l1, "感度オート調整（DPI/ゲーム内感度/ADS倍率の違いを自動補正）", self.settings.auto_gain,
+                     lambda v: setattr(self.settings, "auto_gain", v))
+        self._slider(l1, "パッド感度", 10, 300, int(self.settings.pad_sens * 100), "%",
+                     lambda v: setattr(self.settings, "pad_sens", v / 100.0))
+        lbl = QLabel(f"vgamepad: {'利用可能' if vg else '未インストール'}")
+        lbl.setObjectName("Muted")
+        l1.addWidget(lbl)
+        self._pad_status = QLabel("パッド: 未接続")
+        self._pad_status.setObjectName("Muted")
+        self._pad_status.setWordWrap(True)
+        l1.addWidget(self._pad_status)
+        note = QLabel("パッドモードでは物理パッドの全入力（両スティック・トリガー・全ボタン・十字キー）を仮想パッドへそのまま転送し、右スティックにだけ照準補正を合成します")
+        note.setObjectName("CtlDesc")
+        note.setWordWrap(True)
+        l1.addWidget(note)
+        lay.addWidget(c1)
+        c2, l2 = self._card("ホットキー", "")
+        self._entry(l2, "開始 / 停止キー", self.settings.hotkey,
+                    lambda v: (setattr(self.settings, "hotkey", v.strip().lower() or "f2"), self._install_hotkeys()))
+        self._entry(l2, "緊急停止キー", self.settings.panic_key,
+                    lambda v: (setattr(self.settings, "panic_key", v.strip().lower() or "f8"), self._install_hotkeys()))
+        lay.addWidget(c2)
+        lay.addStretch()
+        return page
+
+    def _page_system(self):
+        page = QWidget()
+        lay = QVBoxLayout(page)
+        lay.setContentsMargins(0, 0, 0, 0)
+        lay.setSpacing(10)
+        cm, lm = self._card("リアルタイム")
+        grid = QGridLayout()
+        grid.setHorizontalSpacing(24)
+        self._metric_vals = {}
+        for i, (lbl, key) in enumerate([("照準FPS", "fps"), ("推論 ms", "infer_ms"), ("推論FPS", "infer_fps"), ("検出数", "dets")]):
+            box = QVBoxLayout()
+            box.setSpacing(1)
+            v = QLabel("—")
+            v.setObjectName("MetricVal")
+            t = QLabel(lbl)
+            t.setObjectName("MetricLbl")
+            box.addWidget(v)
+            box.addWidget(t)
+            self._metric_vals[key] = v
+            grid.addLayout(box, 0, i)
+        self._session_vals = {}
+        for j, (lbl, key) in enumerate([("稼働時間", "time"), ("ロック率", "lock")]):
+            box = QVBoxLayout()
+            box.setSpacing(1)
+            v = QLabel("—")
+            v.setObjectName("MetricVal")
+            tt = QLabel(lbl)
+            tt.setObjectName("MetricLbl")
+            box.addWidget(v)
+            box.addWidget(tt)
+            self._session_vals[key] = v
+            grid.addLayout(box, 1, j)
+        lm.addLayout(grid)
+        self._perf = PerfGraph()
+        lm.addWidget(self._perf)
+        lay.addWidget(cm)
+        c1, l1 = self._card("モデル（Apex用YOLOv8 640推奨）")
+        row = QHBoxLayout()
+        lbl = QLabel("ONNXパス")
+        lbl.setObjectName("Muted")
+        self.ed_model = QLineEdit(self.settings.model_path)
+        self.ed_model.editingFinished.connect(
+            lambda: setattr(self.settings, "model_path", self.ed_model.text().strip()))
+        btn = QPushButton("参照")
+        btn.setObjectName("Ghost")
+        btn.clicked.connect(self._browse)
+        row.addWidget(lbl)
+        row.addWidget(self.ed_model, 1)
+        row.addWidget(btn)
+        l1.addLayout(row)
+        mrow = QHBoxLayout()
+        mrow.setSpacing(6)
+        mlbl = QLabel("同梱モデル")
+        mlbl.setObjectName("Muted")
+        mrow.addWidget(mlbl)
+        for text, fname in [("普通", "apex_v8s_3class.onnx"),
+                            ("強い", "apex_v8m_accurate.onnx"),
+                            ("弱い", "Apex_Legends_by_5pr_2_c2g6.onnx")]:
+            mb = QPushButton(text)
+            mb.setObjectName("Ghost")
+            mb.clicked.connect(lambda _, f=fname: self._select_bundled_model(f))
+            mrow.addWidget(mb)
+        mrow.addStretch()
+        l1.addLayout(mrow)
+        self._entry(l1, "クラスID", self.settings.class_ids,
+                    lambda v: setattr(self.settings, "class_ids", v))
+        _mp = Path(self.settings.model_path) if self.settings.model_path else None
+        self.model_info = QLabel(f"{_mp.name} · {_mp.stat().st_size / 1e6:.1f} MB" if _mp and _mp.exists() else "モデル未設定")
+        self.model_info.setObjectName("Muted")
+        self.model_info.setWordWrap(True)
+        l1.addWidget(self.model_info)
+        tbtn = QPushButton("テスト検出（画面を1回だけ解析）")
+        tbtn.setObjectName("Ghost")
+        tbtn.clicked.connect(self._test_detection)
+        l1.addWidget(tbtn)
+        self._refresh_model_info()
+        lay.addWidget(c1)
+        c3, l3 = self._card("パフォーマンス（軽量化）",
+                            "推論上限0=制限なし。軽くするなら 推論上限30 / 待機時15 / オーバーレイ30 が目安")
+        self._slider(l3, "推論上限（エイム中）", 0, 120, self.settings.max_infer_fps, " fps",
+                     lambda v: setattr(self.settings, "max_infer_fps", v))
+        self._slider(l3, "推論（待機時）", 5, 60, self.settings.idle_infer_fps, " fps",
+                     lambda v: setattr(self.settings, "idle_infer_fps", v))
+        self._slider(l3, "検出落ち保持", 0, 300, self.settings.hold_ms, " ms",
+                     lambda v: setattr(self.settings, "hold_ms", v))
+        self._slider(l3, "モニタ番号", 1, 4, self.settings.monitor_index, "",
+                     lambda v: setattr(self.settings, "monitor_index", v))
+        lay.addWidget(c3)
+        c2, l2 = self._card("ログ")
+        self.log_view = QTextEdit()
+        self.log_view.setReadOnly(True)
+        self.log_view.setMinimumHeight(160)
+        l2.addWidget(self.log_view)
+        clr = QPushButton("ログをクリア")
+        clr.setObjectName("Ghost")
+        clr.clicked.connect(lambda: self.log_view.clear())
+        l2.addWidget(clr)
+        lay.addWidget(c2, 1)
+        return page
+
+    def _page_configs(self):
+        page = QWidget()
+        lay = QVBoxLayout(page)
+        lay.setContentsMargins(0, 0, 0, 0)
+        lay.setSpacing(12)
+        c1, l1 = self._card("プリセット", "ステータスバーの 1〜4 からも切り替えできます")
+        row = QHBoxLayout()
+        row.setSpacing(8)
+        for name in ["競技", "バランス", "軽量", "遠距離"]:
+            b = QPushButton(name)
+            b.setObjectName("Ghost")
+            b.setCheckable(True)
+            b.setChecked(self._preset_name == name)
+            b.clicked.connect(lambda _, n=name: self._apply_preset(n))
+            row.addWidget(b)
+        row.addStretch()
+        l1.addLayout(row)
+        self._preset_label = QLabel(f"現在のプリセット: {self._preset_name}")
+        self._preset_label.setObjectName("Muted")
+        l1.addWidget(self._preset_label)
+        lay.addWidget(c1)
+        c3, l3 = self._card("名前付き設定", "")
+        r1 = QHBoxLayout()
+        self._named_name = QLineEdit()
+        self._named_name.setPlaceholderText("設定名（例: ランク用）")
+        sv = QPushButton("この名前で保存")
+        sv.setObjectName("Ghost")
+        sv.clicked.connect(self._save_named_config)
+        r1.addWidget(self._named_name, 1)
+        r1.addWidget(sv)
+        l3.addLayout(r1)
+        r2 = QHBoxLayout()
+        self._named_combo = QComboBox()
+        ld = QPushButton("読み込み")
+        ld.setObjectName("Ghost")
+        ld.clicked.connect(self._load_named_config)
+        dl = QPushButton("削除")
+        dl.setObjectName("Ghost")
+        dl.clicked.connect(self._delete_named_config)
+        r2.addWidget(self._named_combo, 1)
+        r2.addWidget(ld)
+        r2.addWidget(dl)
+        l3.addLayout(r2)
+        self._refresh_named_configs()
+        lay.addWidget(c3)
+        c2, l2 = self._card("設定ファイル", "変更は自動保存されます")
+        row2 = QHBoxLayout()
+        eb = QPushButton("書き出し")
+        eb.setObjectName("Ghost")
+        eb.clicked.connect(self._export_config)
+        ib = QPushButton("読み込み")
+        ib.setObjectName("Ghost")
+        ib.clicked.connect(self._import_config)
+        row2.addWidget(eb)
+        row2.addWidget(ib)
+        rst = QPushButton("全設定を初期値に戻す")
+        rst.setObjectName("Ghost")
+        rst.clicked.connect(self._reset_all_settings)
+        row2.addWidget(rst)
+        row2.addStretch()
+        l2.addLayout(row2)
+        lay.addWidget(c2)
+        lay.addStretch()
+        return page
+
