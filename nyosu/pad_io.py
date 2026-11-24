@@ -1,1 +1,407 @@
-ZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IG9zCmltcG9ydCB0aHJlYWRpbmcKCm9zLmVudmlyb24uc2V0ZGVmYXVsdCgiUFlHQU1FX0hJREVfU1VQUE9SVF9QUk9NUFQiLCAiMSIpCgpmcm9tIFB5UXQ2LlF0Q29yZSBpbXBvcnQgUVRocmVhZCwgcHlxdFNpZ25hbAoKZnJvbSAuY29uZmlnIGltcG9ydCBsb2cKCnRyeToKICAgIGltcG9ydCBweWdhbWUKICAgIHB5Z2FtZS5pbml0KCkKZXhjZXB0IEV4Y2VwdGlvbjoKICAgIHB5Z2FtZSA9IE5vbmUKdHJ5OgogICAgaW1wb3J0IHZnYW1lcGFkIGFzIHZnCmV4Y2VwdCBFeGNlcHRpb246CiAgICB2ZyA9IE5vbmUKCgpkZWYgX2NsYW1wKHYsIGxvPS0xLjAsIGhpPTEuMCk6CiAgICByZXR1cm4gbG8gaWYgdiA8IGxvIGVsc2UgaGkgaWYgdiA+IGhpIGVsc2UgdgoKCmRlZiBfdHJpZ19mcm9tX2F4aXModik6CiAgICB2ID0gZmxvYXQodikKICAgIGlmIHYgPCAwLjA6CiAgICAgICAgcmV0dXJuICh2ICsgMS4wKSAvIDIuMAogICAgcmV0dXJuIHYKCgpkZWYgcGFkX2tpbmRfb2YobmFtZTogc3RyKSAtPiBzdHI6CiAgICBpZiBhbnkoayBpbiBuYW1lIGZvciBrIGluICgiRHVhbFNlbnNlIiwgIkR1YWxTaG9jayIsICJXaXJlbGVzcyBDb250cm9sbGVyIiwgIlNvbnkiLCAiUGxheVN0YXRpb24iKSk6CiAgICAgICAgcmV0dXJuICJwcyIKICAgIHJldHVybiAieGJveCIKCgpfWEJPWF9CVE5TID0gezA6ICJhIiwgMTogImIiLCAyOiAieCIsIDM6ICJ5IiwgNDogImxiIiwgNTogInJiIiwgNjogImJhY2siLCA3OiAic3RhcnQiLCA4OiAibDMiLCA5OiAicjMifQpfUFNfQlROUyA9IHswOiAieCIsIDE6ICJhIiwgMjogImIiLCAzOiAieSIsIDQ6ICJsYiIsIDU6ICJyYiIsIDY6ICJsdF9idG4iLCA3OiAicnRfYnRuIiwgODogImJhY2siLCA5OiAic3RhcnQiLCAxMDogImwzIiwgMTE6ICJyMyJ9CgoKZGVmIHN0YW5kYXJkaXplX3JhdyhheGVzLCBidXR0b25zLCBoYXQsIGtpbmQsIHRyaWdfYXhlcz1Ob25lKToKICAgIGRlZiBheChpKToKICAgICAgICByZXR1cm4gZmxvYXQoYXhlc1tpXSkgaWYgaSA8IGxlbihheGVzKSBlbHNlIDAuMAoKICAgIGRlZiBidChpKToKICAgICAgICByZXR1cm4gaSA8IGxlbihidXR0b25zKSBhbmQgYm9vbChidXR0b25zW2ldKQoKICAgIGJ0bnMgPSBzZXQoKQogICAgdGFibGUgPSBfUFNfQlROUyBpZiBraW5kID09ICJwcyIgZWxzZSBfWEJPWF9CVE5TCiAgICBmb3IgaSwgbmFtZSBpbiB0YWJsZS5pdGVtcygpOgogICAgICAgIGlmIGJ0KGkpOgogICAgICAgICAgICBidG5zLmFkZChuYW1lKQogICAgaWYgaGF0IGlzIG5vdCBOb25lOgogICAgICAgIGh4LCBoeSA9IGhhdAogICAgICAgIGlmIGh5ID4gMDoKICAgICAgICAgICAgYnRucy5hZGQoImRwYWRfdXAiKQogICAgICAgIGVsaWYgaHkgPCAwOgogICAgICAgICAgICBidG5zLmFkZCgiZHBhZF9kb3duIikKICAgICAgICBpZiBoeCA8IDA6CiAgICAgICAgICAgIGJ0bnMuYWRkKCJkcGFkX2xlZnQiKQogICAgICAgIGVsaWYgaHggPiAwOgogICAgICAgICAgICBidG5zLmFkZCgiZHBhZF9yaWdodCIpCiAgICBpZiBraW5kID09ICJwcyI6CiAgICAgICAgbHgsIGx5LCByeCwgcnkgPSBheCgwKSwgYXgoMSksIGF4KDMpLCBheCg0KQogICAgICAgIGx0ID0gX3RyaWdfZnJvbV9heGlzKGF4KDIpKSBpZiBsZW4oYXhlcykgPiAyIGVsc2UgKDEuMCBpZiAibHRfYnRuIiBpbiBidG5zIGVsc2UgMC4wKQogICAgICAgIHJ0ID0gX3RyaWdfZnJvbV9heGlzKGF4KDUpKSBpZiBsZW4oYXhlcykgPiA1IGVsc2UgKDEuMCBpZiAicnRfYnRuIiBpbiBidG5zIGVsc2UgMC4wKQogICAgZWxzZToKICAgICAgICBseCwgbHksIHJ4LCByeSA9IGF4KDApLCBheCgxKSwgYXgoMiksIGF4KDMpCiAgICAgICAgaWYgdHJpZ19heGVzOgogICAgICAgICAgICBsaSwgcmkgPSB0cmlnX2F4ZXMKICAgICAgICAgICAgbHQgPSBfdHJpZ19mcm9tX2F4aXMoYXgobGkpKSBpZiBsaSA8IGxlbihheGVzKSBlbHNlIDAuMAogICAgICAgICAgICBydCA9IF90cmlnX2Zyb21fYXhpcyhheChyaSkpIGlmIHJpIDwgbGVuKGF4ZXMpIGVsc2UgMC4wCiAgICAgICAgZWxzZToKICAgICAgICAgICAgbHQgPSAxLjAgaWYgImx0X2J0biIgaW4gYnRucyBlbHNlIDAuMAogICAgICAgICAgICBydCA9IDEuMCBpZiAicnRfYnRuIiBpbiBidG5zIGVsc2UgMC4wCiAgICBpZiBsdCA+IDAuNToKICAgICAgICBidG5zLmFkZCgibHRfYnRuIikKICAgIGlmIHJ0ID4gMC41OgogICAgICAgIGJ0bnMuYWRkKCJydF9idG4iKQogICAgcmV0dXJuIHsKICAgICAgICAibHgiOiBfY2xhbXAobHgpLCAibHkiOiBfY2xhbXAoLWx5KSwgInJ4IjogX2NsYW1wKHJ4KSwgInJ5IjogX2NsYW1wKC1yeSksCiAgICAgICAgImx0IjogX2NsYW1wKGx0LCAwLjAsIDEuMCksICJydCI6IF9jbGFtcChydCwgMC4wLCAxLjApLAogICAgICAgICJidXR0b25zIjogZnJvemVuc2V0KGJ0bnMpLAogICAgfQoKCmRlZiBzdGFuZGFyZGl6ZV9zZGwoYXhlczYsIGJ1dHRvbnMxNSk6CiAgICBkZWYgYXgoaSk6CiAgICAgICAgcmV0dXJuIF9jbGFtcChmbG9hdChheGVzNltpXSkgLyAzMjc2Ny4wKSBpZiBpIDwgbGVuKGF4ZXM2KSBlbHNlIDAuMAoKICAgIG5hbWVzID0gKCJhIiwgImIiLCAieCIsICJ5IiwgImJhY2siLCAiZ3VpZGUiLCAic3RhcnQiLCAibDMiLCAicjMiLCAibGIiLCAicmIiLAogICAgICAgICAgICAgImRwYWRfdXAiLCAiZHBhZF9kb3duIiwgImRwYWRfbGVmdCIsICJkcGFkX3JpZ2h0IikKICAgIGJ0bnMgPSB7bmFtZXNbaV0gZm9yIGkgaW4gcmFuZ2UobWluKGxlbihidXR0b25zMTUpLCBsZW4obmFtZXMpKSkgaWYgYnV0dG9uczE1W2ldfQogICAgbHQgPSBfY2xhbXAoZmxvYXQoYXhlczZbNF0pIC8gMzI3NjcuMCwgMC4wLCAxLjApIGlmIGxlbihheGVzNikgPiA0IGVsc2UgMC4wCiAgICBydCA9IF9jbGFtcChmbG9hdChheGVzNls1XSkgLyAzMjc2Ny4wLCAwLjAsIDEuMCkgaWYgbGVuKGF4ZXM2KSA+IDUgZWxzZSAwLjAKICAgIGlmIGx0ID4gMC41OgogICAgICAgIGJ0bnMuYWRkKCJsdF9idG4iKQogICAgaWYgcnQgPiAwLjU6CiAgICAgICAgYnRucy5hZGQoInJ0X2J0biIpCiAgICByZXR1cm4gewogICAgICAgICJseCI6IGF4KDApLCAibHkiOiAtYXgoMSksICJyeCI6IGF4KDIpLCAicnkiOiAtYXgoMyksCiAgICAgICAgImx0IjogbHQsICJydCI6IHJ0LCAiYnV0dG9ucyI6IGZyb3plbnNldChidG5zKSwKICAgIH0KCgpfRU1QVFlfUEFEID0geyJseCI6IDAuMCwgImx5IjogMC4wLCAicngiOiAwLjAsICJyeSI6IDAuMCwgImx0IjogMC4wLCAicnQiOiAwLjAsCiAgICAgICAgICAgICAgImJ1dHRvbnMiOiBmcm96ZW5zZXQoKX0KCgpjbGFzcyBQYWRSZWFkZXIoUVRocmVhZCk6CiAgICBzdGF0ZV9jaGFuZ2VkID0gcHlxdFNpZ25hbChkaWN0KQoKICAgIGRlZiBfX2luaXRfXyhzZWxmKToKICAgICAgICBzdXBlcigpLl9faW5pdF9fKCkKICAgICAgICBzZWxmLl9ldnQgPSB0aHJlYWRpbmcuRXZlbnQoKQogICAgICAgIHNlbGYuX2xvY2sgPSB0aHJlYWRpbmcuTG9jaygpCiAgICAgICAgc2VsZi5fc3RhdGUgPSB7ImNvbm5lY3RlZCI6IEZhbHNlLCAibmFtZSI6ICIiLCAqKl9FTVBUWV9QQUR9CiAgICAgICAgc2VsZi5fam95ID0gTm9uZQogICAgICAgIHNlbGYuX2N0cmwgPSBOb25lCiAgICAgICAgc2VsZi5fam95X25hbWUgPSAiIgogICAgICAgIHNlbGYuX2pveV9raW5kID0gInhib3giCiAgICAgICAgc2VsZi5fdHJpZ2dlcl9heGVzID0gTm9uZQoKICAgIGRlZiBzdG9wKHNlbGYpOgogICAgICAgIHNlbGYuX2V2dC5zZXQoKQoKICAgIGRlZiBzbmFwc2hvdChzZWxmKToKICAgICAgICB3aXRoIHNlbGYuX2xvY2s6CiAgICAgICAgICAgIHJldHVybiBkaWN0KHNlbGYuX3N0YXRlKQoKICAgIGRlZiBfZGV0ZWN0X3RyaWdnZXJfbWFwcGluZyhzZWxmLCBqKToKICAgICAgICBzZWxmLl90cmlnZ2VyX2F4ZXMgPSBOb25lCiAgICAgICAgdHJ5OgogICAgICAgICAgICBpZiBqLmdldF9udW1heGVzKCkgPj0gNjoKICAgICAgICAgICAgICAgIGE0LCBhNSA9IGouZ2V0X2F4aXMoNCksIGouZ2V0X2F4aXMoNSkKICAgICAgICAgICAgICAgIGlmIChhNCA8IC0wLjUgYW5kIGE1IDwgLTAuNSkgb3IgKDAuMCA8PSBhNCA8PSAxLjAgYW5kIDAuMCA8PSBhNSA8PSAxLjApOgogICAgICAgICAgICAgICAgICAgIHNlbGYuX3RyaWdnZXJfYXhlcyA9ICg0LCA1KQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgIHNlbGYuX3RyaWdnZXJfYXhlcyA9IE5vbmUKCiAgICBkZWYgX29wZW5fY29udHJvbGxlcihzZWxmLCBpZHgpOgogICAgICAgIHRyeToKICAgICAgICAgICAgZnJvbSBweWdhbWUuX3NkbDIgaW1wb3J0IGNvbnRyb2xsZXIgYXMgX2N0bAogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBfY3RsLmluaXQoKQogICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICAgICAgcGFzcwogICAgICAgICAgICBpZiBub3QgX2N0bC5pc19jb250cm9sbGVyKGlkeCk6CiAgICAgICAgICAgICAgICByZXR1cm4gTm9uZQogICAgICAgICAgICBjID0gX2N0bC5Db250cm9sbGVyKGlkeCkKICAgICAgICAgICAgbmFtZSA9ICIiCiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIG5hbWUgPSBjLm5hbWUgb3IgIiIKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgIG5hbWUgPSAiIgogICAgICAgICAgICByZXR1cm4gYywgbmFtZQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgIHJldHVybiBOb25lCgogICAgZGVmIF9jb25uZWN0KHNlbGYpOgogICAgICAgIGNvdW50ID0gMAogICAgICAgIHRyeToKICAgICAgICAgICAgY291bnQgPSBweWdhbWUuam95c3RpY2suZ2V0X2NvdW50KCkKICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICBjb3VudCA9IDAKICAgICAgICBmb3IgaWR4IGluIHJhbmdlKGNvdW50KToKICAgICAgICAgICAgZ290ID0gc2VsZi5fb3Blbl9jb250cm9sbGVyKGlkeCkKICAgICAgICAgICAgaWYgZ290IGlzIG5vdCBOb25lOgogICAgICAgICAgICAgICAgc2VsZi5fY3RybCwgc2VsZi5fam95X25hbWUgPSBnb3QKICAgICAgICAgICAgICAgIHNlbGYuX2pveV9raW5kID0gcGFkX2tpbmRfb2Yoc2VsZi5fam95X25hbWUpCiAgICAgICAgICAgICAgICB3aXRoIHNlbGYuX2xvY2s6CiAgICAgICAgICAgICAgICAgICAgc2VsZi5fc3RhdGUgPSB7ImNvbm5lY3RlZCI6IFRydWUsICJuYW1lIjogc2VsZi5fam95X25hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgImtpbmQiOiBzZWxmLl9qb3lfa2luZCwgKipfRU1QVFlfUEFEfQogICAgICAgICAgICAgICAgc2VsZi5zdGF0ZV9jaGFuZ2VkLmVtaXQoc2VsZi5zbmFwc2hvdCgpKQogICAgICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgICAgICBmb3IgaWR4IGluIHJhbmdlKGNvdW50KToKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgaiA9IHB5Z2FtZS5qb3lzdGljay5Kb3lzdGljayhpZHgpCiAgICAgICAgICAgICAgICBqLmluaXQoKQogICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgc2VsZi5fam95ID0gagogICAgICAgICAgICBzZWxmLl9kZXRlY3RfdHJpZ2dlcl9tYXBwaW5nKGopCiAgICAgICAgICAgIHNlbGYuX2pveV9uYW1lID0gai5nZXRfbmFtZSgpIG9yICIiCiAgICAgICAgICAgIHNlbGYuX2pveV9raW5kID0gcGFkX2tpbmRfb2Yoc2VsZi5fam95X25hbWUpCiAgICAgICAgICAgIHdpdGggc2VsZi5fbG9jazoKICAgICAgICAgICAgICAgIHNlbGYuX3N0YXRlID0geyJjb25uZWN0ZWQiOiBUcnVlLCAibmFtZSI6IHNlbGYuX2pveV9uYW1lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgImtpbmQiOiBzZWxmLl9qb3lfa2luZCwgKipfRU1QVFlfUEFEfQogICAgICAgICAgICBzZWxmLnN0YXRlX2NoYW5nZWQuZW1pdChzZWxmLnNuYXBzaG90KCkpCiAgICAgICAgICAgIHJldHVybiBUcnVlCiAgICAgICAgcmV0dXJuIEZhbHNlCgogICAgZGVmIF9kaXNjb25uZWN0KHNlbGYpOgogICAgICAgIGlmIHNlbGYuX2pveSBpcyBub3QgTm9uZToKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgc2VsZi5fam95LnF1aXQoKQogICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICAgICAgcGFzcwogICAgICAgIGlmIHNlbGYuX2N0cmwgaXMgbm90IE5vbmU6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHNlbGYuX2N0cmwuY2xvc2UoKQogICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICAgICAgcGFzcwogICAgICAgIHNlbGYuX2pveSA9IE5vbmUKICAgICAgICBzZWxmLl9jdHJsID0gTm9uZQogICAgICAgIHNlbGYuX2pveV9uYW1lID0gIiIKICAgICAgICBzZWxmLl90cmlnZ2VyX2F4ZXMgPSBOb25lCiAgICAgICAgd2l0aCBzZWxmLl9sb2NrOgogICAgICAgICAgICBzZWxmLl9zdGF0ZSA9IHsiY29ubmVjdGVkIjogRmFsc2UsICJuYW1lIjogIiIsICoqX0VNUFRZX1BBRH0KICAgICAgICBzZWxmLnN0YXRlX2NoYW5nZWQuZW1pdChzZWxmLnNuYXBzaG90KCkpCgogICAgZGVmIF9wb2xsKHNlbGYpOgogICAgICAgIGlmIHNlbGYuX2N0cmwgaXMgbm90IE5vbmU6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIGZyb20gcHlnYW1lLl9zZGwyIGltcG9ydCBjb250cm9sbGVyIGFzIF9jdGwKICAgICAgICAgICAgICAgIF9jdGwudXBkYXRlKCkKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgIHBhc3MKICAgICAgICAgICAgYyA9IHNlbGYuX2N0cmwKICAgICAgICAgICAgYXhlcyA9IFtjLmdldF9heGlzKGkpIGZvciBpIGluIHJhbmdlKDYpXQogICAgICAgICAgICBidG5zID0gW2MuZ2V0X2J1dHRvbihpKSBmb3IgaSBpbiByYW5nZSgxNSldCiAgICAgICAgICAgIHJldHVybiBzdGFuZGFyZGl6ZV9zZGwoYXhlcywgYnRucykKICAgICAgICBqID0gc2VsZi5fam95CiAgICAgICAgdHJ5OgogICAgICAgICAgICBweWdhbWUuZXZlbnQucHVtcCgpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgcGFzcwogICAgICAgIG5hLCBuYiA9IGouZ2V0X251bWF4ZXMoKSwgai5nZXRfbnVtYnV0dG9ucygpCiAgICAgICAgYXhlcyA9IFtqLmdldF9heGlzKGkpIGZvciBpIGluIHJhbmdlKG5hKV0KICAgICAgICBidG5zID0gW2ouZ2V0X2J1dHRvbihpKSBmb3IgaSBpbiByYW5nZShuYildCiAgICAgICAgaGF0ID0gTm9uZQogICAgICAgIHRyeToKICAgICAgICAgICAgaWYgai5nZXRfbnVtaGF0cygpID4gMDoKICAgICAgICAgICAgICAgIGhhdCA9IGouZ2V0X2hhdCgwKQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgIGhhdCA9IE5vbmUKICAgICAgICByZXR1cm4gc3RhbmRhcmRpemVfcmF3KGF4ZXMsIGJ0bnMsIGhhdCwgc2VsZi5fam95X2tpbmQsIHNlbGYuX3RyaWdnZXJfYXhlcykKCiAgICBkZWYgcnVuKHNlbGYpOgogICAgICAgIGlmIHB5Z2FtZSBpcyBOb25lOgogICAgICAgICAgICBzZWxmLnN0YXRlX2NoYW5nZWQuZW1pdCh7ImVycm9yIjogInB5Z2FtZeOBjOWIqeeUqOOBp+OBjeOBvuOBm+OCkyJ9KQogICAgICAgICAgICByZXR1cm4KICAgICAgICB0cnk6CiAgICAgICAgICAgIHdoaWxlIG5vdCBzZWxmLl9ldnQuaXNfc2V0KCk6CiAgICAgICAgICAgICAgICBpZiBzZWxmLl9qb3kgaXMgTm9uZSBhbmQgc2VsZi5fY3RybCBpcyBOb25lOgogICAgICAgICAgICAgICAgICAgIGlmIG5vdCBzZWxmLl9jb25uZWN0KCk6CiAgICAgICAgICAgICAgICAgICAgICAgIHNlbGYuX2V2dC53YWl0KDAuNSkKICAgICAgICAgICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgICAgICBzdCA9IHNlbGYuX3BvbGwoKQogICAgICAgICAgICAgICAgICAgIHN0WyJjb25uZWN0ZWQiXSA9IFRydWUKICAgICAgICAgICAgICAgICAgICBzdFsibmFtZSJdID0gc2VsZi5fam95X25hbWUKICAgICAgICAgICAgICAgICAgICBzdFsia2luZCJdID0gc2VsZi5fam95X2tpbmQKICAgICAgICAgICAgICAgICAgICB3aXRoIHNlbGYuX2xvY2s6CiAgICAgICAgICAgICAgICAgICAgICAgIHNlbGYuX3N0YXRlID0gc3QKICAgICAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgICAgICAgICBsb2cud2FybmluZygi44OR44OD44OJ6Kqt44G/5Y+W44KK44Ko44Op44O8OiAlcyIsIGUpCiAgICAgICAgICAgICAgICAgICAgc2VsZi5fZGlzY29ubmVjdCgpCiAgICAgICAgICAgICAgICBzZWxmLl9ldnQud2FpdCgwLjAwOCkKICAgICAgICBmaW5hbGx5OgogICAgICAgICAgICBpZiBzZWxmLl9qb3kgaXMgbm90IE5vbmU6CiAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgc2VsZi5fam95LnF1aXQoKQogICAgICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgICAgICBwYXNzCiAgICAgICAgICAgIGlmIHNlbGYuX2N0cmwgaXMgbm90IE5vbmU6CiAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgc2VsZi5fY3RybC5jbG9zZSgpCiAgICAgICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICAgICAgICAgIHBhc3MKICAgICAgICAgICAgICAgIHNlbGYuX2N0cmwgPSBOb25lCgoKY2xhc3MgUGFkV3JpdGVyOgogICAgX1gzNjBfTUFQID0gTm9uZQogICAgX0RTNF9NQVAgPSBOb25lCiAgICBfRFM0X0RQQUQgPSBOb25lCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGtpbmQ9IngzNjAiKToKICAgICAgICBzZWxmLmtpbmQgPSBraW5kIGlmIGtpbmQgaW4gKCJ4MzYwIiwgImRzNCIpIGVsc2UgIngzNjAiCiAgICAgICAgc2VsZi5fcGFkID0gTm9uZQogICAgICAgIHNlbGYuX3dhcm5lZCA9IEZhbHNlCiAgICAgICAgc2VsZi5fbGFzdF9zZW50ID0gTm9uZQogICAgICAgIHNlbGYuX3NlbnRfYnV0dG9ucyA9IGZyb3plbnNldCgpCiAgICAgICAgaWYgdmcgaXMgbm90IE5vbmU6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHNlbGYuX3BhZCA9IHZnLlZEUzRHYW1lcGFkKCkgaWYgc2VsZi5raW5kID09ICJkczQiIGVsc2UgdmcuVlgzNjBHYW1lcGFkKCkKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICAgICAgbG9nLmluZm8oInZnYW1lcGFk5Yid5pyf5YyW5aSx5pWXOiAlcyIsIGUpCgogICAgQHByb3BlcnR5CiAgICBkZWYgYXZhaWxhYmxlKHNlbGYpOgogICAgICAgIHJldHVybiBzZWxmLl9wYWQgaXMgbm90IE5vbmUKCiAgICBAY2xhc3NtZXRob2QKICAgIGRlZiBfbWFwcyhjbHMpOgogICAgICAgIGlmIGNscy5fWDM2MF9NQVAgaXMgTm9uZSBhbmQgdmcgaXMgbm90IE5vbmU6CiAgICAgICAgICAgIFggPSB2Zy5YVVNCX0JVVFRPTgogICAgICAgICAgICBjbHMuX1gzNjBfTUFQID0gewogICAgICAgICAgICAgICAgImEiOiBYLlhVU0JfR0FNRVBBRF9BLCAiYiI6IFguWFVTQl9HQU1FUEFEX0IsICJ4IjogWC5YVVNCX0dBTUVQQURfWCwKICAgICAgICAgICAgICAgICJ5IjogWC5YVVNCX0dBTUVQQURfWSwgImxiIjogWC5YVVNCX0dBTUVQQURfTEVGVF9TSE9VTERFUiwKICAgICAgICAgICAgICAgICJyYiI6IFguWFVTQl9HQU1FUEFEX1JJR0hUX1NIT1VMREVSLCAiYmFjayI6IFguWFVTQl9HQU1FUEFEX0JBQ0ssCiAgICAgICAgICAgICAgICAic3RhcnQiOiBYLlhVU0JfR0FNRVBBRF9TVEFSVCwgImwzIjogWC5YVVNCX0dBTUVQQURfTEVGVF9USFVNQiwKICAgICAgICAgICAgICAgICJyMyI6IFguWFVTQl9HQU1FUEFEX1JJR0hUX1RIVU1CLCAiZHBhZF91cCI6IFguWFVTQl9HQU1FUEFEX0RQQURfVVAsCiAgICAgICAgICAgICAgICAiZHBhZF9kb3duIjogWC5YVVNCX0dBTUVQQURfRFBBRF9ET1dOLCAiZHBhZF9sZWZ0IjogWC5YVVNCX0dBTUVQQURfRFBBRF9MRUZULAogICAgICAgICAgICAgICAgImRwYWRfcmlnaHQiOiBYLlhVU0JfR0FNRVBBRF9EUEFEX1JJR0hULAogICAgICAgICAgICB9CiAgICAgICAgICAgIEQgPSB2Zy5EUzRfQlVUVE9OUwogICAgICAgICAgICBjbHMuX0RTNF9NQVAgPSB7CiAgICAgICAgICAgICAgICAiYSI6IEQuRFM0X0JVVFRPTl9DUk9TUywgImIiOiBELkRTNF9CVVRUT05fQ0lSQ0xFLCAieCI6IEQuRFM0X0JVVFRPTl9TUVVBUkUsCiAgICAgICAgICAgICAgICAieSI6IEQuRFM0X0JVVFRPTl9UUklBTkdMRSwgImxiIjogRC5EUzRfQlVUVE9OX1NIT1VMREVSX0xFRlQsCiAgICAgICAgICAgICAgICAicmIiOiBELkRTNF9CVVRUT05fU0hPVUxERVJfUklHSFQsICJiYWNrIjogRC5EUzRfQlVUVE9OX1NIQVJFLAogICAgICAgICAgICAgICAgInN0YXJ0IjogRC5EUzRfQlVUVE9OX09QVElPTlMsICJsMyI6IEQuRFM0X0JVVFRPTl9USFVNQl9MRUZULAogICAgICAgICAgICAgICAgInIzIjogRC5EUzRfQlVUVE9OX1RIVU1CX1JJR0hULAogICAgICAgICAgICB9CiAgICAgICAgICAgIEREID0gdmcuRFM0X0RQQURfRElSRUNUSU9OUwogICAgICAgICAgICBjbHMuX0RTNF9EUEFEID0gewogICAgICAgICAgICAgICAgKDAsIDApOiBERC5EUzRfQlVUVE9OX0RQQURfTk9ORSwgKDAsIDEpOiBERC5EUzRfQlVUVE9OX0RQQURfTk9SVEgsCiAgICAgICAgICAgICAgICAoMSwgMSk6IERELkRTNF9CVVRUT05fRFBBRF9OT1JUSEVBU1QsICgxLCAwKTogREQuRFM0X0JVVFRPTl9EUEFEX0VBU1QsCiAgICAgICAgICAgICAgICAoMSwgLTEpOiBERC5EUzRfQlVUVE9OX0RQQURfU09VVEhFQVNULCAoMCwgLTEpOiBERC5EUzRfQlVUVE9OX0RQQURfU09VVEgsCiAgICAgICAgICAgICAgICAoLTEsIC0xKTogREQuRFM0X0JVVFRPTl9EUEFEX1NPVVRIV0VTVCwgKC0xLCAwKTogREQuRFM0X0JVVFRPTl9EUEFEX1dFU1QsCiAgICAgICAgICAgICAgICAoLTEsIDEpOiBERC5EUzRfQlVUVE9OX0RQQURfTk9SVEhXRVNULAogICAgICAgICAgICB9CiAgICAgICAgcmV0dXJuIGNscy5fWDM2MF9NQVAsIGNscy5fRFM0X01BUCwgY2xzLl9EUzRfRFBBRAoKICAgIEBzdGF0aWNtZXRob2QKICAgIGRlZiBfcSh2KToKICAgICAgICByZXR1cm4gaW50KF9jbGFtcChmbG9hdCh2KSkgKiAzMjc2NykKCiAgICBAc3RhdGljbWV0aG9kCiAgICBkZWYgX3Qodik6CiAgICAgICAgcmV0dXJuIGludChfY2xhbXAoZmxvYXQodiksIDAuMCwgMS4wKSAqIDI1NSkKCiAgICBkZWYgZnVsbF91cGRhdGUoc2VsZiwgYmFzZT1Ob25lLCBhc3Npc3RfeD0wLjAsIGFzc2lzdF95PTAuMCk6CiAgICAgICAgaWYgc2VsZi5fcGFkIGlzIE5vbmU6CiAgICAgICAgICAgIHJldHVybgogICAgICAgIGIgPSBiYXNlIG9yIF9FTVBUWV9QQUQKICAgICAgICBidG5zID0gZnJvemVuc2V0KGIuZ2V0KCJidXR0b25zIikgb3IgKCkpCiAgICAgICAgc3RhdGUgPSAoCiAgICAgICAgICAgIHNlbGYuX3EoYi5nZXQoImx4IiwgMC4wKSksIHNlbGYuX3EoYi5nZXQoImx5IiwgMC4wKSksCiAgICAgICAgICAgIHNlbGYuX3EoX2NsYW1wKGZsb2F0KGIuZ2V0KCJyeCIsIDAuMCkpICsgZmxvYXQoYXNzaXN0X3gpKSksCiAgICAgICAgICAgIHNlbGYuX3EoX2NsYW1wKGZsb2F0KGIuZ2V0KCJyeSIsIDAuMCkpICsgZmxvYXQoYXNzaXN0X3kpKSksCiAgICAgICAgICAgIHNlbGYuX3QoYi5nZXQoImx0IiwgMC4wKSksIHNlbGYuX3QoYi5nZXQoInJ0IiwgMC4wKSksCiAgICAgICAgICAgIDEgaWYgImx0X2J0biIgaW4gYnRucyBlbHNlIDAsIDEgaWYgInJ0X2J0biIgaW4gYnRucyBlbHNlIDAsCiAgICAgICAgICAgIGJ0bnMsCiAgICAgICAgKQogICAgICAgIGlmIHN0YXRlID09IHNlbGYuX2xhc3Rfc2VudDoKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgdHJ5OgogICAgICAgICAgICB4bWFwLCBkbWFwLCBkZHBhZCA9IHNlbGYuX21hcHMoKQogICAgICAgICAgICBseCwgbHksIHJ4LCByeSwgbHQsIHJ0LCBfbHRiLCBfcnRiLCBfYnRucyA9IHN0YXRlCiAgICAgICAgICAgIHNlbGYuX3BhZC5sZWZ0X2pveXN0aWNrKHhfdmFsdWU9bHgsIHlfdmFsdWU9bHkpCiAgICAgICAgICAgIHNlbGYuX3BhZC5yaWdodF9qb3lzdGljayh4X3ZhbHVlPXJ4LCB5X3ZhbHVlPXJ5KQogICAgICAgICAgICBzZWxmLl9wYWQubGVmdF90cmlnZ2VyKHZhbHVlPWx0KQogICAgICAgICAgICBzZWxmLl9wYWQucmlnaHRfdHJpZ2dlcih2YWx1ZT1ydCkKICAgICAgICAgICAgbmV3X3NlbnQgPSBzZWxmLl9zZW50X2J1dHRvbnMKICAgICAgICAgICAgaWYgc2VsZi5raW5kID09ICJkczQiOgogICAgICAgICAgICAgICAgZWZmID0gYnRucyAtIHsiZHBhZF91cCIsICJkcGFkX2Rvd24iLCAiZHBhZF9sZWZ0IiwgImRwYWRfcmlnaHQiLCAibHRfYnRuIiwgInJ0X2J0biIsICJndWlkZSJ9CiAgICAgICAgICAgICAgICBpZiBkbWFwOgogICAgICAgICAgICAgICAgICAgIGZvciBuYW1lIGluIGVmZiAtIHNlbGYuX3NlbnRfYnV0dG9uczoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgbmFtZSBpbiBkbWFwOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5fcGFkLnByZXNzX2J1dHRvbihidXR0b249ZG1hcFtuYW1lXSkKICAgICAgICAgICAgICAgICAgICBmb3IgbmFtZSBpbiBzZWxmLl9zZW50X2J1dHRvbnMgLSBlZmY6CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIG5hbWUgaW4gZG1hcDoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGYuX3BhZC5yZWxlYXNlX2J1dHRvbihidXR0b249ZG1hcFtuYW1lXSkKICAgICAgICAgICAgICAgIGlmIGRkcGFkOgogICAgICAgICAgICAgICAgICAgIGR4ID0gKDEgaWYgImRwYWRfcmlnaHQiIGluIGJ0bnMgZWxzZSAwKSAtICgxIGlmICJkcGFkX2xlZnQiIGluIGJ0bnMgZWxzZSAwKQogICAgICAgICAgICAgICAgICAgIGR5ID0gKDEgaWYgImRwYWRfdXAiIGluIGJ0bnMgZWxzZSAwKSAtICgxIGlmICJkcGFkX2Rvd24iIGluIGJ0bnMgZWxzZSAwKQogICAgICAgICAgICAgICAgICAgIHNlbGYuX3BhZC5kaXJlY3Rpb25hbF9wYWQoZGlyZWN0aW9uPWRkcGFkWyhkeCwgZHkpXSkKICAgICAgICAgICAgICAgIG5ld19zZW50ID0gZWZmCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBlZmYgPSBidG5zIC0geyJsdF9idG4iLCAicnRfYnRuIiwgImd1aWRlIn0KICAgICAgICAgICAgICAgIGlmIHhtYXA6CiAgICAgICAgICAgICAgICAgICAgZm9yIG5hbWUgaW4gZWZmIC0gc2VsZi5fc2VudF9idXR0b25zOgogICAgICAgICAgICAgICAgICAgICAgICBpZiBuYW1lIGluIHhtYXA6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxmLl9wYWQucHJlc3NfYnV0dG9uKGJ1dHRvbj14bWFwW25hbWVdKQogICAgICAgICAgICAgICAgICAgIGZvciBuYW1lIGluIHNlbGYuX3NlbnRfYnV0dG9ucyAtIGVmZjoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgbmFtZSBpbiB4bWFwOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5fcGFkLnJlbGVhc2VfYnV0dG9uKGJ1dHRvbj14bWFwW25hbWVdKQogICAgICAgICAgICAgICAgbmV3X3NlbnQgPSBlZmYKICAgICAgICAgICAgc2VsZi5fcGFkLnVwZGF0ZSgpCiAgICAgICAgICAgIHNlbGYuX3NlbnRfYnV0dG9ucyA9IG5ld19zZW50CiAgICAgICAgICAgIHNlbGYuX2xhc3Rfc2VudCA9IHN0YXRlCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICBpZiBub3Qgc2VsZi5fd2FybmVkOgogICAgICAgICAgICAgICAgc2VsZi5fd2FybmVkID0gVHJ1ZQogICAgICAgICAgICAgICAgbG9nLndhcm5pbmcoIuODkeODg+ODieWHuuWKm+OBq+WkseaVl+OBl+OBvuOBl+OBnzogJXMiLCBlKQoKICAgIGRlZiByaWdodF9zdGljayhzZWxmLCB4LCB5KToKICAgICAgICBzZWxmLmZ1bGxfdXBkYXRlKE5vbmUsIGZsb2F0KHgpLCBmbG9hdCh5KSkKCiAgICBkZWYgcmVzZXQoc2VsZik6CiAgICAgICAgaWYgc2VsZi5fcGFkIGlzIE5vbmU6CiAgICAgICAgICAgIHJldHVybgogICAgICAgIHRyeToKICAgICAgICAgICAgc2VsZi5fcGFkLnJlc2V0KCkKICAgICAgICAgICAgc2VsZi5fcGFkLnVwZGF0ZSgpCiAgICAgICAgICAgIHNlbGYuX3dhcm5lZCA9IEZhbHNlCiAgICAgICAgICAgIHNlbGYuX2xhc3Rfc2VudCA9IE5vbmUKICAgICAgICAgICAgc2VsZi5fc2VudF9idXR0b25zID0gZnJvemVuc2V0KCkKICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgIGlmIG5vdCBzZWxmLl93YXJuZWQ6CiAgICAgICAgICAgICAgICBzZWxmLl93YXJuZWQgPSBUcnVlCiAgICAgICAgICAgICAgICBsb2cud2FybmluZygi44OR44OD44OJ44Gu44Oq44K744OD44OI44Gr5aSx5pWX44GX44G+44GX44GfOiAlcyIsIGUpCg==
+from __future__ import annotations
+
+import os
+import threading
+
+os.environ.setdefault("PYGAME_HIDE_SUPPORT_PROMPT", "1")
+
+from PyQt6.QtCore import QThread, pyqtSignal
+
+from .config import log
+
+try:
+    import pygame
+    pygame.init()
+except Exception:
+    pygame = None
+try:
+    import vgamepad as vg
+except Exception:
+    vg = None
+
+
+def _clamp(v, lo=-1.0, hi=1.0):
+    return lo if v < lo else hi if v > hi else v
+
+
+def _trig_from_axis(v):
+    v = float(v)
+    if v < 0.0:
+        return (v + 1.0) / 2.0
+    return v
+
+
+def pad_kind_of(name: str) -> str:
+    if any(k in name for k in ("DualSense", "DualShock", "Wireless Controller", "Sony", "PlayStation")):
+        return "ps"
+    return "xbox"
+
+
+_XBOX_BTNS = {0: "a", 1: "b", 2: "x", 3: "y", 4: "lb", 5: "rb", 6: "back", 7: "start", 8: "l3", 9: "r3"}
+_PS_BTNS = {0: "x", 1: "a", 2: "b", 3: "y", 4: "lb", 5: "rb", 6: "lt_btn", 7: "rt_btn", 8: "back", 9: "start", 10: "l3", 11: "r3"}
+
+
+def standardize_raw(axes, buttons, hat, kind, trig_axes=None):
+    def ax(i):
+        return float(axes[i]) if i < len(axes) else 0.0
+
+    def bt(i):
+        return i < len(buttons) and bool(buttons[i])
+
+    btns = set()
+    table = _PS_BTNS if kind == "ps" else _XBOX_BTNS
+    for i, name in table.items():
+        if bt(i):
+            btns.add(name)
+    if hat is not None:
+        hx, hy = hat
+        if hy > 0:
+            btns.add("dpad_up")
+        elif hy < 0:
+            btns.add("dpad_down")
+        if hx < 0:
+            btns.add("dpad_left")
+        elif hx > 0:
+            btns.add("dpad_right")
+    if kind == "ps":
+        lx, ly, rx, ry = ax(0), ax(1), ax(3), ax(4)
+        lt = _trig_from_axis(ax(2)) if len(axes) > 2 else (1.0 if "lt_btn" in btns else 0.0)
+        rt = _trig_from_axis(ax(5)) if len(axes) > 5 else (1.0 if "rt_btn" in btns else 0.0)
+    else:
+        lx, ly, rx, ry = ax(0), ax(1), ax(2), ax(3)
+        if trig_axes:
+            li, ri = trig_axes
+            lt = _trig_from_axis(ax(li)) if li < len(axes) else 0.0
+            rt = _trig_from_axis(ax(ri)) if ri < len(axes) else 0.0
+        else:
+            lt = 1.0 if "lt_btn" in btns else 0.0
+            rt = 1.0 if "rt_btn" in btns else 0.0
+    if lt > 0.5:
+        btns.add("lt_btn")
+    if rt > 0.5:
+        btns.add("rt_btn")
+    return {
+        "lx": _clamp(lx), "ly": _clamp(-ly), "rx": _clamp(rx), "ry": _clamp(-ry),
+        "lt": _clamp(lt, 0.0, 1.0), "rt": _clamp(rt, 0.0, 1.0),
+        "buttons": frozenset(btns),
+    }
+
+
+def standardize_sdl(axes6, buttons15):
+    def ax(i):
+        return _clamp(float(axes6[i]) / 32767.0) if i < len(axes6) else 0.0
+
+    names = ("a", "b", "x", "y", "back", "guide", "start", "l3", "r3", "lb", "rb",
+             "dpad_up", "dpad_down", "dpad_left", "dpad_right")
+    btns = {names[i] for i in range(min(len(buttons15), len(names))) if buttons15[i]}
+    lt = _clamp(float(axes6[4]) / 32767.0, 0.0, 1.0) if len(axes6) > 4 else 0.0
+    rt = _clamp(float(axes6[5]) / 32767.0, 0.0, 1.0) if len(axes6) > 5 else 0.0
+    if lt > 0.5:
+        btns.add("lt_btn")
+    if rt > 0.5:
+        btns.add("rt_btn")
+    return {
+        "lx": ax(0), "ly": -ax(1), "rx": ax(2), "ry": -ax(3),
+        "lt": lt, "rt": rt, "buttons": frozenset(btns),
+    }
+
+
+_EMPTY_PAD = {"lx": 0.0, "ly": 0.0, "rx": 0.0, "ry": 0.0, "lt": 0.0, "rt": 0.0,
+              "buttons": frozenset()}
+
+
+class PadReader(QThread):
+    state_changed = pyqtSignal(dict)
+
+    def __init__(self):
+        super().__init__()
+        self._evt = threading.Event()
+        self._lock = threading.Lock()
+        self._state = {"connected": False, "name": "", **_EMPTY_PAD}
+        self._joy = None
+        self._ctrl = None
+        self._joy_name = ""
+        self._joy_kind = "xbox"
+        self._trigger_axes = None
+
+    def stop(self):
+        self._evt.set()
+
+    def snapshot(self):
+        with self._lock:
+            return dict(self._state)
+
+    def _detect_trigger_mapping(self, j):
+        self._trigger_axes = None
+        try:
+            if j.get_numaxes() >= 6:
+                a4, a5 = j.get_axis(4), j.get_axis(5)
+                if (a4 < -0.5 and a5 < -0.5) or (0.0 <= a4 <= 1.0 and 0.0 <= a5 <= 1.0):
+                    self._trigger_axes = (4, 5)
+        except Exception:
+            self._trigger_axes = None
+
+    def _open_controller(self, idx):
+        try:
+            from pygame._sdl2 import controller as _ctl
+            try:
+                _ctl.init()
+            except Exception:
+                pass
+            if not _ctl.is_controller(idx):
+                return None
+            c = _ctl.Controller(idx)
+            name = ""
+            try:
+                name = c.name or ""
+            except Exception:
+                name = ""
+            return c, name
+        except Exception:
+            return None
+
+    def _connect(self):
+        count = 0
+        try:
+            count = pygame.joystick.get_count()
+        except Exception:
+            count = 0
+        for idx in range(count):
+            got = self._open_controller(idx)
+            if got is not None:
+                self._ctrl, self._joy_name = got
+                self._joy_kind = pad_kind_of(self._joy_name)
+                with self._lock:
+                    self._state = {"connected": True, "name": self._joy_name,
+                                   "kind": self._joy_kind, **_EMPTY_PAD}
+                self.state_changed.emit(self.snapshot())
+                return True
+        for idx in range(count):
+            try:
+                j = pygame.joystick.Joystick(idx)
+                j.init()
+            except Exception:
+                continue
+            self._joy = j
+            self._detect_trigger_mapping(j)
+            self._joy_name = j.get_name() or ""
+            self._joy_kind = pad_kind_of(self._joy_name)
+            with self._lock:
+                self._state = {"connected": True, "name": self._joy_name,
+                               "kind": self._joy_kind, **_EMPTY_PAD}
+            self.state_changed.emit(self.snapshot())
+            return True
+        return False
+
+    def _disconnect(self):
+        if self._joy is not None:
+            try:
+                self._joy.quit()
+            except Exception:
+                pass
+        if self._ctrl is not None:
+            try:
+                self._ctrl.close()
+            except Exception:
+                pass
+        self._joy = None
+        self._ctrl = None
+        self._joy_name = ""
+        self._trigger_axes = None
+        with self._lock:
+            self._state = {"connected": False, "name": "", **_EMPTY_PAD}
+        self.state_changed.emit(self.snapshot())
+
+    def _poll(self):
+        if self._ctrl is not None:
+            try:
+                from pygame._sdl2 import controller as _ctl
+                _ctl.update()
+            except Exception:
+                pass
+            c = self._ctrl
+            axes = [c.get_axis(i) for i in range(6)]
+            btns = [c.get_button(i) for i in range(15)]
+            return standardize_sdl(axes, btns)
+        j = self._joy
+        try:
+            pygame.event.pump()
+        except Exception:
+            pass
+        na, nb = j.get_numaxes(), j.get_numbuttons()
+        axes = [j.get_axis(i) for i in range(na)]
+        btns = [j.get_button(i) for i in range(nb)]
+        hat = None
+        try:
+            if j.get_numhats() > 0:
+                hat = j.get_hat(0)
+        except Exception:
+            hat = None
+        return standardize_raw(axes, btns, hat, self._joy_kind, self._trigger_axes)
+
+    def run(self):
+        if pygame is None:
+            self.state_changed.emit({"error": "pygameが利用できません"})
+            return
+        try:
+            while not self._evt.is_set():
+                if self._joy is None and self._ctrl is None:
+                    if not self._connect():
+                        self._evt.wait(0.5)
+                        continue
+                try:
+                    st = self._poll()
+                    st["connected"] = True
+                    st["name"] = self._joy_name
+                    st["kind"] = self._joy_kind
+                    with self._lock:
+                        self._state = st
+                except Exception as e:
+                    log.warning("パッド読み取りエラー: %s", e)
+                    self._disconnect()
+                self._evt.wait(0.008)
+        finally:
+            if self._joy is not None:
+                try:
+                    self._joy.quit()
+                except Exception:
+                    pass
+            if self._ctrl is not None:
+                try:
+                    self._ctrl.close()
+                except Exception:
+                    pass
+                self._ctrl = None
+
+
+class PadWriter:
+    _X360_MAP = None
+    _DS4_MAP = None
+    _DS4_DPAD = None
+
+    def __init__(self, kind="x360"):
+        self.kind = kind if kind in ("x360", "ds4") else "x360"
+        self._pad = None
+        self._warned = False
+        self._last_sent = None
+        self._sent_buttons = frozenset()
+        if vg is not None:
+            try:
+                self._pad = vg.VDS4Gamepad() if self.kind == "ds4" else vg.VX360Gamepad()
+            except Exception as e:
+                log.info("vgamepad初期化失敗: %s", e)
+
+    @property
+    def available(self):
+        return self._pad is not None
+
+    @classmethod
+    def _maps(cls):
+        if cls._X360_MAP is None and vg is not None:
+            X = vg.XUSB_BUTTON
+            cls._X360_MAP = {
+                "a": X.XUSB_GAMEPAD_A, "b": X.XUSB_GAMEPAD_B, "x": X.XUSB_GAMEPAD_X,
+                "y": X.XUSB_GAMEPAD_Y, "lb": X.XUSB_GAMEPAD_LEFT_SHOULDER,
+                "rb": X.XUSB_GAMEPAD_RIGHT_SHOULDER, "back": X.XUSB_GAMEPAD_BACK,
+                "start": X.XUSB_GAMEPAD_START, "l3": X.XUSB_GAMEPAD_LEFT_THUMB,
+                "r3": X.XUSB_GAMEPAD_RIGHT_THUMB, "dpad_up": X.XUSB_GAMEPAD_DPAD_UP,
+                "dpad_down": X.XUSB_GAMEPAD_DPAD_DOWN, "dpad_left": X.XUSB_GAMEPAD_DPAD_LEFT,
+                "dpad_right": X.XUSB_GAMEPAD_DPAD_RIGHT,
+            }
+            D = vg.DS4_BUTTONS
+            cls._DS4_MAP = {
+                "a": D.DS4_BUTTON_CROSS, "b": D.DS4_BUTTON_CIRCLE, "x": D.DS4_BUTTON_SQUARE,
+                "y": D.DS4_BUTTON_TRIANGLE, "lb": D.DS4_BUTTON_SHOULDER_LEFT,
+                "rb": D.DS4_BUTTON_SHOULDER_RIGHT, "back": D.DS4_BUTTON_SHARE,
+                "start": D.DS4_BUTTON_OPTIONS, "l3": D.DS4_BUTTON_THUMB_LEFT,
+                "r3": D.DS4_BUTTON_THUMB_RIGHT,
+            }
+            DD = vg.DS4_DPAD_DIRECTIONS
+            cls._DS4_DPAD = {
+                (0, 0): DD.DS4_BUTTON_DPAD_NONE, (0, 1): DD.DS4_BUTTON_DPAD_NORTH,
+                (1, 1): DD.DS4_BUTTON_DPAD_NORTHEAST, (1, 0): DD.DS4_BUTTON_DPAD_EAST,
+                (1, -1): DD.DS4_BUTTON_DPAD_SOUTHEAST, (0, -1): DD.DS4_BUTTON_DPAD_SOUTH,
+                (-1, -1): DD.DS4_BUTTON_DPAD_SOUTHWEST, (-1, 0): DD.DS4_BUTTON_DPAD_WEST,
+                (-1, 1): DD.DS4_BUTTON_DPAD_NORTHWEST,
+            }
+        return cls._X360_MAP, cls._DS4_MAP, cls._DS4_DPAD
+
+    @staticmethod
+    def _q(v):
+        return int(_clamp(float(v)) * 32767)
+
+    @staticmethod
+    def _t(v):
+        return int(_clamp(float(v), 0.0, 1.0) * 255)
+
+    def full_update(self, base=None, assist_x=0.0, assist_y=0.0):
+        if self._pad is None:
+            return
+        b = base or _EMPTY_PAD
+        btns = frozenset(b.get("buttons") or ())
+        state = (
+            self._q(b.get("lx", 0.0)), self._q(b.get("ly", 0.0)),
+            self._q(_clamp(float(b.get("rx", 0.0)) + float(assist_x))),
+            self._q(_clamp(float(b.get("ry", 0.0)) + float(assist_y))),
+            self._t(b.get("lt", 0.0)), self._t(b.get("rt", 0.0)),
+            1 if "lt_btn" in btns else 0, 1 if "rt_btn" in btns else 0,
+            btns,
+        )
+        if state == self._last_sent:
+            return
+        try:
+            xmap, dmap, ddpad = self._maps()
+            lx, ly, rx, ry, lt, rt, _ltb, _rtb, _btns = state
+            self._pad.left_joystick(x_value=lx, y_value=ly)
+            self._pad.right_joystick(x_value=rx, y_value=ry)
+            self._pad.left_trigger(value=lt)
+            self._pad.right_trigger(value=rt)
+            new_sent = self._sent_buttons
+            if self.kind == "ds4":
+                eff = btns - {"dpad_up", "dpad_down", "dpad_left", "dpad_right", "lt_btn", "rt_btn", "guide"}
+                if dmap:
+                    for name in eff - self._sent_buttons:
+                        if name in dmap:
+                            self._pad.press_button(button=dmap[name])
+                    for name in self._sent_buttons - eff:
+                        if name in dmap:
+                            self._pad.release_button(button=dmap[name])
+                if ddpad:
+                    dx = (1 if "dpad_right" in btns else 0) - (1 if "dpad_left" in btns else 0)
+                    dy = (1 if "dpad_up" in btns else 0) - (1 if "dpad_down" in btns else 0)
+                    self._pad.directional_pad(direction=ddpad[(dx, dy)])
+                new_sent = eff
+            else:
+                eff = btns - {"lt_btn", "rt_btn", "guide"}
+                if xmap:
+                    for name in eff - self._sent_buttons:
+                        if name in xmap:
+                            self._pad.press_button(button=xmap[name])
+                    for name in self._sent_buttons - eff:
+                        if name in xmap:
+                            self._pad.release_button(button=xmap[name])
+                new_sent = eff
+            self._pad.update()
+            self._sent_buttons = new_sent
+            self._last_sent = state
+        except Exception as e:
+            if not self._warned:
+                self._warned = True
+                log.warning("パッド出力に失敗しました: %s", e)
+
+    def right_stick(self, x, y):
+        self.full_update(None, float(x), float(y))
+
+    def reset(self):
+        if self._pad is None:
+            return
+        try:
+            self._pad.reset()
+            self._pad.update()
+            self._warned = False
+            self._last_sent = None
+            self._sent_buttons = frozenset()
+        except Exception as e:
+            if not self._warned:
+                self._warned = True
+                log.warning("パッドのリセットに失敗しました: %s", e)
