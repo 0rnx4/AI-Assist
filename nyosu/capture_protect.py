@@ -1,1 +1,79 @@
-ZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGN0eXBlcwppbXBvcnQgb3MKCldEQV9OT05FID0gMHgwMDAwMDAwMApXREFfTU9OSVRPUiA9IDB4MDAwMDAwMDEKV0RBX0VYQ0xVREVGUk9NQ0FQVFVSRSA9IDB4MDAwMDAwMTEKCgpkZWYgX2h3bmRfb2Yod2lkZ2V0KSAtPiBpbnQ6CiAgICB0cnk6CiAgICAgICAgd2lkID0gd2lkZ2V0LndpbklkKCkKICAgICAgICByZXR1cm4gaW50KHdpZCkKICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgcmV0dXJuIDAKCgpfYWZmaW5pdHlfZm4gPSBOb25lCgoKZGVmIF9nZXRfYWZmaW5pdHlfZm4oKToKICAgIGdsb2JhbCBfYWZmaW5pdHlfZm4KICAgIGlmIF9hZmZpbml0eV9mbiBpcyBOb25lOgogICAgICAgIGZuID0gY3R5cGVzLndpbmRsbC51c2VyMzIuU2V0V2luZG93RGlzcGxheUFmZmluaXR5CiAgICAgICAgZm4uYXJndHlwZXMgPSBbY3R5cGVzLmNfdm9pZF9wLCBjdHlwZXMuY191aW50MzJdCiAgICAgICAgZm4ucmVzdHlwZSA9IGN0eXBlcy5jX2ludAogICAgICAgIF9hZmZpbml0eV9mbiA9IGZuCiAgICByZXR1cm4gX2FmZmluaXR5X2ZuCgoKZGVmIHNldF9leGNsdWRlX2Zyb21fY2FwdHVyZSh3aWRnZXQsIGVuYWJsZWQ6IGJvb2wpIC0+IGJvb2w6CiAgICBpZiBvcy5uYW1lICE9ICJudCI6CiAgICAgICAgcmV0dXJuIEZhbHNlCiAgICBod25kID0gX2h3bmRfb2Yod2lkZ2V0KQogICAgaWYgbm90IGh3bmQ6CiAgICAgICAgcmV0dXJuIEZhbHNlCiAgICB0cnk6CiAgICAgICAgc2V0X2FmZmluaXR5ID0gX2dldF9hZmZpbml0eV9mbigpCiAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgIHJldHVybiBGYWxzZQogICAgaWYgbm90IGVuYWJsZWQ6CiAgICAgICAgdHJ5OgogICAgICAgICAgICByZXR1cm4gYm9vbChzZXRfYWZmaW5pdHkoY3R5cGVzLmNfdm9pZF9wKGh3bmQpLCBXREFfTk9ORSkpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCiAgICB0cnk6CiAgICAgICAgaWYgc2V0X2FmZmluaXR5KGN0eXBlcy5jX3ZvaWRfcChod25kKSwgV0RBX0VYQ0xVREVGUk9NQ0FQVFVSRSk6CiAgICAgICAgICAgIHJldHVybiBUcnVlCiAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgIHBhc3MKICAgIHRyeToKICAgICAgICByZXR1cm4gYm9vbChzZXRfYWZmaW5pdHkoY3R5cGVzLmNfdm9pZF9wKGh3bmQpLCBXREFfTU9OSVRPUikpCiAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgIHJldHVybiBGYWxzZQoKCmRlZiBhcHBseV9jYXB0dXJlX3Byb3RlY3Rpb24od2lkZ2V0LCBlbmFibGVkOiBib29sKSAtPiBib29sOgogICAgZ2VuID0gZ2V0YXR0cih3aWRnZXQsICJfY2FwX2dlbiIsIDApICsgMQogICAgdHJ5OgogICAgICAgIHdpZGdldC5fY2FwX2dlbiA9IGdlbgogICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICBwYXNzCiAgICBvayA9IHNldF9leGNsdWRlX2Zyb21fY2FwdHVyZSh3aWRnZXQsIGVuYWJsZWQpCiAgICBpZiBlbmFibGVkIGFuZCBvcy5uYW1lID09ICJudCI6CiAgICAgICAgZGVmIF9yZXRyeShnZW49Z2VuKToKICAgICAgICAgICAgaWYgZ2V0YXR0cih3aWRnZXQsICJfY2FwX2dlbiIsIE5vbmUpID09IGdlbjoKICAgICAgICAgICAgICAgIHNldF9leGNsdWRlX2Zyb21fY2FwdHVyZSh3aWRnZXQsIFRydWUpCgogICAgICAgIHRyeToKICAgICAgICAgICAgZnJvbSBQeVF0Ni5RdENvcmUgaW1wb3J0IFFUaW1lcgogICAgICAgICAgICBmb3IgZGVsYXkgaW4gKDI1MCwgMTAwMCk6CiAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgUVRpbWVyLnNpbmdsZVNob3QoZGVsYXksIHdpZGdldCwgX3JldHJ5KQogICAgICAgICAgICAgICAgZXhjZXB0IFR5cGVFcnJvcjoKICAgICAgICAgICAgICAgICAgICBRVGltZXIuc2luZ2xlU2hvdChkZWxheSwgX3JldHJ5KQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgIHBhc3MKICAgIHJldHVybiBvawo=
+from __future__ import annotations
+
+import ctypes
+import os
+
+WDA_NONE = 0x00000000
+WDA_MONITOR = 0x00000001
+WDA_EXCLUDEFROMCAPTURE = 0x00000011
+
+
+def _hwnd_of(widget) -> int:
+    try:
+        wid = widget.winId()
+        return int(wid)
+    except Exception:
+        return 0
+
+
+_affinity_fn = None
+
+
+def _get_affinity_fn():
+    global _affinity_fn
+    if _affinity_fn is None:
+        fn = ctypes.windll.user32.SetWindowDisplayAffinity
+        fn.argtypes = [ctypes.c_void_p, ctypes.c_uint32]
+        fn.restype = ctypes.c_int
+        _affinity_fn = fn
+    return _affinity_fn
+
+
+def set_exclude_from_capture(widget, enabled: bool) -> bool:
+    if os.name != "nt":
+        return False
+    hwnd = _hwnd_of(widget)
+    if not hwnd:
+        return False
+    try:
+        set_affinity = _get_affinity_fn()
+    except Exception:
+        return False
+    if not enabled:
+        try:
+            return bool(set_affinity(ctypes.c_void_p(hwnd), WDA_NONE))
+        except Exception:
+            return False
+    try:
+        if set_affinity(ctypes.c_void_p(hwnd), WDA_EXCLUDEFROMCAPTURE):
+            return True
+    except Exception:
+        pass
+    try:
+        return bool(set_affinity(ctypes.c_void_p(hwnd), WDA_MONITOR))
+    except Exception:
+        return False
+
+
+def apply_capture_protection(widget, enabled: bool) -> bool:
+    gen = getattr(widget, "_cap_gen", 0) + 1
+    try:
+        widget._cap_gen = gen
+    except Exception:
+        pass
+    ok = set_exclude_from_capture(widget, enabled)
+    if enabled and os.name == "nt":
+        def _retry(gen=gen):
+            if getattr(widget, "_cap_gen", None) == gen:
+                set_exclude_from_capture(widget, True)
+
+        try:
+            from PyQt6.QtCore import QTimer
+            for delay in (250, 1000):
+                try:
+                    QTimer.singleShot(delay, widget, _retry)
+                except TypeError:
+                    QTimer.singleShot(delay, _retry)
+        except Exception:
+            pass
+    return ok
