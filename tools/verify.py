@@ -1,1 +1,111 @@
-IiIiTllPU1Ug5a6f5qmf5qSc6Ki844K544Kv44Oq44OX44OI77yIV2luZG93cyAvIExpbnV4IOWFsemAmu+8iQoK5L2/44GE5pa5OiAgcHl0aG9uIHRvb2xzL3ZlcmlmeS5weQrkvp3lrZjjgqTjg7Pjgrnjg4jjg7zjg6vjgIHljZjkvZPjg4bjgrnjg4jjgIHjg6Ljg4fjg6voqq3jgb/ovrzjgb/vvIvmjqjoq5bjg5njg7Pjg4HjgIFHVUnotbfli5Xjgrnjg6Ljg7zjgq/jgpIK5LiA5ous44Gn5a6f6KGM44GX44CB57WQ5p6c44KSIHZlcmlmeV9yZXBvcnQudHh0IOOBq+abuOOBjeWHuuOBl+OBvuOBmeOAggrlrp/mqZ/vvIjnibnjgasgV2luZG93c++8ieOBp+OBruS6kuaPm+aAp+eiuuiqjeOBr+OBk+OBruODrOODneODvOODiOOBp+WFseacieOBp+OBjeOBvuOBmeOAggoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IG9zCmltcG9ydCBwbGF0Zm9ybQppbXBvcnQgc3VicHJvY2VzcwppbXBvcnQgc3lzCmltcG9ydCB0aW1lCgpST09UID0gb3MucGF0aC5kaXJuYW1lKG9zLnBhdGguZGlybmFtZShvcy5wYXRoLmFic3BhdGgoX19maWxlX18pKSkKUkVQT1JUID0gb3MucGF0aC5qb2luKFJPT1QsICJ2ZXJpZnlfcmVwb3J0LnR4dCIpCkxJTkVTID0gW10KCgpkZWYgb3V0KG1zZz0iIik6CiAgICBwcmludChtc2cpCiAgICBMSU5FUy5hcHBlbmQoc3RyKG1zZykpCgoKZGVmIHNlY3Rpb24odGl0bGUpOgogICAgb3V0KCkKICAgIG91dChmIj09IHt0aXRsZX0gPT0iKQoKCmRlZiBtYWluKCk6CiAgICBvcy5jaGRpcihST09UKQogICAgc2VjdGlvbigi55Kw5aKDIikKICAgIG91dChmIk9TOiB7cGxhdGZvcm0ucGxhdGZvcm0oKX0iKQogICAgb3V0KGYiUHl0aG9uOiB7c3lzLnZlcnNpb24uc3BsaXQoKVswXX0gKHtzeXMuZXhlY3V0YWJsZX0pIikKICAgIGZvciBtb2QgaW4gKCJudW1weSIsICJjdjIiLCAib25ueHJ1bnRpbWUiLCAiUHlRdDYiLCAibXNzIiwgInB5Z2FtZSIsICJrZXlib2FyZCIsICJ2Z2FtZXBhZCIpOgogICAgICAgIHRyeToKICAgICAgICAgICAgbSA9IF9faW1wb3J0X18obW9kKQogICAgICAgICAgICBvdXQoZiJ7bW9kfToge2dldGF0dHIobSwgJ19fdmVyc2lvbl9fJywgJ09LJyl9IikKICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgIG91dChmInttb2R9OiDliKnnlKjkuI3lj68gKHtlfSkiKQoKICAgIHNlY3Rpb24oIuWNmOS9k+ODhuOCueODiCAodGVzdHMvcnVuX3Rlc3RzLnB5KSIpCiAgICBlbnYgPSBkaWN0KG9zLmVudmlyb24pCiAgICBlbnYuc2V0ZGVmYXVsdCgiUVRfUVBBX1BMQVRGT1JNIiwgIm9mZnNjcmVlbiIpCiAgICB0MCA9IHRpbWUudGltZSgpCiAgICB0cnk6CiAgICAgICAgciA9IHN1YnByb2Nlc3MucnVuKFtzeXMuZXhlY3V0YWJsZSwgb3MucGF0aC5qb2luKCJ0ZXN0cyIsICJydW5fdGVzdHMucHkiKV0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgIGNhcHR1cmVfb3V0cHV0PVRydWUsIHRleHQ9VHJ1ZSwgdGltZW91dD05MDAsIGVudj1lbnYpCiAgICAgICAgb3V0KHIuc3Rkb3V0LnN0cmlwKCkpCiAgICAgICAgaWYgci5yZXR1cm5jb2RlICE9IDA6CiAgICAgICAgICAgIG91dChmIuODhuOCueODiOWkseaVlyAoZXhpdCB7ci5yZXR1cm5jb2RlfSkiKQogICAgICAgICAgICBvdXQoci5zdGRlcnIuc3RyaXAoKVstMzAwMDpdKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIG91dChmIuODhuOCueODiOaJgOimgeaZgumWkzoge3RpbWUudGltZSgpIC0gdDA6LjBmfXMiKQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIG91dChmIuODhuOCueODiOWun+ihjOOCqOODqeODvDoge2V9IikKCiAgICBzZWN0aW9uKCLjg6Ljg4fjg6voqq3jgb/ovrzjgb8gKyDmjqjoq5bjg5njg7Pjg4EiKQogICAgdHJ5OgogICAgICAgIHN5cy5wYXRoLmluc2VydCgwLCBST09UKQogICAgICAgIGltcG9ydCBudW1weSBhcyBucAoKICAgICAgICBmcm9tIG55b3N1LmNvbmZpZyBpbXBvcnQgU2V0dGluZ3MKICAgICAgICBmcm9tIG55b3N1LnZpc2lvbiBpbXBvcnQgRGV0ZWN0b3IKICAgICAgICBzID0gU2V0dGluZ3MoKQogICAgICAgIG1vZGVsID0gb3MucGF0aC5qb2luKFJPT1QsICJhcGV4X3Y4c18zY2xhc3Mub25ueCIpCiAgICAgICAgcy5tb2RlbF9wYXRoID0gbW9kZWwKICAgICAgICBkID0gRGV0ZWN0b3IoKQogICAgICAgIGQubG9hZChzKQogICAgICAgIG91dChmInByb3ZpZGVyOiB7ZC5wcm92aWRlcl91c2VkfSAvIGVycm9yOiB7ZC5lcnJvcn0iKQogICAgICAgIGlmIGQuc2Vzc2lvbiBpcyBub3QgTm9uZToKICAgICAgICAgICAgaW1nID0gbnAuemVyb3MoKDY0MCwgNjQwLCAzKSwgZHR5cGU9bnAudWludDgpCiAgICAgICAgICAgIGQuaW5mZXIoaW1nLCBzLCA2NDAsIDY0MCkKICAgICAgICAgICAgdDAgPSB0aW1lLnBlcmZfY291bnRlcigpCiAgICAgICAgICAgIG4gPSAyMAogICAgICAgICAgICBmb3IgXyBpbiByYW5nZShuKToKICAgICAgICAgICAgICAgIGQuaW5mZXIoaW1nLCBzLCA2NDAsIDY0MCkKICAgICAgICAgICAgb3V0KGYi5o6o6KuWOiB7KHRpbWUucGVyZl9jb3VudGVyKCkgLSB0MCkgLyBuICogMTAwMDouMWZ9IG1zL+WbniAoQ1BVL0dQVeOBr+eSsOWig+S+neWtmCkiKQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIG91dChmIuODouODh+ODq+aknOiovOOCqOODqeODvDoge2V9IikKCiAgICBzZWN0aW9uKCJXaW5kb3dz5Zu65pyJ44OB44Kn44OD44KvIikKICAgIGlmIG9zLm5hbWUgPT0gIm50IjoKICAgICAgICB0cnk6CiAgICAgICAgICAgIGltcG9ydCBjdHlwZXMKCiAgICAgICAgICAgIGZyb20gbnlvc3UuY2FwdHVyZV9wcm90ZWN0IGltcG9ydCBXREFfRVhDTFVERUZST01DQVBUVVJFCiAgICAgICAgICAgIGZuID0gY3R5cGVzLndpbmRsbC51c2VyMzIuU2V0V2luZG93RGlzcGxheUFmZmluaXR5CiAgICAgICAgICAgIG91dChmIlNldFdpbmRvd0Rpc3BsYXlBZmZpbml0eTog5Y+C54WnT0sgLyBXREFfRVhDTFVERUZST01DQVBUVVJFPTB4e1dEQV9FWENMVURFRlJPTUNBUFRVUkU6MDJYfSIpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICBvdXQoZiJXaW4zMuODgeOCp+ODg+OCr+OCqOODqeODvDoge2V9IikKICAgICAgICB0cnk6CiAgICAgICAgICAgIGltcG9ydCB2Z2FtZXBhZCAgIyBub3FhOiBGNDAxCgogICAgICAgICAgICBvdXQoInZnYW1lcGFkOiDjgqTjg7Pjg53jg7zjg4hPS++8iFZpR0VtQnVz44OJ44Op44Kk44OQ44Gu5pyJ54Sh44Gv44OR44OD44OJ55Sf5oiQ5pmC44Gr5Yik5a6a77yJIikKICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgIG91dChmInZnYW1lcGFkOiDliKnnlKjkuI3lj68gKHtlfSkiKQogICAgZWxzZToKICAgICAgICBvdXQoIldpbmRvd3Pjgafjga/jgarjgYTjgZ/jgoHjgrnjgq3jg4Pjg5fvvIjphY3kv6HpmaTlpJbjg7tWaUdFbeetieOBr1dpbmRvd3Plrp/mqZ/jgafjga7jgb/mpJzoqLzlj6/og73vvIkiKQoKICAgIG91dCgpCiAgICBvdXQoIuaknOiovOWujOS6huOAguOBk+OBriB2ZXJpZnlfcmVwb3J0LnR4dCDjgpLlhbHmnInjgZnjgovjgajlrp/mqZ/jga7nirbmhYvjgYzjgZ3jga7jgb7jgb7kvJ3jgo/jgorjgb7jgZnjgIIiKQogICAgd2l0aCBvcGVuKFJFUE9SVCwgInciLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgIGYud3JpdGUoIlxuIi5qb2luKExJTkVTKSkKICAgIHByaW50KGYi44Os44Od44O844OIOiB7UkVQT1JUfSIpCiAgICByZXR1cm4gMAoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBzeXMuZXhpdChtYWluKCkpCg==
+"""NYOSU 実機検証スクリプト（Windows / Linux 共通）
+
+使い方:  python tools/verify.py
+依存インストール、単体テスト、モデル読み込み＋推論ベンチ、GUI起動スモークを
+一括で実行し、結果を verify_report.txt に書き出します。
+実機（特に Windows）での互換性確認はこのレポートで共有できます。
+"""
+from __future__ import annotations
+
+import os
+import platform
+import subprocess
+import sys
+import time
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+REPORT = os.path.join(ROOT, "verify_report.txt")
+LINES = []
+
+
+def out(msg=""):
+    print(msg)
+    LINES.append(str(msg))
+
+
+def section(title):
+    out()
+    out(f"== {title} ==")
+
+
+def main():
+    os.chdir(ROOT)
+    section("環境")
+    out(f"OS: {platform.platform()}")
+    out(f"Python: {sys.version.split()[0]} ({sys.executable})")
+    for mod in ("numpy", "cv2", "onnxruntime", "PyQt6", "mss", "pygame", "keyboard", "vgamepad"):
+        try:
+            m = __import__(mod)
+            out(f"{mod}: {getattr(m, '__version__', 'OK')}")
+        except Exception as e:
+            out(f"{mod}: 利用不可 ({e})")
+
+    section("単体テスト (tests/run_tests.py)")
+    env = dict(os.environ)
+    env.setdefault("QT_QPA_PLATFORM", "offscreen")
+    t0 = time.time()
+    try:
+        r = subprocess.run([sys.executable, os.path.join("tests", "run_tests.py")],
+                           capture_output=True, text=True, timeout=900, env=env)
+        out(r.stdout.strip())
+        if r.returncode != 0:
+            out(f"テスト失敗 (exit {r.returncode})")
+            out(r.stderr.strip()[-3000:])
+        else:
+            out(f"テスト所要時間: {time.time() - t0:.0f}s")
+    except Exception as e:
+        out(f"テスト実行エラー: {e}")
+
+    section("モデル読み込み + 推論ベンチ")
+    try:
+        sys.path.insert(0, ROOT)
+        import numpy as np
+
+        from nyosu.config import Settings
+        from nyosu.vision import Detector
+        s = Settings()
+        model = os.path.join(ROOT, "apex_v8s_3class.onnx")
+        s.model_path = model
+        d = Detector()
+        d.load(s)
+        out(f"provider: {d.provider_used} / error: {d.error}")
+        if d.session is not None:
+            img = np.zeros((640, 640, 3), dtype=np.uint8)
+            d.infer(img, s, 640, 640)
+            t0 = time.perf_counter()
+            n = 20
+            for _ in range(n):
+                d.infer(img, s, 640, 640)
+            out(f"推論: {(time.perf_counter() - t0) / n * 1000:.1f} ms/回 (CPU/GPUは環境依存)")
+    except Exception as e:
+        out(f"モデル検証エラー: {e}")
+
+    section("Windows固有チェック")
+    if os.name == "nt":
+        try:
+            import ctypes
+
+            from nyosu.capture_protect import WDA_EXCLUDEFROMCAPTURE
+            fn = ctypes.windll.user32.SetWindowDisplayAffinity
+            out(f"SetWindowDisplayAffinity: 参照OK / WDA_EXCLUDEFROMCAPTURE=0x{WDA_EXCLUDEFROMCAPTURE:02X}")
+        except Exception as e:
+            out(f"Win32チェックエラー: {e}")
+        try:
+            import vgamepad  # noqa: F401
+
+            out("vgamepad: インポートOK（ViGEmBusドライバの有無はパッド生成時に判定）")
+        except Exception as e:
+            out(f"vgamepad: 利用不可 ({e})")
+    else:
+        out("Windowsではないためスキップ（配信除外・ViGEm等はWindows実機でのみ検証可能）")
+
+    out()
+    out("検証完了。この verify_report.txt を共有すると実機の状態がそのまま伝わります。")
+    with open(REPORT, "w", encoding="utf-8") as f:
+        f.write("\n".join(LINES))
+    print(f"レポート: {REPORT}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
