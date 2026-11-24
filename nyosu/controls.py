@@ -1,1 +1,165 @@
-ZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IHJlCgpmcm9tIFB5UXQ2LlF0Q29yZSBpbXBvcnQgUXQKZnJvbSBQeVF0Ni5RdFdpZGdldHMgaW1wb3J0ICgKICAgIFFDb21ib0JveCwgUUZyYW1lLCBRSEJveExheW91dCwgUUxhYmVsLCBRTGluZUVkaXQsIFFTbGlkZXIsIFFWQm94TGF5b3V0LAopCgpmcm9tIC53aWRnZXRzIGltcG9ydCBUb2dnbGVTd2l0Y2gKCgpjbGFzcyBDb250cm9sc01peGluOgogICAgZGVmIF9jYXJkKHNlbGYsIHRpdGxlLCBkZXNjPSIiKToKICAgICAgICBmID0gUUZyYW1lKCkKICAgICAgICBmLnNldE9iamVjdE5hbWUoIkNhcmQiKQogICAgICAgIGwgPSBRVkJveExheW91dChmKQogICAgICAgIGwuc2V0Q29udGVudHNNYXJnaW5zKDIwLCAxOCwgMjAsIDE4KQogICAgICAgIGwuc2V0U3BhY2luZygxMSkKICAgICAgICB0ID0gUUxhYmVsKHRpdGxlKQogICAgICAgIHQuc2V0T2JqZWN0TmFtZSgiQ2FyZFRpdGxlIikKICAgICAgICBsLmFkZFdpZGdldCh0KQogICAgICAgIGlmIGRlc2M6CiAgICAgICAgICAgIGQgPSBRTGFiZWwoZGVzYykKICAgICAgICAgICAgZC5zZXRPYmplY3ROYW1lKCJNdXRlZCIpCiAgICAgICAgICAgIGQuc2V0V29yZFdyYXAoVHJ1ZSkKICAgICAgICAgICAgbC5hZGRXaWRnZXQoZCkKICAgICAgICByZXR1cm4gZiwgbAoKICAgIGRlZiBfdG9nZ2xlKHNlbGYsIGxheW91dCwgbGFiZWwsIHZhbCwgY2IsIGRlc2M9IiIpOgogICAgICAgIHJvdyA9IFFIQm94TGF5b3V0KCkKICAgICAgICB0ZXh0cyA9IFFWQm94TGF5b3V0KCkKICAgICAgICB0ZXh0cy5zZXRTcGFjaW5nKDEpCiAgICAgICAgbGFiID0gUUxhYmVsKGxhYmVsKQogICAgICAgIGxhYi5zZXRPYmplY3ROYW1lKCJDdGxMYWJlbCIpCiAgICAgICAgdGV4dHMuYWRkV2lkZ2V0KGxhYikKICAgICAgICBpZiBkZXNjOgogICAgICAgICAgICBkID0gUUxhYmVsKGRlc2MpCiAgICAgICAgICAgIGQuc2V0T2JqZWN0TmFtZSgiQ3RsRGVzYyIpCiAgICAgICAgICAgIGQuc2V0V29yZFdyYXAoVHJ1ZSkKICAgICAgICAgICAgdGV4dHMuYWRkV2lkZ2V0KGQpCiAgICAgICAgcm93LmFkZExheW91dCh0ZXh0cywgMSkKICAgICAgICBzdyA9IFRvZ2dsZVN3aXRjaCh2YWwpCiAgICAgICAgc3cudG9nZ2xlZC5jb25uZWN0KGNiKQogICAgICAgIHJvdy5hZGRXaWRnZXQoc3cpCiAgICAgICAgbGF5b3V0LmFkZExheW91dChyb3cpCiAgICAgICAgcmV0dXJuIHN3CgogICAgZGVmIF9zbGlkZXIoc2VsZiwgbGF5b3V0LCBsYWJlbCwgbG8sIGhpLCB2YWwsIHN1ZmZpeCwgY2IsIGRlc2M9IiIsIGZtdD1Ob25lKToKICAgICAgICBib3ggPSBRVkJveExheW91dCgpCiAgICAgICAgYm94LnNldFNwYWNpbmcoMikKICAgICAgICB0b3AgPSBRSEJveExheW91dCgpCiAgICAgICAgdGV4dHMgPSBRVkJveExheW91dCgpCiAgICAgICAgdGV4dHMuc2V0U3BhY2luZygxKQogICAgICAgIGxhYiA9IFFMYWJlbChsYWJlbCkKICAgICAgICBsYWIuc2V0T2JqZWN0TmFtZSgiQ3RsTGFiZWwiKQogICAgICAgIHRleHRzLmFkZFdpZGdldChsYWIpCiAgICAgICAgaWYgZGVzYzoKICAgICAgICAgICAgZCA9IFFMYWJlbChkZXNjKQogICAgICAgICAgICBkLnNldE9iamVjdE5hbWUoIkN0bERlc2MiKQogICAgICAgICAgICBkLnNldFdvcmRXcmFwKFRydWUpCiAgICAgICAgICAgIHRleHRzLmFkZFdpZGdldChkKQogICAgICAgIHRvcC5hZGRMYXlvdXQodGV4dHMsIDEpCiAgICAgICAgZm10diA9IGZtdCBvciAobGFtYmRhIHY6IGYie3Z9e3N1ZmZpeH0iKQogICAgICAgIGJhZGdlID0gUUxhYmVsKGZtdHYodmFsKSkKICAgICAgICBiYWRnZS5zZXRPYmplY3ROYW1lKCJCYWRnZSIpCiAgICAgICAgYmFkZ2Uuc2V0Q3Vyc29yKFF0LkN1cnNvclNoYXBlLlBvaW50aW5nSGFuZEN1cnNvcikKICAgICAgICBiYWRnZS5zZXRUb29sVGlwKCLjgq/jg6rjg4Pjgq/jgafmlbDlgKTjgpLnm7TmjqXlhaXlipsiKQogICAgICAgIHRvcC5hZGRXaWRnZXQoYmFkZ2UsIDAsIFF0LkFsaWdubWVudEZsYWcuQWxpZ25Ub3ApCiAgICAgICAgYm94LmFkZExheW91dCh0b3ApCiAgICAgICAgcyA9IFFTbGlkZXIoUXQuT3JpZW50YXRpb24uSG9yaXpvbnRhbCkKICAgICAgICBzLnNldFJhbmdlKGxvLCBoaSkKICAgICAgICBzLnNldFZhbHVlKGludCh2YWwpKQogICAgICAgIHMudmFsdWVDaGFuZ2VkLmNvbm5lY3QobGFtYmRhIHY6IChiYWRnZS5zZXRUZXh0KGZtdHYodikpLCBjYih2KSkpCiAgICAgICAgYm94LmFkZFdpZGdldChzKQogICAgICAgIGxheW91dC5hZGRMYXlvdXQoYm94KQoKICAgICAgICBkZWYgX2JhZGdlX251bSh2KToKICAgICAgICAgICAgbSA9IHJlLnNlYXJjaChyIi0/XGQrKD86XC5cZCspPyIsIGZtdHYodikpCiAgICAgICAgICAgIHJldHVybiBmbG9hdChtLmdyb3VwKCkpIGlmIG0gZWxzZSBmbG9hdCh2KQoKICAgICAgICBkZWYgX3N0YXJ0X2VkaXQoX2V2ZW50KToKICAgICAgICAgICAgaWYgdG9wLmluZGV4T2YoYmFkZ2UpIDwgMDoKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICBjdXIgPSBzLnZhbHVlKCkKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgc2NhbGUgPSAoX2JhZGdlX251bShjdXIpIC8gY3VyKSBpZiBjdXIgZWxzZSAoX2JhZGdlX251bShoaSkgLyBoaSBpZiBoaSBlbHNlIDEuMCkKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgIHNjYWxlID0gMS4wCiAgICAgICAgICAgIGlmIG5vdCBzY2FsZToKICAgICAgICAgICAgICAgIHNjYWxlID0gMS4wCiAgICAgICAgICAgIGlkeCA9IHRvcC5pbmRleE9mKGJhZGdlKQogICAgICAgICAgICBiYWRnZS5oaWRlKCkKICAgICAgICAgICAgdG9wLnJlbW92ZVdpZGdldChiYWRnZSkKICAgICAgICAgICAgZWRpdCA9IFFMaW5lRWRpdChmIntfYmFkZ2VfbnVtKGN1cik6Z30iKQogICAgICAgICAgICBlZGl0LnNldE9iamVjdE5hbWUoIkJhZGdlRWRpdCIpCiAgICAgICAgICAgIGVkaXQuc2V0Rml4ZWRXaWR0aCg2NCkKICAgICAgICAgICAgZWRpdC5zZXRBbGlnbm1lbnQoUXQuQWxpZ25tZW50RmxhZy5BbGlnblJpZ2h0KQogICAgICAgICAgICB0b3AuaW5zZXJ0V2lkZ2V0KGlkeCwgZWRpdCkKICAgICAgICAgICAgZWRpdC5zZXRGb2N1cygpCiAgICAgICAgICAgIGVkaXQuc2VsZWN0QWxsKCkKICAgICAgICAgICAgZG9uZSA9IHsiZmxhZyI6IEZhbHNlfQoKICAgICAgICAgICAgZGVmIF9maW5pc2goY29tbWl0KToKICAgICAgICAgICAgICAgIGlmIGRvbmVbImZsYWciXToKICAgICAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgICAgIGRvbmVbImZsYWciXSA9IFRydWUKICAgICAgICAgICAgICAgIGlmIGNvbW1pdDoKICAgICAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgICAgIHR5cGVkID0gZmxvYXQoZWRpdC50ZXh0KCkuc3RyaXAoKSkKICAgICAgICAgICAgICAgICAgICAgICAgbmF0aXZlID0gaW50KHJvdW5kKHR5cGVkIC8gc2NhbGUpKQogICAgICAgICAgICAgICAgICAgICAgICBzLnNldFZhbHVlKG1heChsbywgbWluKGhpLCBuYXRpdmUpKSkKICAgICAgICAgICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICAgICAgICAgICAgICBwYXNzCiAgICAgICAgICAgICAgICB0b3AucmVtb3ZlV2lkZ2V0KGVkaXQpCiAgICAgICAgICAgICAgICBlZGl0LmRlbGV0ZUxhdGVyKCkKICAgICAgICAgICAgICAgIHRvcC5pbnNlcnRXaWRnZXQoaWR4LCBiYWRnZSkKICAgICAgICAgICAgICAgIGJhZGdlLnNldFRleHQoZm10dihzLnZhbHVlKCkpKQogICAgICAgICAgICAgICAgYmFkZ2Uuc2hvdygpCgogICAgICAgICAgICBlZGl0LmVkaXRpbmdGaW5pc2hlZC5jb25uZWN0KGxhbWJkYTogX2ZpbmlzaChUcnVlKSkKCiAgICAgICAgYmFkZ2UubW91c2VQcmVzc0V2ZW50ID0gX3N0YXJ0X2VkaXQKICAgICAgICByZXR1cm4gcwoKICAgIGRlZiBfY29tYm8oc2VsZiwgbGF5b3V0LCBsYWJlbCwgaXRlbXMsIGN1cnJlbnQsIGNiKToKICAgICAgICByb3cgPSBRSEJveExheW91dCgpCiAgICAgICAgbCA9IFFMYWJlbChsYWJlbCkKICAgICAgICBsLnNldE9iamVjdE5hbWUoIk11dGVkIikKICAgICAgICBjID0gUUNvbWJvQm94KCkKICAgICAgICBjLmFkZEl0ZW1zKGl0ZW1zKQogICAgICAgIGMuc2V0Q3VycmVudFRleHQoY3VycmVudCkKICAgICAgICBjLmN1cnJlbnRUZXh0Q2hhbmdlZC5jb25uZWN0KGNiKQogICAgICAgIHJvdy5hZGRXaWRnZXQobCkKICAgICAgICByb3cuYWRkV2lkZ2V0KGMsIDEpCiAgICAgICAgbGF5b3V0LmFkZExheW91dChyb3cpCiAgICAgICAgcmV0dXJuIGMKCiAgICBkZWYgX2VudHJ5KHNlbGYsIGxheW91dCwgbGFiZWwsIHZhbCwgY2IpOgogICAgICAgIHJvdyA9IFFIQm94TGF5b3V0KCkKICAgICAgICBsID0gUUxhYmVsKGxhYmVsKQogICAgICAgIGwuc2V0T2JqZWN0TmFtZSgiTXV0ZWQiKQogICAgICAgIGUgPSBRTGluZUVkaXQodmFsKQogICAgICAgIGUuZWRpdGluZ0ZpbmlzaGVkLmNvbm5lY3QobGFtYmRhOiBjYihlLnRleHQoKSkpCiAgICAgICAgcm93LmFkZFdpZGdldChsKQogICAgICAgIHJvdy5hZGRXaWRnZXQoZSwgMSkKICAgICAgICBsYXlvdXQuYWRkTGF5b3V0KHJvdykKICAgICAgICByZXR1cm4gZQoKICAgIGRlZiBfY29tYm9fbWFwKHNlbGYsIGxheW91dCwgbGFiZWwsIHBhaXJzLCBjdXJyZW50LCBjYik6CiAgICAgICAgcm93ID0gUUhCb3hMYXlvdXQoKQogICAgICAgIGwgPSBRTGFiZWwobGFiZWwpCiAgICAgICAgbC5zZXRPYmplY3ROYW1lKCJNdXRlZCIpCiAgICAgICAgYyA9IFFDb21ib0JveCgpCiAgICAgICAgZm9yIHRleHQsIHZhbCBpbiBwYWlyczoKICAgICAgICAgICAgYy5hZGRJdGVtKHRleHQsIHZhbCkKICAgICAgICBmb3IgaSBpbiByYW5nZShjLmNvdW50KCkpOgogICAgICAgICAgICBpZiBjLml0ZW1EYXRhKGkpID09IGN1cnJlbnQ6CiAgICAgICAgICAgICAgICBjLnNldEN1cnJlbnRJbmRleChpKQogICAgICAgIGMuY3VycmVudEluZGV4Q2hhbmdlZC5jb25uZWN0KGxhbWJkYSBfOiBjYihjLmN1cnJlbnREYXRhKCkpKQogICAgICAgIHJvdy5hZGRXaWRnZXQobCkKICAgICAgICByb3cuYWRkV2lkZ2V0KGMsIDEpCiAgICAgICAgbGF5b3V0LmFkZExheW91dChyb3cpCiAgICAgICAgcmV0dXJuIGMKCg==
+from __future__ import annotations
+
+import re
+
+from PyQt6.QtCore import Qt
+from PyQt6.QtWidgets import (
+    QComboBox, QFrame, QHBoxLayout, QLabel, QLineEdit, QSlider, QVBoxLayout,
+)
+
+from .widgets import ToggleSwitch
+
+
+class ControlsMixin:
+    def _card(self, title, desc=""):
+        f = QFrame()
+        f.setObjectName("Card")
+        l = QVBoxLayout(f)
+        l.setContentsMargins(20, 18, 20, 18)
+        l.setSpacing(11)
+        t = QLabel(title)
+        t.setObjectName("CardTitle")
+        l.addWidget(t)
+        if desc:
+            d = QLabel(desc)
+            d.setObjectName("Muted")
+            d.setWordWrap(True)
+            l.addWidget(d)
+        return f, l
+
+    def _toggle(self, layout, label, val, cb, desc=""):
+        row = QHBoxLayout()
+        texts = QVBoxLayout()
+        texts.setSpacing(1)
+        lab = QLabel(label)
+        lab.setObjectName("CtlLabel")
+        texts.addWidget(lab)
+        if desc:
+            d = QLabel(desc)
+            d.setObjectName("CtlDesc")
+            d.setWordWrap(True)
+            texts.addWidget(d)
+        row.addLayout(texts, 1)
+        sw = ToggleSwitch(val)
+        sw.toggled.connect(cb)
+        row.addWidget(sw)
+        layout.addLayout(row)
+        return sw
+
+    def _slider(self, layout, label, lo, hi, val, suffix, cb, desc="", fmt=None):
+        box = QVBoxLayout()
+        box.setSpacing(2)
+        top = QHBoxLayout()
+        texts = QVBoxLayout()
+        texts.setSpacing(1)
+        lab = QLabel(label)
+        lab.setObjectName("CtlLabel")
+        texts.addWidget(lab)
+        if desc:
+            d = QLabel(desc)
+            d.setObjectName("CtlDesc")
+            d.setWordWrap(True)
+            texts.addWidget(d)
+        top.addLayout(texts, 1)
+        fmtv = fmt or (lambda v: f"{v}{suffix}")
+        badge = QLabel(fmtv(val))
+        badge.setObjectName("Badge")
+        badge.setCursor(Qt.CursorShape.PointingHandCursor)
+        badge.setToolTip("クリックで数値を直接入力")
+        top.addWidget(badge, 0, Qt.AlignmentFlag.AlignTop)
+        box.addLayout(top)
+        s = QSlider(Qt.Orientation.Horizontal)
+        s.setRange(lo, hi)
+        s.setValue(int(val))
+        s.valueChanged.connect(lambda v: (badge.setText(fmtv(v)), cb(v)))
+        box.addWidget(s)
+        layout.addLayout(box)
+
+        def _badge_num(v):
+            m = re.search(r"-?\d+(?:\.\d+)?", fmtv(v))
+            return float(m.group()) if m else float(v)
+
+        def _start_edit(_event):
+            if top.indexOf(badge) < 0:
+                return
+            cur = s.value()
+            try:
+                scale = (_badge_num(cur) / cur) if cur else (_badge_num(hi) / hi if hi else 1.0)
+            except Exception:
+                scale = 1.0
+            if not scale:
+                scale = 1.0
+            idx = top.indexOf(badge)
+            badge.hide()
+            top.removeWidget(badge)
+            edit = QLineEdit(f"{_badge_num(cur):g}")
+            edit.setObjectName("BadgeEdit")
+            edit.setFixedWidth(64)
+            edit.setAlignment(Qt.AlignmentFlag.AlignRight)
+            top.insertWidget(idx, edit)
+            edit.setFocus()
+            edit.selectAll()
+            done = {"flag": False}
+
+            def _finish(commit):
+                if done["flag"]:
+                    return
+                done["flag"] = True
+                if commit:
+                    try:
+                        typed = float(edit.text().strip())
+                        native = int(round(typed / scale))
+                        s.setValue(max(lo, min(hi, native)))
+                    except Exception:
+                        pass
+                top.removeWidget(edit)
+                edit.deleteLater()
+                top.insertWidget(idx, badge)
+                badge.setText(fmtv(s.value()))
+                badge.show()
+
+            edit.editingFinished.connect(lambda: _finish(True))
+
+        badge.mousePressEvent = _start_edit
+        return s
+
+    def _combo(self, layout, label, items, current, cb):
+        row = QHBoxLayout()
+        l = QLabel(label)
+        l.setObjectName("Muted")
+        c = QComboBox()
+        c.addItems(items)
+        c.setCurrentText(current)
+        c.currentTextChanged.connect(cb)
+        row.addWidget(l)
+        row.addWidget(c, 1)
+        layout.addLayout(row)
+        return c
+
+    def _entry(self, layout, label, val, cb):
+        row = QHBoxLayout()
+        l = QLabel(label)
+        l.setObjectName("Muted")
+        e = QLineEdit(val)
+        e.editingFinished.connect(lambda: cb(e.text()))
+        row.addWidget(l)
+        row.addWidget(e, 1)
+        layout.addLayout(row)
+        return e
+
+    def _combo_map(self, layout, label, pairs, current, cb):
+        row = QHBoxLayout()
+        l = QLabel(label)
+        l.setObjectName("Muted")
+        c = QComboBox()
+        for text, val in pairs:
+            c.addItem(text, val)
+        for i in range(c.count()):
+            if c.itemData(i) == current:
+                c.setCurrentIndex(i)
+        c.currentIndexChanged.connect(lambda _: cb(c.currentData()))
+        row.addWidget(l)
+        row.addWidget(c, 1)
+        layout.addLayout(row)
+        return c
+
