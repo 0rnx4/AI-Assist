@@ -1,1 +1,225 @@
-ZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IG9zCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aApmcm9tIHR5cGluZyBpbXBvcnQgVFlQRV9DSEVDS0lORwoKaW1wb3J0IG51bXB5IGFzIG5wCgppZiBUWVBFX0NIRUNLSU5HOgogICAgZnJvbSAuY29uZmlnIGltcG9ydCBTZXR0aW5ncwoKdHJ5OgogICAgaW1wb3J0IGN2MgpleGNlcHQgRXhjZXB0aW9uOgogICAgY3YyID0gTm9uZQp0cnk6CiAgICBpbXBvcnQgb25ueHJ1bnRpbWUgYXMgb3J0CmV4Y2VwdCBFeGNlcHRpb246CiAgICBvcnQgPSBOb25lCgpmcm9tIC5jb25maWcgaW1wb3J0IGxvZwoKCmRlZiBsZXR0ZXJib3goaW1nOiBucC5uZGFycmF5LCBzaXplOiBpbnQpOgogICAgaCwgdyA9IGltZy5zaGFwZVs6Ml0KICAgIHIgPSBtaW4oc2l6ZSAvIGgsIHNpemUgLyB3KQogICAgbncgPSBtaW4oaW50KHJvdW5kKHcgKiByKSksIHNpemUpCiAgICBuaCA9IG1pbihpbnQocm91bmQoaCAqIHIpKSwgc2l6ZSkKICAgIHJlc2l6ZWQgPSBjdjIucmVzaXplKGltZywgKG53LCBuaCksIGludGVycG9sYXRpb249Y3YyLklOVEVSX0xJTkVBUikgaWYgKG53LCBuaCkgIT0gKHcsIGgpIGVsc2UgaW1nCgogICAgbGVmdCA9IChzaXplIC0gbncpIC8vIDIKICAgIHRvcCA9IChzaXplIC0gbmgpIC8vIDIKICAgIHJpZ2h0ID0gc2l6ZSAtIG53IC0gbGVmdAogICAgYm90dG9tID0gc2l6ZSAtIG5oIC0gdG9wCiAgICBwYWRkZWQgPSBjdjIuY29weU1ha2VCb3JkZXIocmVzaXplZCwgdG9wLCBib3R0b20sIGxlZnQsIHJpZ2h0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN2Mi5CT1JERVJfQ09OU1RBTlQsIHZhbHVlPSgxMTQsIDExNCwgMTE0KSkKICAgIHJldHVybiBwYWRkZWQsIHIsIGxlZnQsIHRvcAoKCmRlZiBubXMoeHl4eTogbnAubmRhcnJheSwgc2NvcmVzOiBucC5uZGFycmF5LCBpb3VfdGhyOiBmbG9hdCkgLT4gbnAubmRhcnJheToKICAgIGlmIGxlbih4eXh5KSA9PSAwOgogICAgICAgIHJldHVybiBucC5lbXB0eSgwLCBkdHlwZT1ucC5pbnQ2NCkKICAgIHgxLCB5MSwgeDIsIHkyID0geHl4eVs6LCAwXSwgeHl4eVs6LCAxXSwgeHl4eVs6LCAyXSwgeHl4eVs6LCAzXQogICAgYXJlYXMgPSBucC5tYXhpbXVtKDAuMCwgeDIgLSB4MSkgKiBucC5tYXhpbXVtKDAuMCwgeTIgLSB5MSkKICAgIG9yZGVyID0gc2NvcmVzLmFyZ3NvcnQoKVs6Oi0xXQogICAga2VlcCA9IFtdCiAgICB3aGlsZSBvcmRlci5zaXplID4gMDoKICAgICAgICBpID0gaW50KG9yZGVyWzBdKQogICAgICAgIGtlZXAuYXBwZW5kKGkpCiAgICAgICAgaWYgb3JkZXIuc2l6ZSA9PSAxOgogICAgICAgICAgICBicmVhawogICAgICAgIHJlc3QgPSBvcmRlclsxOl0KICAgICAgICBpeDEgPSBucC5tYXhpbXVtKHgxW2ldLCB4MVtyZXN0XSkKICAgICAgICBpeTEgPSBucC5tYXhpbXVtKHkxW2ldLCB5MVtyZXN0XSkKICAgICAgICBpeDIgPSBucC5taW5pbXVtKHgyW2ldLCB4MltyZXN0XSkKICAgICAgICBpeTIgPSBucC5taW5pbXVtKHkyW2ldLCB5MltyZXN0XSkKICAgICAgICBpbnRlciA9IG5wLm1heGltdW0oMC4wLCBpeDIgLSBpeDEpICogbnAubWF4aW11bSgwLjAsIGl5MiAtIGl5MSkKICAgICAgICBvcmRlciA9IHJlc3RbaW50ZXIgLyAoYXJlYXNbaV0gKyBhcmVhc1tyZXN0XSAtIGludGVyICsgMWUtOSkgPD0gaW91X3Rocl0KICAgIHJldHVybiBucC5hcnJheShrZWVwLCBkdHlwZT1ucC5pbnQ2NCkKCgpkZWYgbm1zX2Zhc3QoeHl4eTogbnAubmRhcnJheSwgc2NvcmVzOiBucC5uZGFycmF5LCBpb3VfdGhyOiBmbG9hdCkgLT4gbnAubmRhcnJheToKICAgIGlmIGN2MiBpcyBub3QgTm9uZSBhbmQgbGVuKHh5eHkpID4gMDoKICAgICAgICB0cnk6CiAgICAgICAgICAgIHh5eHkzMiA9IG5wLmFzY29udGlndW91c2FycmF5KHh5eHksIGR0eXBlPW5wLmZsb2F0MzIpCiAgICAgICAgICAgIGJveGVzID0gbnAuZW1wdHkoKGxlbih4eXh5MzIpLCA0KSwgZHR5cGU9bnAuZmxvYXQzMikKICAgICAgICAgICAgYm94ZXNbOiwgMF0gPSB4eXh5MzJbOiwgMF0KICAgICAgICAgICAgYm94ZXNbOiwgMV0gPSB4eXh5MzJbOiwgMV0KICAgICAgICAgICAgYm94ZXNbOiwgMl0gPSB4eXh5MzJbOiwgMl0gLSB4eXh5MzJbOiwgMF0KICAgICAgICAgICAgYm94ZXNbOiwgM10gPSB4eXh5MzJbOiwgM10gLSB4eXh5MzJbOiwgMV0KICAgICAgICAgICAgaWR4ID0gY3YyLmRubi5OTVNCb3hlcyhib3hlcywgbnAuYXNjb250aWd1b3VzYXJyYXkoc2NvcmVzLCBkdHlwZT1ucC5mbG9hdDMyKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAwLjAsIGZsb2F0KGlvdV90aHIpKQogICAgICAgICAgICBpZiBpZHggaXMgbm90IE5vbmUgYW5kIGxlbihpZHgpOgogICAgICAgICAgICAgICAgcmV0dXJuIG5wLmFzYXJyYXkoaWR4LCBkdHlwZT1ucC5pbnQ2NCkuZmxhdHRlbigpCiAgICAgICAgICAgIHJldHVybiBucC5lbXB0eSgwLCBkdHlwZT1ucC5pbnQ2NCkKICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICBwYXNzCiAgICByZXR1cm4gbm1zKHh5eHksIHNjb3JlcywgaW91X3RocikKCgpjbGFzcyBEZXRlY3RvcjoKICAgIGRlZiBfX2luaXRfXyhzZWxmKToKICAgICAgICBzZWxmLnNlc3Npb24gPSBOb25lCiAgICAgICAgc2VsZi5pbnB1dF9uYW1lID0gTm9uZQogICAgICAgIHNlbGYub3V0cHV0X25hbWVzID0gTm9uZQogICAgICAgIHNlbGYuZXJyb3IgPSBOb25lCiAgICAgICAgc2VsZi5wcm92aWRlcl91c2VkID0gTm9uZQogICAgICAgIHNlbGYuaW5wdXRfc2l6ZSA9IDY0MAogICAgICAgIHNlbGYuaW5wdXRfZHR5cGUgPSBucC5mbG9hdDMyCiAgICAgICAgc2VsZi5fd2FudGVkX2tleSA9IE5vbmUKICAgICAgICBzZWxmLl93YW50ZWRfYXJyID0gTm9uZQoKICAgIGRlZiBsb2FkKHNlbGYsIHMpOgogICAgICAgIHNlbGYuc2Vzc2lvbiA9IE5vbmUKICAgICAgICBzZWxmLmVycm9yID0gTm9uZQogICAgICAgIGlmIG9ydCBpcyBOb25lOgogICAgICAgICAgICBzZWxmLmVycm9yID0gIm9ubnhydW50aW1l44GM5Yip55So44Gn44GN44G+44Gb44KTIgogICAgICAgICAgICByZXR1cm4KICAgICAgICBpZiBjdjIgaXMgTm9uZToKICAgICAgICAgICAgc2VsZi5lcnJvciA9ICJvcGVuY3bjgYzliKnnlKjjgafjgY3jgb7jgZvjgpMiCiAgICAgICAgICAgIHJldHVybgogICAgICAgIHAgPSBQYXRoKHMubW9kZWxfcGF0aCkKICAgICAgICBpZiBub3QgcC5leGlzdHMoKSBvciBwLnN1ZmZpeC5sb3dlcigpICE9ICIub25ueCI6CiAgICAgICAgICAgIHNlbGYuZXJyb3IgPSAi44Oi44OH44Or44OR44K544GM54Sh5Yq544Gn44GZIgogICAgICAgICAgICByZXR1cm4KICAgICAgICB0cnk6CiAgICAgICAgICAgIG9wdHMgPSBvcnQuU2Vzc2lvbk9wdGlvbnMoKQogICAgICAgICAgICBvcHRzLmdyYXBoX29wdGltaXphdGlvbl9sZXZlbCA9IG9ydC5HcmFwaE9wdGltaXphdGlvbkxldmVsLk9SVF9FTkFCTEVfQUxMCiAgICAgICAgICAgIG9wdHMuaW50cmFfb3BfbnVtX3RocmVhZHMgPSBtYXgoMSwgbWluKG9zLmNwdV9jb3VudCgpIG9yIDQsIDQpKQogICAgICAgICAgICBvcHRzLmludGVyX29wX251bV90aHJlYWRzID0gMQogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBvcHRzLmVuYWJsZV9tZW1fcGF0dGVybiA9IFRydWUKICAgICAgICAgICAgICAgIG9wdHMuZW5hYmxlX2NwdV9tZW1fYXJlbmEgPSBUcnVlCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgICAgICBwYXNzCiAgICAgICAgICAgIGF2YWlsID0gb3J0LmdldF9hdmFpbGFibGVfcHJvdmlkZXJzKCkKICAgICAgICAgICAgcHJlZnMgPSBbIk9wZW5WSU5PRXhlY3V0aW9uUHJvdmlkZXIiLCAiQ1VEQUV4ZWN1dGlvblByb3ZpZGVyIiwKICAgICAgICAgICAgICAgICAgICAgIkRtbEV4ZWN1dGlvblByb3ZpZGVyIiwgIkNQVUV4ZWN1dGlvblByb3ZpZGVyIl0KICAgICAgICAgICAgcHJvdmlkZXJzID0gW3ggZm9yIHggaW4gcHJlZnMgaWYgeCBpbiBhdmFpbF0gb3IgYXZhaWwKICAgICAgICAgICAgc2VsZi5zZXNzaW9uID0gb3J0LkluZmVyZW5jZVNlc3Npb24oc3RyKHApLCBzZXNzX29wdGlvbnM9b3B0cywgcHJvdmlkZXJzPXByb3ZpZGVycykKICAgICAgICAgICAgX2luMCA9IHNlbGYuc2Vzc2lvbi5nZXRfaW5wdXRzKClbMF0KICAgICAgICAgICAgX3NoYXBlID0gX2luMC5zaGFwZQogICAgICAgICAgICBpZiBsZW4oX3NoYXBlKSA9PSA0IGFuZCBpc2luc3RhbmNlKF9zaGFwZVsyXSwgaW50KSBhbmQgX3NoYXBlWzJdID4gMDoKICAgICAgICAgICAgICAgIHNlbGYuaW5wdXRfc2l6ZSA9IGludChfc2hhcGVbMl0pCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBzZWxmLmlucHV0X3NpemUgPSA2NDAKICAgICAgICAgICAgc2VsZi5pbnB1dF9kdHlwZSA9IG5wLmZsb2F0MTYgaWYgImZsb2F0MTYiIGluIHN0cihfaW4wLnR5cGUpIGVsc2UgbnAuZmxvYXQzMgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBfZHVtbXkgPSBucC56ZXJvcygoMSwgMywgc2VsZi5pbnB1dF9zaXplLCBzZWxmLmlucHV0X3NpemUpLCBkdHlwZT1zZWxmLmlucHV0X2R0eXBlKQogICAgICAgICAgICAgICAgc2VsZi5zZXNzaW9uLnJ1bihOb25lLCB7X2luMC5uYW1lOiBfZHVtbXl9KQogICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgICAgICBsb2cud2FybmluZygi44Oi44OH44Or44Gu44Km44Kp44O844Og44Ki44OD44OX5o6o6KuW44Gr5aSx5pWX44GX44G+44GX44GfOiAlcyIsIGUpCiAgICAgICAgICAgIHNlbGYuaW5wdXRfbmFtZSA9IF9pbjAubmFtZQogICAgICAgICAgICBzZWxmLm91dHB1dF9uYW1lcyA9IFtvLm5hbWUgZm9yIG8gaW4gc2VsZi5zZXNzaW9uLmdldF9vdXRwdXRzKCldCiAgICAgICAgICAgIGdvdCA9IHNlbGYuc2Vzc2lvbi5nZXRfcHJvdmlkZXJzKCkKICAgICAgICAgICAgc2VsZi5wcm92aWRlcl91c2VkID0gZ290WzBdIGlmIGdvdCBlbHNlIE5vbmUKICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgIHNlbGYuZXJyb3IgPSBmIuODouODh+ODq+iqreOBv+i+vOOBv+WkseaVlzoge2V9IgoKICAgIGRlZiBpbmZlcihzZWxmLCBmcmFtZSwgczogU2V0dGluZ3MsIG93LCBvaCk6CiAgICAgICAgaWYgc2VsZi5zZXNzaW9uIGlzIE5vbmUgb3IgY3YyIGlzIE5vbmU6CiAgICAgICAgICAgIHJldHVybiBbXQogICAgICAgIGlmIGZyYW1lIGlzIE5vbmUgb3IgZ2V0YXR0cihmcmFtZSwgIm5kaW0iLCAwKSAhPSAzOgogICAgICAgICAgICByZXR1cm4gW10KICAgICAgICBpZiBmcmFtZS5zaGFwZVsyXSA+IDM6CiAgICAgICAgICAgIGZyYW1lID0gZnJhbWVbOiwgOiwgOjNdCiAgICAgICAgZWxpZiBmcmFtZS5zaGFwZVsyXSA8IDM6CiAgICAgICAgICAgIHJldHVybiBbXQoKICAgICAgICBzaXplID0gc2VsZi5pbnB1dF9zaXplCiAgICAgICAgaWYgZnJhbWUuc2hhcGVbMF0gPT0gc2l6ZSBhbmQgZnJhbWUuc2hhcGVbMV0gPT0gc2l6ZToKICAgICAgICAgICAgcGFkZGVkLCByLCBsZWZ0LCB0b3AgPSBmcmFtZSwgMS4wLCAwLCAwCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcGFkZGVkLCByLCBsZWZ0LCB0b3AgPSBsZXR0ZXJib3goZnJhbWUsIHNpemUpCiAgICAgICAgYmxvYiA9IE5vbmUKICAgICAgICBpZiBwYWRkZWQubmRpbSA9PSAzIGFuZCBwYWRkZWQuc2hhcGVbMl0gPT0gMzoKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgYmxvYiA9IGN2Mi5kbm4uYmxvYkZyb21JbWFnZShwYWRkZWQsIDEuMCAvIDI1NS4wLCAoc2l6ZSwgc2l6ZSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICgwLjAsIDAuMCwgMC4wKSwgc3dhcFJCPVRydWUsIGNyb3A9RmFsc2UpCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgICAgICBibG9iID0gTm9uZQogICAgICAgIGlmIGJsb2IgaXMgTm9uZToKICAgICAgICAgICAgYmxvYiA9IG5wLmFzY29udGlndW91c2FycmF5KHBhZGRlZFs6LCA6LCA6Oi0xXS50cmFuc3Bvc2UoMiwgMCwgMSksIGR0eXBlPW5wLmZsb2F0MzIpCiAgICAgICAgICAgIGJsb2IgKj0gMS4wIC8gMjU1LjAKICAgICAgICAgICAgYmxvYiA9IGJsb2JbbnAubmV3YXhpc10KICAgICAgICBpZiBzZWxmLmlucHV0X2R0eXBlICE9IG5wLmZsb2F0MzI6CiAgICAgICAgICAgIGJsb2IgPSBibG9iLmFzdHlwZShzZWxmLmlucHV0X2R0eXBlLCBjb3B5PUZhbHNlKQogICAgICAgIG91dHMgPSBzZWxmLnNlc3Npb24ucnVuKHNlbGYub3V0cHV0X25hbWVzLCB7c2VsZi5pbnB1dF9uYW1lOiBibG9ifSkKICAgICAgICByZXR1cm4gc2VsZi5fcG9zdHByb2Nlc3Mob3V0c1swXSwgciwgbGVmdCwgdG9wLCBvdywgb2gsIHMpCgogICAgZGVmIF9wb3N0cHJvY2VzcyhzZWxmLCBwcmVkLCByLCBsZWZ0LCB0b3AsIG93LCBvaCwgcyk6CiAgICAgICAgaWYgcHJlZC5uZGltID09IDM6CiAgICAgICAgICAgIHByZWQgPSBwcmVkWzBdCiAgICAgICAgZWxpZiBwcmVkLm5kaW0gIT0gMjoKICAgICAgICAgICAgcmV0dXJuIFtdCiAgICAgICAgaWYgcHJlZC5zaXplID09IDAgb3IgcHJlZC5zaGFwZVsxXSA8IDU6CiAgICAgICAgICAgIHJldHVybiBbXQogICAgICAgIGlmIG5vdCBucC5pc2Zpbml0ZShwcmVkKS5hbGwoKToKICAgICAgICAgICAgcHJlZCA9IG5wLm5hbl90b19udW0ocHJlZCwgbmFuPTAuMCwgcG9zaW5mPTAuMCwgbmVnaW5mPTAuMCkKICAgICAgICBpZiBwcmVkLnNoYXBlWzBdIDwgcHJlZC5zaGFwZVsxXToKICAgICAgICAgICAgcHJlZCA9IHByZWQuVAogICAgICAgIGlmIHByZWQuc2hhcGVbMV0gPCA1OgogICAgICAgICAgICByZXR1cm4gW10KICAgICAgICB4eXdoID0gcHJlZFs6LCA6NF0KICAgICAgICBzY29yZXMgPSBwcmVkWzosIDQ6XQogICAgICAgIGNscyA9IHNjb3Jlcy5hcmdtYXgoYXhpcz0xKQogICAgICAgIGNvbmYgPSBzY29yZXNbbnAuYXJhbmdlKGxlbihjbHMpKSwgY2xzXQogICAgICAgIGlmIHNlbGYuX3dhbnRlZF9rZXkgIT0gcy5jbGFzc19pZHM6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHdhbnRlZCA9IFtpbnQoeCkgZm9yIHggaW4gcy5jbGFzc19pZHMuc3BsaXQoIiwiKSBpZiB4LnN0cmlwKCldCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgICAgICB3YW50ZWQgPSBbMF0KICAgICAgICAgICAgaWYgbm90IHdhbnRlZDoKICAgICAgICAgICAgICAgIHdhbnRlZCA9IFswXQogICAgICAgICAgICBzZWxmLl93YW50ZWRfa2V5ID0gcy5jbGFzc19pZHMKICAgICAgICAgICAgc2VsZi5fd2FudGVkX2FyciA9IG5wLmFycmF5KHdhbnRlZCwgZHR5cGU9bnAuaW50NjQpCiAgICAgICAgaWYgbGVuKHNlbGYuX3dhbnRlZF9hcnIpID09IDE6CiAgICAgICAgICAgIG1hc2sgPSAoY29uZiA+PSBzLmJhc2VfY29uZmlkZW5jZSgpICogMC44NSkgJiAoY2xzID09IHNlbGYuX3dhbnRlZF9hcnJbMF0pCiAgICAgICAgZWxzZToKICAgICAgICAgICAgbWFzayA9IChjb25mID49IHMuYmFzZV9jb25maWRlbmNlKCkgKiAwLjg1KSAmIG5wLmlzaW4oY2xzLCBzZWxmLl93YW50ZWRfYXJyKQogICAgICAgIHh5d2gsIGNvbmYgPSB4eXdoW21hc2tdLCBjb25mW21hc2tdCiAgICAgICAgaWYgbGVuKHh5d2gpID09IDA6CiAgICAgICAgICAgIHJldHVybiBbXQoKICAgICAgICBpZiBsZW4oY29uZikgPiAyNTY6CiAgICAgICAgICAgIHRvcF9pZHggPSBucC5hcmdwYXJ0aXRpb24oY29uZiwgLTI1NilbLTI1NjpdCiAgICAgICAgICAgIHh5d2gsIGNvbmYgPSB4eXdoW3RvcF9pZHhdLCBjb25mW3RvcF9pZHhdCiAgICAgICAgY3gsIGN5LCB3LCBoID0geHl3aFs6LCAwXSwgeHl3aFs6LCAxXSwgeHl3aFs6LCAyXSwgeHl3aFs6LCAzXQogICAgICAgIHhfdGwsIHlfdGwgPSBjeCAtIHcgLyAyLCBjeSAtIGggLyAyCiAgICAgICAgeHl4eSA9IG5wLnN0YWNrKFt4X3RsLCB5X3RsLCB4X3RsICsgdywgeV90bCArIGhdLCBheGlzPTEpCiAgICAgICAgaWR4cyA9IG5tc19mYXN0KHh5eHksIGNvbmYsIDAuNDUpCiAgICAgICAgb3V0ID0gW10KICAgICAgICBpbnZfciA9IDEuMCAvIHIgaWYgciBlbHNlIDEuMAogICAgICAgIG93MSwgb2gxID0gb3cgLSAxLCBvaCAtIDEKICAgICAgICBmb3IgaSBpbiBpZHhzOgogICAgICAgICAgICByb3cgPSB4eXh5W2ldCiAgICAgICAgICAgIHgxID0gbWF4KDAsIG1pbihvdzEsIChyb3dbMF0gLSBsZWZ0KSAqIGludl9yKSkKICAgICAgICAgICAgeTEgPSBtYXgoMCwgbWluKG9oMSwgKHJvd1sxXSAtIHRvcCkgKiBpbnZfcikpCiAgICAgICAgICAgIHgyID0gbWF4KDAsIG1pbihvdzEsIChyb3dbMl0gLSBsZWZ0KSAqIGludl9yKSkKICAgICAgICAgICAgeTIgPSBtYXgoMCwgbWluKG9oMSwgKHJvd1szXSAtIHRvcCkgKiBpbnZfcikpCiAgICAgICAgICAgIGl4MSwgaXkxLCBpeDIsIGl5MiA9IGludCh4MSksIGludCh5MSksIGludCh4MiksIGludCh5MikKICAgICAgICAgICAgaWYgaXgyID4gaXgxIGFuZCBpeTIgPiBpeTE6CiAgICAgICAgICAgICAgICBvdXQuYXBwZW5kKHsiYm94IjogW2l4MSwgaXkxLCBpeDIsIGl5Ml0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiY29uZiI6IGZsb2F0KGNvbmZbaV0pfSkKICAgICAgICByZXR1cm4gb3V0Cg==
+from __future__ import annotations
+
+import os
+from pathlib import Path
+from typing import TYPE_CHECKING
+
+import numpy as np
+
+if TYPE_CHECKING:
+    from .config import Settings
+
+try:
+    import cv2
+except Exception:
+    cv2 = None
+try:
+    import onnxruntime as ort
+except Exception:
+    ort = None
+
+from .config import log
+
+
+def letterbox(img: np.ndarray, size: int):
+    h, w = img.shape[:2]
+    r = min(size / h, size / w)
+    nw = min(int(round(w * r)), size)
+    nh = min(int(round(h * r)), size)
+    resized = cv2.resize(img, (nw, nh), interpolation=cv2.INTER_LINEAR) if (nw, nh) != (w, h) else img
+
+    left = (size - nw) // 2
+    top = (size - nh) // 2
+    right = size - nw - left
+    bottom = size - nh - top
+    padded = cv2.copyMakeBorder(resized, top, bottom, left, right,
+                                cv2.BORDER_CONSTANT, value=(114, 114, 114))
+    return padded, r, left, top
+
+
+def nms(xyxy: np.ndarray, scores: np.ndarray, iou_thr: float) -> np.ndarray:
+    if len(xyxy) == 0:
+        return np.empty(0, dtype=np.int64)
+    x1, y1, x2, y2 = xyxy[:, 0], xyxy[:, 1], xyxy[:, 2], xyxy[:, 3]
+    areas = np.maximum(0.0, x2 - x1) * np.maximum(0.0, y2 - y1)
+    order = scores.argsort()[::-1]
+    keep = []
+    while order.size > 0:
+        i = int(order[0])
+        keep.append(i)
+        if order.size == 1:
+            break
+        rest = order[1:]
+        ix1 = np.maximum(x1[i], x1[rest])
+        iy1 = np.maximum(y1[i], y1[rest])
+        ix2 = np.minimum(x2[i], x2[rest])
+        iy2 = np.minimum(y2[i], y2[rest])
+        inter = np.maximum(0.0, ix2 - ix1) * np.maximum(0.0, iy2 - iy1)
+        order = rest[inter / (areas[i] + areas[rest] - inter + 1e-9) <= iou_thr]
+    return np.array(keep, dtype=np.int64)
+
+
+def nms_fast(xyxy: np.ndarray, scores: np.ndarray, iou_thr: float) -> np.ndarray:
+    if cv2 is not None and len(xyxy) > 0:
+        try:
+            xyxy32 = np.ascontiguousarray(xyxy, dtype=np.float32)
+            boxes = np.empty((len(xyxy32), 4), dtype=np.float32)
+            boxes[:, 0] = xyxy32[:, 0]
+            boxes[:, 1] = xyxy32[:, 1]
+            boxes[:, 2] = xyxy32[:, 2] - xyxy32[:, 0]
+            boxes[:, 3] = xyxy32[:, 3] - xyxy32[:, 1]
+            idx = cv2.dnn.NMSBoxes(boxes, np.ascontiguousarray(scores, dtype=np.float32),
+                                   0.0, float(iou_thr))
+            if idx is not None and len(idx):
+                return np.asarray(idx, dtype=np.int64).flatten()
+            return np.empty(0, dtype=np.int64)
+        except Exception:
+            pass
+    return nms(xyxy, scores, iou_thr)
+
+
+class Detector:
+    def __init__(self):
+        self.session = None
+        self.input_name = None
+        self.output_names = None
+        self.error = None
+        self.provider_used = None
+        self.input_size = 640
+        self.input_dtype = np.float32
+        self._wanted_key = None
+        self._wanted_arr = None
+
+    def load(self, s):
+        self.session = None
+        self.error = None
+        if ort is None:
+            self.error = "onnxruntimeが利用できません"
+            return
+        if cv2 is None:
+            self.error = "opencvが利用できません"
+            return
+        p = Path(s.model_path)
+        if not p.exists() or p.suffix.lower() != ".onnx":
+            self.error = "モデルパスが無効です"
+            return
+        try:
+            opts = ort.SessionOptions()
+            opts.graph_optimization_level = ort.GraphOptimizationLevel.ORT_ENABLE_ALL
+            opts.intra_op_num_threads = max(1, min(os.cpu_count() or 4, 4))
+            opts.inter_op_num_threads = 1
+            try:
+                opts.enable_mem_pattern = True
+                opts.enable_cpu_mem_arena = True
+            except Exception:
+                pass
+            avail = ort.get_available_providers()
+            prefs = ["OpenVINOExecutionProvider", "CUDAExecutionProvider",
+                     "DmlExecutionProvider", "CPUExecutionProvider"]
+            providers = [x for x in prefs if x in avail] or avail
+            self.session = ort.InferenceSession(str(p), sess_options=opts, providers=providers)
+            _in0 = self.session.get_inputs()[0]
+            _shape = _in0.shape
+            if len(_shape) == 4 and isinstance(_shape[2], int) and _shape[2] > 0:
+                self.input_size = int(_shape[2])
+            else:
+                self.input_size = 640
+            self.input_dtype = np.float16 if "float16" in str(_in0.type) else np.float32
+            try:
+                _dummy = np.zeros((1, 3, self.input_size, self.input_size), dtype=self.input_dtype)
+                self.session.run(None, {_in0.name: _dummy})
+            except Exception as e:
+                log.warning("モデルのウォームアップ推論に失敗しました: %s", e)
+            self.input_name = _in0.name
+            self.output_names = [o.name for o in self.session.get_outputs()]
+            got = self.session.get_providers()
+            self.provider_used = got[0] if got else None
+        except Exception as e:
+            self.error = f"モデル読み込み失敗: {e}"
+
+    def infer(self, frame, s: Settings, ow, oh):
+        if self.session is None or cv2 is None:
+            return []
+        if frame is None or getattr(frame, "ndim", 0) != 3:
+            return []
+        if frame.shape[2] > 3:
+            frame = frame[:, :, :3]
+        elif frame.shape[2] < 3:
+            return []
+
+        size = self.input_size
+        if frame.shape[0] == size and frame.shape[1] == size:
+            padded, r, left, top = frame, 1.0, 0, 0
+        else:
+            padded, r, left, top = letterbox(frame, size)
+        blob = None
+        if padded.ndim == 3 and padded.shape[2] == 3:
+            try:
+                blob = cv2.dnn.blobFromImage(padded, 1.0 / 255.0, (size, size),
+                                             (0.0, 0.0, 0.0), swapRB=True, crop=False)
+            except Exception:
+                blob = None
+        if blob is None:
+            blob = np.ascontiguousarray(padded[:, :, ::-1].transpose(2, 0, 1), dtype=np.float32)
+            blob *= 1.0 / 255.0
+            blob = blob[np.newaxis]
+        if self.input_dtype != np.float32:
+            blob = blob.astype(self.input_dtype, copy=False)
+        outs = self.session.run(self.output_names, {self.input_name: blob})
+        return self._postprocess(outs[0], r, left, top, ow, oh, s)
+
+    def _postprocess(self, pred, r, left, top, ow, oh, s):
+        if pred.ndim == 3:
+            pred = pred[0]
+        elif pred.ndim != 2:
+            return []
+        if pred.size == 0 or pred.shape[1] < 5:
+            return []
+        if not np.isfinite(pred).all():
+            pred = np.nan_to_num(pred, nan=0.0, posinf=0.0, neginf=0.0)
+        if pred.shape[0] < pred.shape[1]:
+            pred = pred.T
+        if pred.shape[1] < 5:
+            return []
+        xywh = pred[:, :4]
+        scores = pred[:, 4:]
+        cls = scores.argmax(axis=1)
+        conf = scores[np.arange(len(cls)), cls]
+        if self._wanted_key != s.class_ids:
+            try:
+                wanted = [int(x) for x in s.class_ids.split(",") if x.strip()]
+            except Exception:
+                wanted = [0]
+            if not wanted:
+                wanted = [0]
+            self._wanted_key = s.class_ids
+            self._wanted_arr = np.array(wanted, dtype=np.int64)
+        if len(self._wanted_arr) == 1:
+            mask = (conf >= s.base_confidence() * 0.85) & (cls == self._wanted_arr[0])
+        else:
+            mask = (conf >= s.base_confidence() * 0.85) & np.isin(cls, self._wanted_arr)
+        xywh, conf = xywh[mask], conf[mask]
+        if len(xywh) == 0:
+            return []
+
+        if len(conf) > 256:
+            top_idx = np.argpartition(conf, -256)[-256:]
+            xywh, conf = xywh[top_idx], conf[top_idx]
+        cx, cy, w, h = xywh[:, 0], xywh[:, 1], xywh[:, 2], xywh[:, 3]
+        x_tl, y_tl = cx - w / 2, cy - h / 2
+        xyxy = np.stack([x_tl, y_tl, x_tl + w, y_tl + h], axis=1)
+        idxs = nms_fast(xyxy, conf, 0.45)
+        out = []
+        inv_r = 1.0 / r if r else 1.0
+        ow1, oh1 = ow - 1, oh - 1
+        for i in idxs:
+            row = xyxy[i]
+            x1 = max(0, min(ow1, (row[0] - left) * inv_r))
+            y1 = max(0, min(oh1, (row[1] - top) * inv_r))
+            x2 = max(0, min(ow1, (row[2] - left) * inv_r))
+            y2 = max(0, min(oh1, (row[3] - top) * inv_r))
+            ix1, iy1, ix2, iy2 = int(x1), int(y1), int(x2), int(y2)
+            if ix2 > ix1 and iy2 > iy1:
+                out.append({"box": [ix1, iy1, ix2, iy2],
+                            "conf": float(conf[i])})
+        return out
