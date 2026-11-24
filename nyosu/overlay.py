@@ -1,1 +1,88 @@
-ZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKZnJvbSBQeVF0Ni5RdENvcmUgaW1wb3J0IFFQb2ludEYsIFFSZWN0RiwgUXQKZnJvbSBQeVF0Ni5RdEd1aSBpbXBvcnQgUUNvbG9yLCBRRm9udCwgUUd1aUFwcGxpY2F0aW9uLCBRUGFpbnRlciwgUVBlbgpmcm9tIFB5UXQ2LlF0V2lkZ2V0cyBpbXBvcnQgUVdpZGdldAoKZnJvbSAuY2FwdHVyZV9wcm90ZWN0IGltcG9ydCBhcHBseV9jYXB0dXJlX3Byb3RlY3Rpb24KCgpjbGFzcyBPdmVybGF5KFFXaWRnZXQpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIHNldHRpbmdzKToKICAgICAgICBzdXBlcigpLl9faW5pdF9fKCkKICAgICAgICBzZWxmLnNldHRpbmdzID0gc2V0dGluZ3MKICAgICAgICBzZWxmLmRldHMgPSBbXQogICAgICAgIHNlbGYubWV0YSA9IHt9CiAgICAgICAgc2VsZi5fY2FwdHVyZV9hcHBsaWVkID0gTm9uZQogICAgICAgIHNlbGYuc2V0V2luZG93RmxhZ3MoCiAgICAgICAgICAgIFF0LldpbmRvd1R5cGUuRnJhbWVsZXNzV2luZG93SGludAogICAgICAgICAgICB8IFF0LldpbmRvd1R5cGUuV2luZG93U3RheXNPblRvcEhpbnQKICAgICAgICAgICAgfCBRdC5XaW5kb3dUeXBlLlRvb2wKICAgICAgICAgICAgfCBRdC5XaW5kb3dUeXBlLldpbmRvd1RyYW5zcGFyZW50Rm9ySW5wdXQKICAgICAgICAgICAgfCBRdC5XaW5kb3dUeXBlLldpbmRvd0RvZXNOb3RBY2NlcHRGb2N1cykKICAgICAgICBzZWxmLnNldEF0dHJpYnV0ZShRdC5XaWRnZXRBdHRyaWJ1dGUuV0FfVHJhbnNsdWNlbnRCYWNrZ3JvdW5kKQogICAgICAgIHNlbGYuc2V0QXR0cmlidXRlKFF0LldpZGdldEF0dHJpYnV0ZS5XQV9UcmFuc3BhcmVudEZvck1vdXNlRXZlbnRzKQogICAgICAgIHNlbGYuc2V0R2VvbWV0cnkoUUd1aUFwcGxpY2F0aW9uLnByaW1hcnlTY3JlZW4oKS5nZW9tZXRyeSgpKQogICAgICAgIGNvbCA9IFFDb2xvcigyMzcsIDIzNywgMjM3LCAxNzUpCiAgICAgICAgc2VsZi5fcGVuX2ZvdiA9IFFQZW4oY29sLCAxLjgpCiAgICAgICAgc2VsZi5fcGVuX2JveCA9IFFQZW4oY29sLCAxLjgpCiAgICAgICAgc2VsZi5fcGVuX2xpbmUgPSBRUGVuKFFDb2xvcigiI0ZGNDUzQSIpLCAxLjgpCiAgICAgICAgc2VsZi5fcGVuX2xpbmVfYWN0aXZlID0gUVBlbihRQ29sb3IoIiNGRjQ1M0EiKSwgMi41KQogICAgICAgIHNlbGYuX2ZvbnQgPSBRRm9udCgiQ29uc29sYXMiLCA5KQoKICAgIGRlZiByZWZyZXNoX2NhcHR1cmVfcHJvdGVjdGlvbihzZWxmKToKICAgICAgICB3YW50ID0gYm9vbChnZXRhdHRyKHNlbGYuc2V0dGluZ3MsICJoaWRlX292ZXJsYXlfZnJvbV9jYXB0dXJlIiwgVHJ1ZSkpCiAgICAgICAgaWYgc2VsZi5fY2FwdHVyZV9hcHBsaWVkIGlzIG5vdCB3YW50OgogICAgICAgICAgICBhcHBseV9jYXB0dXJlX3Byb3RlY3Rpb24oc2VsZiwgd2FudCkKICAgICAgICAgICAgc2VsZi5fY2FwdHVyZV9hcHBsaWVkID0gd2FudAoKICAgIGRlZiBzaG93RXZlbnQoc2VsZiwgZSk6CiAgICAgICAgc3VwZXIoKS5zaG93RXZlbnQoZSkKICAgICAgICBzZWxmLl9jYXB0dXJlX2FwcGxpZWQgPSBOb25lCiAgICAgICAgc2VsZi5yZWZyZXNoX2NhcHR1cmVfcHJvdGVjdGlvbigpCgogICAgZGVmIHVwZGF0ZV9kYXRhKHNlbGYsIGRldHMsIG1ldGEpOgogICAgICAgIGlmIHNlbGYuaXNWaXNpYmxlKCk6CiAgICAgICAgICAgIHNlbGYucmVmcmVzaF9jYXB0dXJlX3Byb3RlY3Rpb24oKQogICAgICAgIGNsZWFuID0gW10KICAgICAgICBmb3IgZCBpbiAoZGV0cyBvciBbXSk6CiAgICAgICAgICAgIGlmIG5vdCBpc2luc3RhbmNlKGQsIGRpY3QpIG9yICJib3giIG5vdCBpbiBkIG9yICJjb25mIiBub3QgaW4gZDoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIGJveCA9IFtmbG9hdCh2KSBmb3IgdiBpbiBkWyJib3giXV0KICAgICAgICAgICAgICAgIGNvbmYgPSBmbG9hdChkWyJjb25mIl0pCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICBpZiBsZW4oYm94KSA9PSA0OgogICAgICAgICAgICAgICAgY2xlYW4uYXBwZW5kKHsiYm94IjogYm94LCAiY29uZiI6IGNvbmZ9KQogICAgICAgIHNlbGYuZGV0cyA9IGNsZWFuCiAgICAgICAgc2VsZi5tZXRhID0gbWV0YSBvciB7fQogICAgICAgIHNlbGYudXBkYXRlKCkKCiAgICBkZWYgcGFpbnRFdmVudChzZWxmLCBfZSk6CiAgICAgICAgaWYgbm90IHNlbGYuc2V0dGluZ3MuZW5hYmxlZDoKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgZHByID0gc2VsZi5kZXZpY2VQaXhlbFJhdGlvRigpIG9yIDEuMAogICAgICAgIHAgPSBRUGFpbnRlcihzZWxmKQogICAgICAgIHAuc2V0UmVuZGVySGludChRUGFpbnRlci5SZW5kZXJIaW50LkFudGlhbGlhc2luZywgVHJ1ZSkKICAgICAgICBjeCA9IHNlbGYud2lkdGgoKSAvIDIuMAogICAgICAgIGN5ID0gc2VsZi5oZWlnaHQoKSAvIDIuMAogICAgICAgIGlmIHNlbGYuc2V0dGluZ3Muc2hvd19mb3Y6CiAgICAgICAgICAgIHAuc2V0UGVuKHNlbGYuX3Blbl9mb3YpCiAgICAgICAgICAgIHAuc2V0QnJ1c2goUXQuQnJ1c2hTdHlsZS5Ob0JydXNoKQogICAgICAgICAgICByID0gbWF4KHNlbGYuc2V0dGluZ3MuaGlwX2Zvdiwgc2VsZi5zZXR0aW5ncy5hZHNfZm92KSAvIGRwcgogICAgICAgICAgICBwLmRyYXdFbGxpcHNlKFFQb2ludEYoY3gsIGN5KSwgciwgcikKCiAgICAgICAgaWYgc2VsZi5zZXR0aW5ncy5zaG93X2JveGVzOgogICAgICAgICAgICBwLnNldFBlbihzZWxmLl9wZW5fYm94KQogICAgICAgICAgICBwLnNldEZvbnQoc2VsZi5fZm9udCkKICAgICAgICAgICAgZm9yIGQgaW4gc2VsZi5kZXRzOgogICAgICAgICAgICAgICAgeDEsIHkxLCB4MiwgeTIgPSBbdiAvIGRwciBmb3IgdiBpbiBkWyJib3giXV0KICAgICAgICAgICAgICAgIHAuZHJhd1JvdW5kZWRSZWN0KFFSZWN0Rih4MSwgeTEsIHgyIC0geDEsIHkyIC0geTEpLCA2LCA2KQogICAgICAgICAgICAgICAgcC5kcmF3VGV4dChpbnQoeDEpLCBtYXgoMTIsIGludCh5MSkgLSA0KSwgZid7ZFsiY29uZiJdOi4yZn0nKQoKICAgICAgICBpZiBzZWxmLnNldHRpbmdzLnNob3dfdGFyZ2V0X2xpbmU6CiAgICAgICAgICAgIHQgPSBzZWxmLm1ldGEuZ2V0KCJ0YXJnZXQiKQogICAgICAgICAgICBpZiB0OgogICAgICAgICAgICAgICAgcC5zZXRQZW4oc2VsZi5fcGVuX2xpbmVfYWN0aXZlIGlmIHNlbGYubWV0YS5nZXQoImFpbV9hY3RpdmUiKSBlbHNlIHNlbGYuX3Blbl9saW5lKQogICAgICAgICAgICAgICAgcC5kcmF3TGluZShRUG9pbnRGKGN4LCBjeSksIFFQb2ludEYodFswXSAvIGRwciwgdFsxXSAvIGRwcikpCg==
+from __future__ import annotations
+
+from PyQt6.QtCore import QPointF, QRectF, Qt
+from PyQt6.QtGui import QColor, QFont, QGuiApplication, QPainter, QPen
+from PyQt6.QtWidgets import QWidget
+
+from .capture_protect import apply_capture_protection
+
+
+class Overlay(QWidget):
+    def __init__(self, settings):
+        super().__init__()
+        self.settings = settings
+        self.dets = []
+        self.meta = {}
+        self._capture_applied = None
+        self.setWindowFlags(
+            Qt.WindowType.FramelessWindowHint
+            | Qt.WindowType.WindowStaysOnTopHint
+            | Qt.WindowType.Tool
+            | Qt.WindowType.WindowTransparentForInput
+            | Qt.WindowType.WindowDoesNotAcceptFocus)
+        self.setAttribute(Qt.WidgetAttribute.WA_TranslucentBackground)
+        self.setAttribute(Qt.WidgetAttribute.WA_TransparentForMouseEvents)
+        self.setGeometry(QGuiApplication.primaryScreen().geometry())
+        col = QColor(237, 237, 237, 175)
+        self._pen_fov = QPen(col, 1.8)
+        self._pen_box = QPen(col, 1.8)
+        self._pen_line = QPen(QColor("#FF453A"), 1.8)
+        self._pen_line_active = QPen(QColor("#FF453A"), 2.5)
+        self._font = QFont("Consolas", 9)
+
+    def refresh_capture_protection(self):
+        want = bool(getattr(self.settings, "hide_overlay_from_capture", True))
+        if self._capture_applied is not want:
+            apply_capture_protection(self, want)
+            self._capture_applied = want
+
+    def showEvent(self, e):
+        super().showEvent(e)
+        self._capture_applied = None
+        self.refresh_capture_protection()
+
+    def update_data(self, dets, meta):
+        if self.isVisible():
+            self.refresh_capture_protection()
+        clean = []
+        for d in (dets or []):
+            if not isinstance(d, dict) or "box" not in d or "conf" not in d:
+                continue
+            try:
+                box = [float(v) for v in d["box"]]
+                conf = float(d["conf"])
+            except Exception:
+                continue
+            if len(box) == 4:
+                clean.append({"box": box, "conf": conf})
+        self.dets = clean
+        self.meta = meta or {}
+        self.update()
+
+    def paintEvent(self, _e):
+        if not self.settings.enabled:
+            return
+        dpr = self.devicePixelRatioF() or 1.0
+        p = QPainter(self)
+        p.setRenderHint(QPainter.RenderHint.Antialiasing, True)
+        cx = self.width() / 2.0
+        cy = self.height() / 2.0
+        if self.settings.show_fov:
+            p.setPen(self._pen_fov)
+            p.setBrush(Qt.BrushStyle.NoBrush)
+            r = max(self.settings.hip_fov, self.settings.ads_fov) / dpr
+            p.drawEllipse(QPointF(cx, cy), r, r)
+
+        if self.settings.show_boxes:
+            p.setPen(self._pen_box)
+            p.setFont(self._font)
+            for d in self.dets:
+                x1, y1, x2, y2 = [v / dpr for v in d["box"]]
+                p.drawRoundedRect(QRectF(x1, y1, x2 - x1, y2 - y1), 6, 6)
+                p.drawText(int(x1), max(12, int(y1) - 4), f'{d["conf"]:.2f}')
+
+        if self.settings.show_target_line:
+            t = self.meta.get("target")
+            if t:
+                p.setPen(self._pen_line_active if self.meta.get("aim_active") else self._pen_line)
+                p.drawLine(QPointF(cx, cy), QPointF(t[0] / dpr, t[1] / dpr))
