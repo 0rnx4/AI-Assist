@@ -1,1 +1,8 @@
-UHlRdDY+PTYuNSw8NwpudW1weT49MS4yNCw8MwpvcGVuY3YtcHl0aG9uPj00LjgsPDYKb25ueHJ1bnRpbWU+PTEuMTYsPDIKbXNzPj05LjAsPDExCmtleWJvYXJkPj0wLjEzLjUsPDAuMTQKcHlnYW1lPj0yLjUsPDMKdmdhbWVwYWQ+PTAuMSw8MC4yCg==
+PyQt6>=6.5,<7
+numpy>=1.24,<3
+opencv-python>=4.8,<6
+onnxruntime>=1.16,<2
+mss>=9.0,<11
+keyboard>=0.13.5,<0.14
+pygame>=2.5,<3
+vgamepad>=0.1,<0.2
