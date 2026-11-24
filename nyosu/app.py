@@ -1,1 +1,52 @@
-ZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGN0eXBlcwppbXBvcnQgb3MKaW1wb3J0IHN5cwppbXBvcnQgdGhyZWFkaW5nCgpmcm9tIFB5UXQ2LlF0R3VpIGltcG9ydCBRRm9udApmcm9tIFB5UXQ2LlF0V2lkZ2V0cyBpbXBvcnQgUUFwcGxpY2F0aW9uCgpmcm9tIC5jb25maWcgaW1wb3J0IGxvZwpmcm9tIC5tYWluX3dpbmRvdyBpbXBvcnQgTWFpbldpbmRvdwpmcm9tIC50aGVtZSBpbXBvcnQgUVNTCgoKZGVmIF9pbnN0YWxsX2V4Y2VwdGlvbl9ob29rcygpOgogICAgZGVmIF9ob29rKGV4Y190eXBlLCBleGMsIHRiKToKICAgICAgICBsb2cuZXJyb3IoIuacquWHpueQhuOBruS+i+WkliIsIGV4Y19pbmZvPShleGNfdHlwZSwgZXhjLCB0YikpCiAgICAgICAgc3lzLl9fZXhjZXB0aG9va19fKGV4Y190eXBlLCBleGMsIHRiKQoKICAgIGRlZiBfdGhyZWFkX2hvb2soYXJncyk6CiAgICAgICAgbG9nLmVycm9yKCLjgrnjg6zjg4Pjg4nkvovlpJY6ICVzIiwgYXJncy5leGNfdmFsdWUsCiAgICAgICAgICAgICAgICAgIGV4Y19pbmZvPShhcmdzLmV4Y190eXBlLCBhcmdzLmV4Y192YWx1ZSwgYXJncy5leGNfdHJhY2ViYWNrKSkKCiAgICBzeXMuZXhjZXB0aG9vayA9IF9ob29rCiAgICB0aHJlYWRpbmcuZXhjZXB0aG9vayA9IF90aHJlYWRfaG9vawoKCmRlZiBtYWluKCk6CiAgICBfaW5zdGFsbF9leGNlcHRpb25faG9va3MoKQogICAgdHJ5OgogICAgICAgIGltcG9ydCBmYXVsdGhhbmRsZXIKCiAgICAgICAgZnJvbSAuY29uZmlnIGltcG9ydCBBUFBfRElSIGFzIF9hZAogICAgICAgIF9jZiA9IG9wZW4oX2FkIC8gImNyYXNoLmxvZyIsICJhIiwgZW5jb2Rpbmc9InV0Zi04IikKICAgICAgICBmYXVsdGhhbmRsZXIuZW5hYmxlKGZpbGU9X2NmLCBhbGxfdGhyZWFkcz1UcnVlKQogICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICBwYXNzCiAgICBpZiBvcy5uYW1lID09ICJudCI6CiAgICAgICAgdHJ5OgogICAgICAgICAgICBjdHlwZXMud2luZGxsLnVzZXIzMi5TZXRQcm9jZXNzRHBpQXdhcmVuZXNzQ29udGV4dChjdHlwZXMuY192b2lkX3AoLTQpKQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIGN0eXBlcy53aW5kbGwudXNlcjMyLlNldFByb2Nlc3NEUElBd2FyZSgpCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgICAgICBwYXNzCiAgICBhcHAgPSBRQXBwbGljYXRpb24oc3lzLmFyZ3YpCiAgICBhcHAuc2V0Rm9udChRRm9udCgiU2Vnb2UgVUkiLCAxMCkpCiAgICBhcHAuc2V0U3R5bGVTaGVldChRU1MpCiAgICB3ID0gTWFpbldpbmRvdygpCiAgICB3LnNob3coKQogICAgc3lzLmV4aXQoYXBwLmV4ZWMoKSkK
+from __future__ import annotations
+
+import ctypes
+import os
+import sys
+import threading
+
+from PyQt6.QtGui import QFont
+from PyQt6.QtWidgets import QApplication
+
+from .config import log
+from .main_window import MainWindow
+from .theme import QSS
+
+
+def _install_exception_hooks():
+    def _hook(exc_type, exc, tb):
+        log.error("未処理の例外", exc_info=(exc_type, exc, tb))
+        sys.__excepthook__(exc_type, exc, tb)
+
+    def _thread_hook(args):
+        log.error("スレッド例外: %s", args.exc_value,
+                  exc_info=(args.exc_type, args.exc_value, args.exc_traceback))
+
+    sys.excepthook = _hook
+    threading.excepthook = _thread_hook
+
+
+def main():
+    _install_exception_hooks()
+    try:
+        import faulthandler
+
+        from .config import APP_DIR as _ad
+        _cf = open(_ad / "crash.log", "a", encoding="utf-8")
+        faulthandler.enable(file=_cf, all_threads=True)
+    except Exception:
+        pass
+    if os.name == "nt":
+        try:
+            ctypes.windll.user32.SetProcessDpiAwarenessContext(ctypes.c_void_p(-4))
+        except Exception:
+            try:
+                ctypes.windll.user32.SetProcessDPIAware()
+            except Exception:
+                pass
+    app = QApplication(sys.argv)
+    app.setFont(QFont("Segoe UI", 10))
+    app.setStyleSheet(QSS)
+    w = MainWindow()
+    w.show()
+    sys.exit(app.exec())
